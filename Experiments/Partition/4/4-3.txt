@@ -1,0 +1,1467 @@
+/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/usr/bin/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/compilefontconfig.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/javazic.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar:/home/doms/Research/SwarmRoboticResearch/platypus3000/target/classes:/home/doms/.m2/repository/org/processing/core/core/2.2/core-2.2.jar:/home/doms/.m2/repository/org/processing/pdf/pdf/2.2/pdf-2.2.jar:/home/doms/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/home/doms/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/home/doms/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:/home/doms/.m2/repository/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar:/home/doms/.m2/repository/org/jbox2d/jbox2d-library/2.2.1.1/jbox2d-library-2.2.1.1.jar:/home/doms/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all-main/2.1.5-01/jogl-all-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt-main/2.1.5-01/gluegen-rt-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/javabits/jgrapht/jgrapht-core/0.9.1/jgrapht-core-0.9.1.jar:/usr/bin/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain projects.triangulation.Environment.HeadlessRunner
+Loading configuration from /home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1.properties
+Radius = 0.05 meter
+Range = 1.2 meter
+MessageBufferSize = 5000
+MaximalAcceleration = 0.1
+MaximalVelocity = 1.0
+MaximalBrakePower = 0.3
+MaximalRotationAcceleration = 1.0
+MaximalRotationVelocity = 10.0
+MaximalRotationBreak = 1.0
+ConnectivityProbability = 1.0
+NeighborPositionAngleNoise = 0.0
+NeighborPositionDistanceNoise = 0.01
+SpeedDeviationChange = 0.2 (Noisy)
+RotationSpeedDeviationChange = 0.2 (Noisy)
+CleanOldMessages = False
+#Environment:
+/home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1-lineenvdata
+#Neighborhood Update Probability
+1/2
+127 deleted because: Blacklist
+134 deleted because: DeletionDemand
+169 deleted because: triangles.isEmpty()
+175 closest triangle has a high difference to actual triangle -> restart -0.17970908 0.17891833
+176 closest triangle has a high difference to actual triangle -> restart -0.23068692 0.18754184
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+134 closest triangle has a high difference to actual triangle -> restart -0.3628667 -0.06177802
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+134 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+171 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+201 evasion -> no adjacent triangle
+65 deleted because: Partition
+LocalizationTriangle.locateNbr: No NeighborState of 65, returning null
+Unable to transform
+13 deleted because: Partition
+19 deleted because: Partition
+102 deleted because: Partition
+20 deleted because: Partition
+43 deleted because: Partition
+93 deleted because: Partition
+50 deleted because: Partition
+175 deleted because: Partition
+17 deleted because: Partition
+26 deleted because: Partition
+62 deleted because: Partition
+106 deleted because: Partition
+123 deleted because: Partition
+128 deleted because: Partition
+176 deleted because: Partition
+281 closest triangle has a high difference to actual triangle -> restart -0.22998543 0.23708317
+34 deleted because: Partition
+40 deleted because: Partition
+64 deleted because: Partition
+83 deleted because: Partition
+23 deleted because: Partition
+25 deleted because: Partition
+33 deleted because: Partition
+39 deleted because: Partition
+53 deleted because: Partition
+73 deleted because: Partition
+79 deleted because: Partition
+81 deleted because: Partition
+82 deleted because: Partition
+104 deleted because: Partition
+126 deleted because: Partition
+282 closest triangle has a high difference to actual triangle -> restart -0.57611275 0.21983914
+52 deleted because: Partition
+55 deleted because: Partition
+76 deleted because: Partition
+78 deleted because: Partition
+109 deleted because: Partition
+130 deleted because: Partition
+26: No closest triangle -> restart
+53: No closest triangle -> restart
+73: No closest triangle -> restart
+51 deleted because: Partition
+60 deleted because: triangles.isEmpty()
+75 deleted because: triangles.isEmpty()
+77 deleted because: Partition
+280 closest triangle has a high difference to actual triangle -> restart -0.5381179 0.21296388
+279 closest triangle has a high difference to actual triangle -> restart -0.46308336 0.2233462
+34: No closest triangle -> restart
+39: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(55, 60, 75)
+55: loop_prologue - Removing Localization Triangle LocalizationTriangle(55, 60, 75)
+55: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(51, 76, 60)
+Failed to update localization triangle LocalizationTriangle(75, 78, 104)
+76: loop_prologue - Removing Localization Triangle LocalizationTriangle(51, 76, 60)
+79: loop_prologue - Removing Localization Triangle LocalizationTriangle(75, 78, 104)
+76: MovementController Failed
+79: MovementController Failed
+Unable to transform
+81: No closest triangle -> restart
+20: No closest triangle -> restart
+23: No closest triangle -> restart
+40: No closest triangle -> restart
+39: No closest triangle -> restart
+51: No closest triangle -> restart
+52: No closest triangle -> restart
+77: No closest triangle -> restart
+104: No closest triangle -> restart
+176 closest triangle has a high difference to actual triangle -> restart -0.791344 -0.39933962
+Unable to transform
+93 closest triangle has a high difference to actual triangle -> restart -0.86906236 -0.56797314
+LocalizationTriangle.locateNbr: No NeighborState of 64, returning null
+Unable to transform
+33 closest triangle has a high difference to actual triangle -> restart -0.7242872 -0.41574368
+LocalizationTriangle.locateNbr: No NeighborState of 33, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(47, 67, 84)
+52: loop_prologue - Removing Localization Triangle LocalizationTriangle(47, 67, 84)
+52: MovementController Failed
+82 closest triangle has a high difference to actual triangle -> restart -0.704017 -0.40316474
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(25, 26, 43)
+43: loop_prologue - Removing Localization Triangle LocalizationTriangle(25, 26, 43)
+43: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(63, 83, 100)
+62: loop_prologue - Removing Localization Triangle LocalizationTriangle(63, 83, 100)
+62: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(13, 23, 20)
+19: loop_prologue - Removing Localization Triangle LocalizationTriangle(13, 23, 20)
+19: MovementController Failed
+175 closest triangle has a high difference to actual triangle -> restart -0.3319999 -0.02931713
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(79, 104, 106)
+102: loop_prologue - Removing Localization Triangle LocalizationTriangle(79, 104, 106)
+102: MovementController Failed
+50 closest triangle has a high difference to actual triangle -> restart -0.7304925 -0.4265443
+LocalizationTriangle.locateNbr: No NeighborState of 50, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(109, 147, 136)
+106: loop_prologue - Removing Localization Triangle LocalizationTriangle(109, 147, 136)
+106: MovementController Failed
+109 closest triangle has a high difference to actual triangle -> restart -0.41228673 -0.110971145
+13 closest triangle has a high difference to actual triangle -> restart -0.77652895 -0.4763177
+LocalizationTriangle.locateNbr: No NeighborState of 13, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(93, 96, 121)
+123: loop_prologue - Removing Localization Triangle LocalizationTriangle(93, 96, 121)
+123: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(76, 126, 78)
+126: loop_prologue - Removing Localization Triangle LocalizationTriangle(76, 126, 78)
+ROBOT-126 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(76, 126, 78)
+78: loop_prologue - Removing Localization Triangle LocalizationTriangle(76, 126, 78)
+ROBOT-78 called evasion without a valid triangle
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:80)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 130! Restarting...
+LocalizationTriangle.locateNbr: No NeighborState of 130, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(96, 135, 121)
+77: loop_prologue - Removing Localization Triangle LocalizationTriangle(96, 135, 121)
+ROBOT-77 called evasion without a valid triangle
+25 closest triangle has a high difference to actual triangle -> restart 0.15741038 -0.16070168
+LocalizationTriangle.locateNbr: No NeighborState of 25, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(127, 170, 175)
+128: loop_prologue - Removing Localization Triangle LocalizationTriangle(127, 170, 175)
+128: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(36, 45, 48)
+43: loop_prologue - Removing Localization Triangle LocalizationTriangle(36, 45, 48)
+43: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(5, 9, 12)
+19: loop_prologue - Removing Localization Triangle LocalizationTriangle(5, 9, 12)
+19: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(27, 28, 44)
+78: loop_prologue - Removing Localization Triangle LocalizationTriangle(27, 28, 44)
+78: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(129, 152, 150)
+55: loop_prologue - Removing Localization Triangle LocalizationTriangle(129, 152, 150)
+55: MovementController Failed
+145 deleted because: Partition
+159 deleted because: Partition
+122 deleted because: Partition
+137 deleted because: Partition
+285 closest triangle has a high difference to actual triangle -> restart -0.32730463 -0.0141447475
+198 deleted because: Partition
+164 deleted because: Partition
+95 deleted because: Partition
+163 deleted because: Partition
+23 closest triangle has a high difference to actual triangle -> restart -0.25230157 0.11110507
+282 closest triangle has a high difference to actual triangle -> restart -0.33110794 0.0052051744
+Could not determine adjacent triangle
+17 evasion -> no adjacent triangle
+284 closest triangle has a high difference to actual triangle -> restart -0.56731296 0.23996781
+66 deleted because: Partition
+Unable to transform
+86 deleted because: Partition
+69 deleted because: Partition
+Failed to update localization triangle LocalizationTriangle(164, 168, 165)
+284: loop_prologue - Removing Localization Triangle LocalizationTriangle(164, 168, 165)
+284: MovementController Failed
+Could not determine adjacent triangle
+Robot-286 failed to get adjacent triangle, restart
+Could not determine adjacent triangle
+137 evasion -> no adjacent triangle
+java.lang.NullPointerException
+	at projects.triangulation.TriangleMovementController.move_into_triangle(TriangleMovementController.java:71)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:71)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 285! Restarting...
+Failed to update localization triangle LocalizationTriangle(137, 159, 163)
+145: loop_prologue - Removing Localization Triangle LocalizationTriangle(137, 159, 163)
+145: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(86, 114, 115)
+95: loop_prologue - Removing Localization Triangle LocalizationTriangle(86, 114, 115)
+95: MovementController Failed
+282 closest triangle has a high difference to actual triangle -> restart -0.488409 -0.18720251
+159 closest triangle has a high difference to actual triangle -> restart -0.30876932 -0.007860217
+Failed to update localization triangle LocalizationTriangle(164, 198, 197)
+198: loop_prologue - Removing Localization Triangle LocalizationTriangle(164, 198, 197)
+198: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(167, 203, 200)
+284: loop_prologue - Removing Localization Triangle LocalizationTriangle(167, 203, 200)
+ROBOT-284 called evasion without a valid triangle
+66 closest triangle has a high difference to actual triangle -> restart -0.83279175 -0.52393705
+LocalizationTriangle.locateNbr: No NeighborState of 66, returning null
+Unable to transform
+69 closest triangle has a high difference to actual triangle -> restart -0.47725487 -0.7907372
+LocalizationTriangle.locateNbr: No NeighborState of 69, returning null
+Unable to transform
+LocalizationTriangle.locateNbr: No NeighborState of 86, returning null
+Unable to transform
+140 deleted because: Partition
+156 deleted because: Partition
+151 deleted because: Partition
+300 closest triangle has a high difference to actual triangle -> restart -0.2502917 0.24756278
+300 closest triangle has a high difference to actual triangle -> restart -0.4942658 -0.19414106
+156 closest triangle has a high difference to actual triangle -> restart -0.58374417 -0.27843925
+LocalizationTriangle.locateNbr: No NeighborState of 156, returning null
+Unable to transform
+151 closest triangle has a high difference to actual triangle -> restart -0.55803794 -1.0754037
+LocalizationTriangle.locateNbr: No NeighborState of 149, returning null
+Unable to transform
+238 deleted because: Partition
+175 deleted because: Partition
+273 deleted because: Partition
+279 deleted because: Partition
+51 deleted because: Partition
+264 deleted because: Partition
+233 deleted because: Partition
+123 deleted because: Partition
+126 deleted because: Partition
+81 deleted because: Partition
+93 deleted because: triangles.isEmpty()
+229 deleted because: Partition
+234 deleted because: Partition
+Failed to update localization triangle LocalizationTriangle(93, 274, 123)
+123: loop_prologue - Removing Localization Triangle LocalizationTriangle(93, 274, 123)
+Failed to update localization triangle LocalizationTriangle(93, 126, 260)
+123: MovementController Failed
+126: loop_prologue - Removing Localization Triangle LocalizationTriangle(93, 126, 260)
+126: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(93, 126, 260)
+238: loop_prologue - Removing Localization Triangle LocalizationTriangle(93, 126, 260)
+238: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(93, 279, 126)
+279: loop_prologue - Removing Localization Triangle LocalizationTriangle(93, 279, 126)
+279: MovementController Failed
+260 deleted because: Partition
+274 deleted because: Partition
+273: No closest triangle -> restart
+175 closest triangle has a high difference to actual triangle -> restart -0.7399447 -0.43963414
+LocalizationTriangle.locateNbr: No NeighborState of 175, returning null
+Unable to transform
+233 closest triangle has a high difference to actual triangle -> restart -0.83450717 -0.53257614
+LocalizationTriangle.locateNbr: No NeighborState of 233, returning null
+Unable to transform
+181 deleted because: Partition
+185 deleted because: Partition
+222 deleted because: Partition
+183 deleted because: Partition
+182 deleted because: Partition
+178 deleted because: Partition
+191 deleted because: Partition
+227 deleted because: Partition
+171 deleted because: Partition
+180 deleted because: Partition
+179 deleted because: triangles.isEmpty()
+196 deleted because: Partition
+134 deleted because: Partition
+187 deleted because: Partition
+212 deleted because: Partition
+215 deleted because: triangles.isEmpty()
+226 deleted because: Partition
+134 closest triangle has a high difference to actual triangle -> restart -0.77432495 -0.47310245
+Unable to transform
+187: No closest triangle -> restart
+215: No closest triangle -> restart
+222: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(272, 275, 274)
+93: loop_prologue - Removing Localization Triangle LocalizationTriangle(272, 275, 274)
+ROBOT-93 called evasion without a valid triangle
+171 closest triangle has a high difference to actual triangle -> restart -0.774697 -0.4658876
+Unable to transform
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:85)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 51! Restarting...
+Failed to update localization triangle LocalizationTriangle(51, 81, 281)
+81: loop_prologue - Removing Localization Triangle LocalizationTriangle(51, 81, 281)
+ROBOT-81 called evasion without a valid triangle
+LocalizationTriangle.locateNbr: No NeighborState of 51, returning null
+Unable to transform
+212 closest triangle has a high difference to actual triangle -> restart -0.67433536 -0.36037484
+LocalizationTriangle.locateNbr: No NeighborState of 212, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(177, 180, 187)
+180: loop_prologue - Removing Localization Triangle LocalizationTriangle(177, 180, 187)
+180: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(169, 177, 170)
+180: loop_prologue - Removing Localization Triangle LocalizationTriangle(169, 177, 170)
+180: MovementController Failed
+226 closest triangle has a high difference to actual triangle -> restart -0.63780326 -0.33475053
+LocalizationTriangle.locateNbr: No NeighborState of 226, returning null
+Unable to transform
+178 closest triangle has a high difference to actual triangle -> restart -0.56008214 -0.2530118
+LocalizationTriangle.locateNbr: No NeighborState of 178, returning null
+Unable to transform
+234 closest triangle has a high difference to actual triangle -> restart 0.15652308 -0.15078089
+LocalizationTriangle.locateNbr: No NeighborState of 234, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(231, 258, 255)
+215: loop_prologue - Removing Localization Triangle LocalizationTriangle(231, 258, 255)
+215: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(134, 179, 178)
+179: loop_prologue - Removing Localization Triangle LocalizationTriangle(134, 179, 178)
+ROBOT-179 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(134, 179, 178)
+181: loop_prologue - Removing Localization Triangle LocalizationTriangle(134, 179, 178)
+ROBOT-181 called evasion without a valid triangle
+191 closest triangle has a high difference to actual triangle -> restart -0.29983327 0.0072008795
+Failed to update localization triangle LocalizationTriangle(179, 222, 196)
+196: loop_prologue - Removing Localization Triangle LocalizationTriangle(179, 222, 196)
+196: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(237, 260, 257)
+238: loop_prologue - Removing Localization Triangle LocalizationTriangle(237, 260, 257)
+238: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(212, 228, 231)
+183: loop_prologue - Removing Localization Triangle LocalizationTriangle(212, 228, 231)
+183: MovementController Failed
+LocalizationTriangle.locateNbr: No NeighborState of 229, returning null
+Unable to transform
+182 closest triangle has a high difference to actual triangle -> restart -0.66538537 -0.97195965
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(226, 256, 246)
+227: loop_prologue - Removing Localization Triangle LocalizationTriangle(226, 256, 246)
+227: MovementController Failed
+140 closest triangle has a high difference to actual triangle -> restart -0.6077297 -0.907864
+LocalizationTriangle.locateNbr: No NeighborState of 140, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(170, 177, 174)
+179: loop_prologue - Removing Localization Triangle LocalizationTriangle(170, 177, 174)
+ROBOT-179 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(245, 246, 261)
+227: loop_prologue - Removing Localization Triangle LocalizationTriangle(245, 246, 261)
+227: MovementController Failed
+241 deleted because: Partition
+243 deleted because: Partition
+312 closest triangle has a high difference to actual triangle -> restart -0.26804554 0.21058989
+313 closest triangle has a high difference to actual triangle -> restart -0.1519557 0.15007234
+236 deleted because: Partition
+185 closest triangle has a high difference to actual triangle -> restart -0.16629182 0.16503093
+253 deleted because: Partition
+134 closest triangle has a high difference to actual triangle -> restart -0.43872198 0.12332489
+181 closest triangle has a high difference to actual triangle -> restart -0.20077714 0.19851796
+Unable to transform
+75 deleted because: Partition
+242 deleted because: Partition
+249 deleted because: Partition
+196 closest triangle has a high difference to actual triangle -> restart -0.23593637 0.22760855
+Unable to transform
+226 closest triangle has a high difference to actual triangle -> restart -0.21852158 0.18003105
+181 closest triangle has a high difference to actual triangle -> restart -0.85032475 -0.4761302
+69 closest triangle has a high difference to actual triangle -> restart -0.1900479 0.19486608
+137 closest triangle has a high difference to actual triangle -> restart -0.22485837 0.14474088
+#Steps
+321350
+#Robots
+249
+#Triangles
+((-0.5,0.0), (0.0,-0.86), (0.5,0.0)), 0.42999998347703766
+((-0.012465344,0.7116396), (-0.5,0.0), (0.5,0.0)), 0.35581982222165337
+((-0.012465344,0.7116396), (0.36045298,1.5001757), (-0.38227472,1.536353)), 0.2995793865966973
+((0.8497124,0.7836692), (-0.012465344,0.7116396), (0.5,0.0)), 0.32523621768690564
+((0.8497124,0.7836692), (1.7299345,0.85599965), (1.2316802,1.5733538)), 0.33373495459130076
+((-0.8815237,0.80453515), (-0.5,0.0), (-0.012465344,0.7116396)), 0.33187303700558
+((-0.8815237,0.80453515), (-1.2612576,1.6106548), (-1.7495799,0.87025756)), 0.33740009135972593
+((1.3663249,0.073090024), (0.8497124,0.7836692), (0.5,0.0)), 0.3266758252136429
+((0.36045298,1.5001757), (-0.012465344,0.7116396), (0.8497124,0.7836692)), 0.3264985989376986
+((-1.372608,0.0901417), (-0.5,0.0), (-0.8815237,0.80453515)), 0.3338263065102021
+((-0.38227472,1.536353), (-0.8815237,0.80453515), (-0.012465344,0.7116396)), 0.34118521319907186
+((-1.7495799,0.87025756), (-1.372608,0.0901417), (-0.8815237,0.80453515)), 0.3262044581967859
+((-1.7495799,0.87025756), (-2.1280143,1.6653526), (-2.62337,0.9356445)), 0.3350007392213266
+((-2.23547,0.14286138), (-1.372608,0.0901417), (-1.7495799,0.87025756)), 0.32662931789926686
+((-1.2612576,1.6106548), (-0.8815237,0.80453515), (-0.38227472,1.536353)), 0.3401752806015523
+((-3.3145733,14.248667), (-3.7511444,13.761963), (-3.154602,13.583153)), 0.18420141178945515
+((-3.3145733,14.248667), (-3.154602,13.583153), (-2.5634782,14.255245)), 0.25045831214730385
+((-3.3145733,14.248667), (-3.9935815,14.6204815), (-3.7511444,13.761963)), 0.24639975732148514
+((-3.3145733,14.248667), (-2.9967988,14.778169), (-3.9935815,14.6204815)), 0.23884470561693702
+((1.7299345,0.85599965), (0.8497124,0.7836692), (1.3663249,0.073090024)), 0.33141717785736774
+((1.7299345,0.85599965), (2.59496,0.92331386), (2.0766222,1.6584764)), 0.33541290219881736
+((1.2316802,1.5733538), (0.36045298,1.5001757), (0.8497124,0.7836692)), 0.33002149784621737
+((1.2316802,1.5733538), (2.0766222,1.6584764), (1.6816201,2.3458817)), 0.3072206514812066
+((2.0766222,1.6584764), (1.2316802,1.5733538), (1.7299345,0.85599965)), 0.3242676824389455
+((2.0766222,1.6584764), (2.9372644,1.7163209), (2.555822,2.3815405)), 0.2972902230149958
+((3.5941439,14.78142), (3.306465,13.994736), (4.116672,14.117884)), 0.3009749692841283
+((3.5941439,14.78142), (4.116672,14.117884), (4.391339,14.934227)), 0.3044068070580755
+((3.5941439,14.78142), (2.948727,14.63971), (3.306465,13.994736)), 0.23348620691750613
+((-2.1280143,1.6653526), (-1.7495799,0.87025756), (-1.2612576,1.6106548)), 0.3342272561316378
+((-2.1280143,1.6653526), (-2.5434368,2.4335978), (-2.9967253,1.7264875)), 0.32099311903830613
+((-3.7511444,13.761963), (-4.3736076,13.160159), (-3.638366,12.901667)), 0.3016866334586998
+((-3.7511444,13.761963), (-4.6172266,14.006111), (-4.3736076,13.160159)), 0.3365924129103592
+((-3.7511444,13.761963), (-3.638366,12.901667), (-3.154602,13.583153)), 0.24651863114010528
+((-2.62337,0.9356445), (-2.23547,0.14286138), (-1.7495799,0.87025756)), 0.333681236694881
+((-2.62337,0.9356445), (-2.9967253,1.7264875), (-3.5198405,0.99082357)), 0.3441830529894928
+((2.226745,0.13524753), (1.7299345,0.85599965), (1.3663249,0.073090024)), 0.325515017139609
+((5.94107,14.260953), (5.4391146,13.775011), (5.942102,13.598103)), 0.16661144374867773
+((2.59496,0.92331386), (1.7299345,0.85599965), (2.226745,0.13524753)), 0.3284556675467701
+((2.59496,0.92331386), (3.494664,1.0180795), (2.9372644,1.7163209)), 0.3405164440654377
+((-5.6766176,14.116932), (-5.940905,13.30335), (-5.2341337,13.380087)), 0.27736780572718167
+((-5.6766176,14.116932), (-5.2341337,13.380087), (-5.178788,14.175843)), 0.19644524163718774
+((-2.3338573,13.3654175), (-2.9868946,13.030483), (-2.3434997,12.513036)), 0.2767037677424619
+((-2.3338573,13.3654175), (-2.3434997,12.513036), (-1.7487155,12.88864)), 0.2516806852044723
+((-2.3338573,13.3654175), (-3.154602,13.583153), (-2.9868946,13.030483)), 0.20854240099777316
+((-2.3338573,13.3654175), (-1.6690366,13.776158), (-2.5634782,14.255245)), 0.34294529489244774
+((1.6816201,2.3458817), (2.555822,2.3815405), (2.045485,3.1359558)), 0.3388545998645683
+((2.555822,2.3815405), (1.6816201,2.3458817), (2.0766222,1.6584764)), 0.3075081768344345
+((2.555822,2.3815405), (3.3053465,2.3927214), (2.937546,3.1893914)), 0.30061799114566684
+((-3.0892408,0.21102856), (-2.23547,0.14286138), (-2.62337,0.9356445)), 0.3252065272874716
+((2.9372644,1.7163209), (2.0766222,1.6584764), (2.59496,0.92331386)), 0.33134743454102494
+((2.9372644,1.7163209), (3.7968085,1.8471634), (3.3053465,2.3927214)), 0.26661757536367603
+((3.0940137,0.20958602), (2.59496,0.92331386), (2.226745,0.13524753)), 0.3280463465018397
+((3.494664,1.0180795), (2.59496,0.92331386), (3.0940137,0.20958602)), 0.34471845752384467
+((3.494664,1.0180795), (4.355867,1.0675683), (3.7968085,1.8471634)), 0.3495283938765699
+((4.885597,14.2216625), (4.548692,13.424832), (5.4391146,13.775011)), 0.2957692005707747
+((4.885597,14.2216625), (4.116672,14.117884), (4.548692,13.424832)), 0.2888696130079431
+((4.885597,14.2216625), (5.4391146,13.775011), (5.488164,14.628441)), 0.24714810198487824
+((4.885597,14.2216625), (5.0870337,14.941701), (4.391339,14.934227)), 0.2497107576010893
+((5.4391146,13.775011), (5.0355134,12.989442), (5.9128027,13.061303)), 0.3300840727140439
+((5.4391146,13.775011), (4.548692,13.424832), (5.0355134,12.989442)), 0.27907788421157437
+((-2.9967253,1.7264875), (-2.62337,0.9356445), (-2.1280143,1.6653526)), 0.33209450063192547
+((-2.9967253,1.7264875), (-3.4290354,2.4964762), (-3.8656518,1.7928468)), 0.3201878933327988
+((-2.5434368,2.4335978), (-2.8906245,3.2651348), (-3.4290354,2.4964762)), 0.3572887318586072
+((-3.5198405,0.99082357), (-3.0892408,0.21102856), (-2.62337,0.9356445)), 0.33765153750088345
+((-3.5198405,0.99082357), (-3.8656518,1.7928468), (-4.378193,1.007061)), 0.3414017164160662
+((-3.8656518,1.7928468), (-3.5198405,0.99082357), (-2.9967253,1.7264875)), 0.336975766488579
+((-5.940905,13.30335), (-5.8790665,12.555292), (-5.2341337,13.380087)), 0.266725783699494
+((5.942102,13.598103), (5.4391146,13.775011), (5.9128027,13.061303)), 0.13759331273302491
+((3.7968085,1.8471634), (2.9372644,1.7163209), (3.494664,1.0180795)), 0.33655035317549353
+((3.7968085,1.8471634), (4.683716,1.9230466), (4.0242352,2.5148935)), 0.287478436822382
+((3.3053465,2.3927214), (2.555822,2.3815405), (2.9372644,1.7163209)), 0.25143167221385493
+((-3.9935815,14.6204815), (-4.6172266,14.006111), (-3.7511444,13.761963)), 0.3421785022475817
+((-3.9935815,14.6204815), (-4.7804747,14.59771), (-4.6172266,14.006111)), 0.23462114918749127
+((-2.8906245,3.2651348), (-3.2874417,4.038816), (-3.770424,3.3112826)), 0.33118598157423385
+((2.937546,3.1893914), (2.045485,3.1359558), (2.555822,2.3815405)), 0.3501272681148162
+((2.477702,3.9199011), (2.045485,3.1359558), (2.937546,3.1893914)), 0.33811560621275033
+((2.477702,3.9199011), (3.1754081,3.822678), (2.6392553,4.4908085)), 0.20701615260515707
+((-3.4290354,2.4964762), (-2.9967253,1.7264875), (-2.5434368,2.4335978)), 0.3273589979639978
+((-3.9571507,0.23544534), (-3.0892408,0.21102856), (-3.5198405,0.99082357)), 0.3331389742205125
+((5.488164,14.628441), (5.4391146,13.775011), (5.94107,14.260953)), 0.20227432017166733
+((5.53692,12.293219), (4.749599,12.156637), (5.2190347,11.422184)), 0.32118333508889707
+((5.53692,12.293219), (5.2190347,11.422184), (5.940591,11.67533)), 0.27401449089644364
+((4.548692,13.424832), (4.2073264,12.829631), (5.0355134,12.989442)), 0.21919207521443623
+((4.548692,13.424832), (3.6404366,13.480088), (4.2073264,12.829631)), 0.2797288022366498
+((3.9709237,0.2872964), (3.494664,1.0180795), (3.0940137,0.20958602)), 0.33892067698702716
+((1.9869359,14.198703), (0.98231477,14.153033), (1.3605838,13.453577)), 0.35998191586080897
+((1.9869359,14.198703), (2.2537253,14.684776), (1.4538691,14.887983)), 0.22150119031420534
+((4.355867,1.0675683), (3.494664,1.0180795), (3.9709237,0.2872964)), 0.3264610584711694
+((4.355867,1.0675683), (5.2248154,1.0993592), (4.683716,1.9230466)), 0.3664719935407249
+((4.683716,1.9230466), (3.7968085,1.8471634), (4.355867,1.0675683)), 0.36692589713835094
+((4.683716,1.9230466), (5.554999,1.8990787), (4.900649,2.4721704)), 0.24182084231308903
+((-4.378193,1.007061), (-3.9571507,0.23544534), (-3.5198405,0.99082357)), 0.3277407849018044
+((-4.378193,1.007061), (-4.7520137,1.8248366), (-5.254694,1.0020119)), 0.3593343421493399
+((-4.8370066,0.24200748), (-3.9571507,0.23544534), (-4.378193,1.007061)), 0.33807385718912647
+((5.942296,14.795307), (5.488164,14.628441), (5.94107,14.260953)), 0.1212314123169513
+((-4.7520137,1.8248366), (-4.378193,1.007061), (-3.8656518,1.7928468)), 0.3564433267616456
+((-4.7520137,1.8248366), (-5.14805,2.6144955), (-5.626593,1.7809234)), 0.3540053374162881
+((-4.6172266,14.006111), (-5.2341337,13.380087), (-4.3736076,13.160159)), 0.33719257508242345
+((-3.2874417,4.038816), (-3.6702454,4.8354874), (-4.1895776,4.126238)), 0.34262020674716803
+((5.0355134,12.989442), (4.749599,12.156637), (5.53692,12.293219)), 0.3083170483236475
+((5.0355134,12.989442), (4.2073264,12.829631), (4.749599,12.156637)), 0.3220128657624314
+((-5.544124,10.257848), (-5.9415374,9.476719), (-5.1491723,9.484669)), 0.3078899324879267
+((-5.544124,10.257848), (-5.1491723,9.484669), (-4.6593533,10.215684)), 0.33371680400004883
+((-5.544124,10.257848), (-4.6593533,10.215684), (-5.0850344,11.000336)), 0.33814432839873537
+((-2.3551986,14.940687), (-2.5634782,14.255245), (-1.7712559,14.643752)), 0.23105218552228765
+((-2.3551986,14.940687), (-2.9967988,14.778169), (-2.5634782,14.255245)), 0.20296519669145446
+((3.1754081,3.822678), (2.477702,3.9199011), (2.937546,3.1893914)), 0.23248685201005637
+((4.0242352,2.5148935), (3.3053465,2.3927214), (3.7968085,1.8471634)), 0.22611923263980366
+((4.8274274,0.32077718), (4.355867,1.0675683), (3.9709237,0.2872964)), 0.3277087864303771
+((-3.770424,3.3112826), (-3.4290354,2.4964762), (-2.8906245,3.2651348)), 0.35055589680021987
+((-3.770424,3.3112826), (-4.1895776,4.126238), (-4.6431828,3.3607593)), 0.34526057392338716
+((-4.6431828,3.3607593), (-5.656146,3.313764), (-5.14805,2.6144955)), 0.3661057384708094
+((-4.6431828,3.3607593), (-5.0626793,4.1340594), (-5.656146,3.313764)), 0.4015195422814442
+((4.116672,14.117884), (3.6404366,13.480088), (4.548692,13.424832)), 0.3027980491370935
+((4.116672,14.117884), (3.306465,13.994736), (3.6404366,13.480088)), 0.22904952353376085
+((5.2248154,1.0993592), (4.355867,1.0675683), (4.8274274,0.32077718)), 0.33195714684624644
+((5.2248154,1.0993592), (5.9415226,1.0974395), (5.554999,1.8990787)), 0.2868992951645741
+((-0.83829105,14.312458), (-0.29737955,13.688644), (-0.30145705,14.529024)), 0.2260137357609757
+((-0.83829105,14.312458), (-1.7712559,14.643752), (-1.6690366,13.776158)), 0.38778487547453055
+((-0.83829105,14.312458), (-0.30145705,14.529024), (-1.1092887,14.9412)), 0.19810955891471657
+((2.6645968,14.036383), (2.948727,14.63971), (2.2537253,14.684776)), 0.21605915127731057
+((-5.254694,1.0020119), (-4.8370066,0.24200748), (-4.378193,1.007061)), 0.3341268603576006
+((-5.254694,1.0020119), (-5.626593,1.7809234), (-5.9404917,0.89061695)), 0.2878017122605772
+((-5.8790665,12.555292), (-5.473505,11.778935), (-5.007903,12.515687)), 0.3301356113191613
+((-5.8790665,12.555292), (-5.007903,12.515687), (-5.2341337,13.380087)), 0.37203682976599445
+((2.6392553,4.4908085), (3.3700151,4.5153365), (2.7191453,5.2152405)), 0.26371315527011513
+((-5.726999,0.26754236), (-4.8370066,0.24200748), (-5.254694,1.0020119)), 0.3328662134981276
+((4.900649,2.4721704), (4.0242352,2.5148935), (4.683716,1.9230466)), 0.2452638650779867
+((-4.1895776,4.126238), (-3.770424,3.3112826), (-3.2874417,4.038816)), 0.3492785545532489
+((-4.1895776,4.126238), (-4.487662,4.9349337), (-5.0626793,4.1340594)), 0.35187110072087757
+((5.6900263,0.3640122), (5.2248154,1.0993592), (4.8274274,0.32077718)), 0.3272114365683666
+((5.554999,1.8990787), (4.683716,1.9230466), (5.2248154,1.0993592)), 0.35234793768379763
+((5.6892767,2.73809), (4.900649,2.4721704), (5.554999,1.8990787)), 0.3129801518519687
+((5.6892767,2.73809), (5.8876204,3.7434974), (5.332502,3.164947)), 0.22168420795419377
+((3.3700151,4.5153365), (2.6392553,4.4908085), (3.1754081,3.822678)), 0.2506968650381064
+((-5.626593,1.7809234), (-5.254694,1.0020119), (-4.7520137,1.8248366)), 0.3487756260306615
+((2.7191453,5.2152405), (3.240249,5.9306884), (2.5626476,6.167008)), 0.30396771385555127
+((5.9415226,1.0974395), (5.2248154,1.0993592), (5.6900263,0.3640122)), 0.26306771184807004
+((-5.940931,2.514094), (-5.626593,1.7809234), (-5.14805,2.6144955)), 0.3064385860135221
+((-3.6702454,4.8354874), (-4.0216,5.6335034), (-4.487662,4.9349337)), 0.30868526502110266
+((-4.487662,4.9349337), (-4.1895776,4.126238), (-3.6702454,4.8354874)), 0.31569892801215166
+((-4.487662,4.9349337), (-5.453011,4.888496), (-5.0626793,4.1340594)), 0.3732103918117528
+((-4.487662,4.9349337), (-4.887644,5.70251), (-5.453011,4.888496)), 0.37977665297978636
+((-3.150783,5.6143594), (-3.5394044,6.396183), (-4.0216,5.6335034)), 0.3366926709761082
+((0.18566395,12.881544), (-0.20809546,12.350181), (0.42415324,12.288835)), 0.18005471439405235
+((0.18566395,12.881544), (-0.43289867,13.013199), (-0.20809546,12.350181)), 0.1902609248502182
+((0.18566395,12.881544), (-0.29737955,13.688644), (-0.43289867,13.013199)), 0.21782356164337616
+((0.18566395,12.881544), (0.46266225,13.536872), (-0.29737955,13.688644)), 0.2700585997533132
+((-2.6818256,6.3298078), (-2.2103114,7.049826), (-3.0678337,7.0731707)), 0.31421954797447094
+((-3.154602,13.583153), (-3.638366,12.901667), (-2.9868946,13.030483)), 0.19082596457162762
+((-5.9404917,0.89061695), (-5.726999,0.26754236), (-5.254694,1.0020119)), 0.2255425597261326
+((-4.0216,5.6335034), (-3.6702454,4.8354874), (-3.150783,5.6143594)), 0.3440997013869261
+((-5.656146,3.313764), (-5.940931,2.514094), (-5.14805,2.6144955)), 0.30272518267057785
+((5.5532937,4.348863), (4.9778323,3.6578739), (5.8876204,3.7434974)), 0.28969037967061273
+((5.5532937,4.348863), (4.7965217,4.341124), (4.9778323,3.6578739)), 0.2592339200943653
+((5.5532937,4.348863), (4.914705,5.062964), (4.7965217,4.341124)), 0.2726768130661412
+((5.941681,2.3124936), (5.6892767,2.73809), (5.554999,1.8990787)), 0.13445907779085986
+((5.332502,3.164947), (4.900649,2.4721704), (5.6892767,2.73809)), 0.2157523535840985
+((-5.0626793,4.1340594), (-4.6431828,3.3607593), (-4.1895776,4.126238)), 0.3359442532769887
+((5.8876204,3.7434974), (4.9778323,3.6578739), (5.332502,3.164947)), 0.23941351825927976
+((-5.940933,4.1429577), (-5.656146,3.313764), (-5.0626793,4.1340594)), 0.3628542246388758
+((-5.453011,4.888496), (-5.940933,4.1429577), (-5.0626793,4.1340594)), 0.3295567587741787
+((-5.453011,4.888496), (-5.765902,5.7003007), (-5.940119,4.7373824)), 0.2213592229527441
+((3.6136706,5.3413963), (2.7191453,5.2152405), (3.3700151,4.5153365)), 0.35409641504097006
+((2.5626476,6.167008), (3.1609573,6.7939816), (2.599517,6.945955)), 0.22146765193341342
+((-3.5394044,6.396183), (-3.150783,5.6143594), (-2.6818256,6.3298078)), 0.32234023415390417
+((-4.887644,5.70251), (-4.487662,4.9349337), (-4.0216,5.6335034)), 0.31857672684686505
+((-4.887644,5.70251), (-5.3031073,6.4946933), (-5.765902,5.7003007)), 0.3483297168488436
+((0.9637888,7.2000756), (1.2601631,7.774131), (0.3116152,7.6197405)), 0.2493807379820137
+((0.9637888,7.2000756), (1.4471736,7.079277), (1.2601631,7.774131)), 0.15664557808253493
+((0.46266225,13.536872), (0.98231477,14.153033), (0.22062574,14.326156)), 0.27964339734376575
+((2.0562272,6.9096913), (2.599517,6.945955), (1.9590693,7.756488)), 0.23178962656329402
+((0.22062574,14.326156), (-0.29737955,13.688644), (0.46266225,13.536872)), 0.2815770922784192
+((0.22062574,14.326156), (0.10749049,14.940468), (-0.30145705,14.529024)), 0.148885114777007
+((-5.765902,5.7003007), (-5.453011,4.888496), (-4.887644,5.70251)), 0.356832717020737
+((4.914705,5.062964), (5.7712445,5.2108393), (5.2598586,5.857802)), 0.3148852749269091
+((-0.2872905,7.6025553), (0.008799012,8.138968), (-0.7372343,8.140374)), 0.2002991755810425
+((3.240249,5.9306884), (2.7191453,5.2152405), (3.6136706,5.3413963)), 0.28712301157012476
+((-2.2103114,7.049826), (-1.7636269,7.734156), (-2.6172748,7.8294344)), 0.31336804469499835
+((-1.0096226,7.5171986), (-0.7372343,8.140374), (-1.4834131,8.246203)), 0.24691355108501747
+((5.7712445,5.2108393), (4.914705,5.062964), (5.5532937,4.348863)), 0.3530436679553453
+((-3.0678337,7.0731707), (-3.5394044,6.396183), (-2.6818256,6.3298078)), 0.30593543148413027
+((-3.0678337,7.0731707), (-2.6172748,7.8294344), (-3.432569,7.8865905)), 0.32116483472319113
+((-5.3031073,6.4946933), (-5.69527,7.26256), (-5.942913,6.367926)), 0.27049945308838025
+((3.1609573,6.7939816), (2.5626476,6.167008), (3.240249,5.9306884)), 0.28311524178570496
+((-5.940119,4.7373824), (-5.940933,4.1429577), (-5.453011,4.888496)), 0.14471287527497825
+((1.4538691,14.887983), (0.98231477,14.153033), (1.9869359,14.198703)), 0.35840525607657175
+((1.4538691,14.887983), (0.7850919,14.941444), (0.98231477,14.153033)), 0.25836385667095796
+((5.2598586,5.857802), (5.8237453,5.9329343), (5.410823,6.473756)), 0.16799292279561406
+((-1.7636269,7.734156), (-1.4834131,8.246203), (-2.0779235,8.549475)), 0.19469912535613498
+((-0.7372343,8.140374), (-1.0096226,7.5171986), (-0.2872905,7.6025553)), 0.21344478471871614
+((-2.6172748,7.8294344), (-3.0678337,7.0731707), (-2.2103114,7.049826)), 0.3295155081102315
+((-2.6172748,7.8294344), (-2.0779235,8.549475), (-2.9766777,8.6175585)), 0.34193012365000075
+((-5.9401946,14.600474), (-5.6766176,14.116932), (-5.4824367,14.744026)), 0.1295911985785028
+((1.9590693,7.756488), (1.4471736,7.079277), (2.0562272,6.9096913)), 0.24963389352362575
+((-3.432569,7.8865905), (-2.9766777,8.6175585), (-3.8284612,8.6601515)), 0.32102210830450806
+((2.599517,6.945955), (2.0562272,6.9096913), (2.5626476,6.167008)), 0.21092847522220648
+((2.599517,6.945955), (3.1014044,7.588198), (2.5261412,7.8326874)), 0.24608251001029977
+((-5.4824367,14.744026), (-5.6766176,14.116932), (-5.178788,14.175843)), 0.15037327208045478
+((-5.4824367,14.744026), (-5.178788,14.175843), (-4.7804747,14.59771)), 0.17720702820597836
+((-5.69527,7.26256), (-5.3031073,6.4946933), (-4.815181,7.231199)), 0.33174628202342793
+((-5.942913,6.367926), (-5.765902,5.7003007), (-5.3031073,6.4946933)), 0.2247949248446935
+((-5.220959,7.9902444), (-5.69527,7.26256), (-4.815181,7.231199)), 0.3276511471978148
+((-5.220959,7.9902444), (-4.7514963,8.721982), (-5.6251383,8.741364)), 0.32418778283096017
+((5.8237453,5.9329343), (5.2598586,5.857802), (5.7712445,5.2108393)), 0.20161761742702447
+((5.410823,6.473756), (5.9415817,6.4949303), (5.799463,7.1589446)), 0.17772038373268323
+((2.948727,14.63971), (2.6645968,14.036383), (3.306465,13.994736)), 0.19954496677063666
+((3.1014044,7.588198), (2.599517,6.945955), (3.1609573,6.7939816)), 0.21842737759724612
+((2.5261412,7.8326874), (1.9590693,7.756488), (2.599517,6.945955)), 0.2542161370947916
+((2.5261412,7.8326874), (3.1406307,8.325146), (2.5259619,8.597654)), 0.23507623673628622
+((5.2941537,7.3840365), (5.799463,7.1589446), (5.3583083,7.9888287)), 0.1600238206014511
+((3.1406307,8.325146), (2.5261412,7.8326874), (3.1014044,7.588198)), 0.2167646023210538
+((3.1406307,8.325146), (3.8164341,8.856175), (3.0803123,8.950162)), 0.22720949101959073
+((1.2601631,7.774131), (1.4471736,7.079277), (1.9590693,7.756488)), 0.24116908030718043
+((0.3116152,7.6197405), (0.66348183,8.452297), (0.008799012,8.138968)), 0.2174053245602599
+((-1.4834131,8.246203), (-1.7636269,7.734156), (-1.0096226,7.5171986)), 0.22344019561422002
+((-2.0779235,8.549475), (-2.6172748,7.8294344), (-1.7636269,7.734156)), 0.33302465938788095
+((0.008799012,8.138968), (-0.2872905,7.6025553), (0.3116152,7.6197405)), 0.15808628618575643
+((-0.43289867,13.013199), (-0.9513823,12.604391), (-0.20809546,12.350181)), 0.21783271119743483
+((0.66348183,8.452297), (0.3116152,7.6197405), (1.2601631,7.774131)), 0.3676975441377329
+((2.334958,9.159346), (2.5259619,8.597654), (3.0803123,8.950162)), 0.18935201837505491
+((2.334958,9.159346), (2.837171,9.527627), (2.0878146,9.804673)), 0.2075551260546061
+((-2.9766777,8.6175585), (-3.432569,7.8865905), (-2.6172748,7.8294344)), 0.31100547565073955
+((-2.9766777,8.6175585), (-2.49101,9.334987), (-3.3783698,9.395613)), 0.3330305656647289
+((-2.49101,9.334987), (-2.9766777,8.6175585), (-2.0779235,8.549475)), 0.338928832677522
+((-2.49101,9.334987), (-2.2300322,10.160374), (-2.9136572,10.105004)), 0.2749025334684486
+((-3.8284612,8.6601515), (-3.3783698,9.395613), (-4.2490473,9.429196)), 0.3277326349660083
+((-4.7514963,8.721982), (-4.2490473,9.429196), (-5.1491723,9.484669)), 0.3322267405640104
+((-3.3783698,9.395613), (-3.8284612,8.6601515), (-2.9766777,8.6175585)), 0.3228122468007545
+((-3.3783698,9.395613), (-2.9136572,10.105004), (-3.8013752,10.185699)), 0.3336198613402444
+((-4.2490473,9.429196), (-4.7514963,8.721982), (-3.8284612,8.6601515)), 0.3419251882302537
+((-4.2490473,9.429196), (-3.8013752,10.185699), (-4.6593533,10.215684)), 0.3312431744106195
+((-2.9136572,10.105004), (-3.3783698,9.395613), (-2.49101,9.334987)), 0.3288296671527818
+((4.0462623,8.297797), (4.2297797,9.156847), (3.8164341,8.856175)), 0.1499529886585954
+((4.8387494,8.501539), (4.78896,9.234175), (4.2297797,9.156847)), 0.2067627064831801
+((5.3583083,7.9888287), (5.8914914,8.660492), (5.330254,8.837544)), 0.23568196669238453
+((5.8914914,8.660492), (5.3583083,7.9888287), (5.9401298,7.8004336)), 0.2456186036983033
+((5.9415817,6.4949303), (5.410823,6.473756), (5.8237453,5.9329343)), 0.14789459428735258
+((5.799463,7.1589446), (5.2941537,7.3840365), (5.410823,6.473756)), 0.21685593462150754
+((5.9401298,7.8004336), (5.3583083,7.9888287), (5.799463,7.1589446)), 0.19986651331960031
+((4.78896,9.234175), (4.8387494,8.501539), (5.330254,8.837544)), 0.18841163228379984
+((4.78896,9.234175), (5.330254,8.837544), (5.8188014,9.351535)), 0.23599631290162
+((4.78896,9.234175), (4.068671,9.75945), (4.2297797,9.156847)), 0.17471087724984596
+((4.78896,9.234175), (5.200577,9.8564825), (4.5661435,10.036792)), 0.23451554534908722
+((5.8188014,9.351535), (5.330254,8.837544), (5.8914914,8.660492)), 0.18748456176143194
+((4.2297797,9.156847), (4.0462623,8.297797), (4.8387494,8.501539)), 0.32169784466860696
+((4.2297797,9.156847), (3.5064416,9.369969), (3.8164341,8.856175)), 0.15279019182215692
+((5.330254,8.837544), (4.8387494,8.501539), (5.3583083,7.9888287)), 0.21328708060822008
+((5.200577,9.8564825), (4.78896,9.234175), (5.8188014,9.351535)), 0.2962854454307582
+((5.200577,9.8564825), (5.900673,10.134408), (5.0285993,10.499471)), 0.2489752704187398
+((-5.940298,7.9250236), (-5.69527,7.26256), (-5.220959,7.9902444)), 0.24625840052929632
+((-5.6251383,8.741364), (-5.940298,7.9250236), (-5.220959,7.9902444)), 0.2833350564866867
+((3.0803123,8.950162), (2.5259619,8.597654), (3.1406307,8.325146)), 0.1838703202904015
+((3.0803123,8.950162), (3.5064416,9.369969), (2.837171,9.527627)), 0.17407364062265115
+((-5.1491723,9.484669), (-5.6251383,8.741364), (-4.7514963,8.721982)), 0.329303781203934
+((-3.8013752,10.185699), (-4.2490473,9.429196), (-3.3783698,9.395613)), 0.33685235826771803
+((-4.6593533,10.215684), (-5.1491723,9.484669), (-4.2490473,9.429196)), 0.34258826054854596
+((3.8164341,8.856175), (3.1406307,8.325146), (4.0462623,8.297797)), 0.24969973264432793
+((-2.2300322,10.160374), (-1.9405113,10.932419), (-2.6027942,10.761759)), 0.23095129703556824
+((-5.9415374,9.476719), (-5.6251383,8.741364), (-5.1491723,9.484669)), 0.29259263373181055
+((3.5064416,9.369969), (3.0803123,8.950162), (3.8164341,8.856175)), 0.17453991961483237
+((4.068671,9.75945), (3.5064416,9.369969), (4.2297797,9.156847)), 0.20077495861957909
+((2.837171,9.527627), (2.334958,9.159346), (3.0803123,8.950162)), 0.18977741134180973
+((-1.9405113,10.932419), (-1.8089077,11.792744), (-2.4579427,11.620617)), 0.2678641857629108
+((2.0878146,9.804673), (2.750344,10.400575), (1.8348176,10.632576)), 0.349635650670298
+((2.750344,10.400575), (2.0878146,9.804673), (2.837171,9.527627)), 0.3150469580912583
+((2.750344,10.400575), (2.6324632,11.140879), (1.8348176,10.632576)), 0.32520962016388477
+((1.8348176,10.632576), (1.6654238,11.66725), (1.2439955,10.910378)), 0.2821249993602734
+((1.8348176,10.632576), (2.6324632,11.140879), (2.1633153,11.365328)), 0.2087500408166857
+((4.5661435,10.036792), (4.068671,9.75945), (4.78896,9.234175)), 0.23053805877002698
+((5.900673,10.134408), (5.200577,9.8564825), (5.8188014,9.351535)), 0.2626661121348233
+((-2.6027942,10.761759), (-2.9136572,10.105004), (-2.2300322,10.160374)), 0.2158807350605132
+((-2.4579427,11.620617), (-2.6027942,10.761759), (-1.9405113,10.932419)), 0.2720433114284933
+((-2.4579427,11.620617), (-1.8089077,11.792744), (-2.3434997,12.513036)), 0.27975618169123273
+((-5.0850344,11.000336), (-4.6079006,11.746796), (-5.473505,11.778935)), 0.33073696993335483
+((-0.6614563,11.034348), (0.049375817,11.518614), (-0.5930803,11.898437)), 0.2905550005915889
+((0.049375817,11.518614), (0.42415324,12.288835), (-0.20809546,12.350181)), 0.25498109873675945
+((-1.2790812,11.381772), (-1.367612,12.224052), (-1.8089077,11.792744)), 0.2049394047547682
+((-5.942714,11.028638), (-5.544124,10.257848), (-5.0850344,11.000336)), 0.3249050712413636
+((-5.473505,11.778935), (-5.942714,11.028638), (-5.0850344,11.000336)), 0.3283973539916934
+((-5.007903,12.515687), (-5.473505,11.778935), (-4.6079006,11.746796)), 0.32634986087228607
+((-2.3434997,12.513036), (-1.8089077,11.792744), (-1.367612,12.224052)), 0.2742179903199196
+((0.8082467,11.527243), (1.1558249,12.162665), (0.42415324,12.288835)), 0.25438723855722395
+((2.1633153,11.365328), (1.6654238,11.66725), (1.8348176,10.632576)), 0.23200579673825783
+((1.6654238,11.66725), (0.8082467,11.527243), (1.2439955,10.910378)), 0.2948848499021034
+((0.42415324,12.288835), (0.049375817,11.518614), (0.8082467,11.527243)), 0.29063207197301355
+((-0.5930803,11.898437), (-1.2790812,11.381772), (-0.6614563,11.034348)), 0.2787192179700214
+((-0.5930803,11.898437), (-0.20809546,12.350181), (-0.9513823,12.604391)), 0.21682129971495917
+((-0.20809546,12.350181), (-0.5930803,11.898437), (0.049375817,11.518614)), 0.21822587301337704
+((1.1558249,12.162665), (0.8082467,11.527243), (1.6654238,11.66725)), 0.24800318235520522
+((-1.367612,12.224052), (-1.2790812,11.381772), (-0.5930803,11.898437)), 0.31177294315032533
+((-1.367612,12.224052), (-0.9513823,12.604391), (-1.7487155,12.88864)), 0.21078484804321748
+((-1.8089077,11.792744), (-1.9405113,10.932419), (-1.2790812,11.381772)), 0.25495414174279213
+((5.0285993,10.499471), (4.5661435,10.036792), (5.200577,9.8564825)), 0.18846197516564417
+((5.0285993,10.499471), (5.2190347,11.422184), (4.545328,11.318944)), 0.3009886707640385
+((5.7467136,10.921084), (5.0285993,10.499471), (5.900673,10.134408)), 0.3149174407593809
+((5.2190347,11.422184), (5.0285993,10.499471), (5.7467136,10.921084)), 0.29116175010360873
+((5.940591,11.67533), (5.2190347,11.422184), (5.7467136,10.921084)), 0.2475756727718922
+((4.749599,12.156637), (4.545328,11.318944), (5.2190347,11.422184)), 0.27163517832129663
+((-0.9513823,12.604391), (-1.367612,12.224052), (-0.5930803,11.898437)), 0.21505768268292794
+((-1.7487155,12.88864), (-2.3434997,12.513036), (-1.367612,12.224052)), 0.2692153157099829
+((-5.2341337,13.380087), (-5.007903,12.515687), (-4.3736076,13.160159)), 0.34704214141669115
+((4.391339,14.934227), (4.116672,14.117884), (4.885597,14.2216625)), 0.2996011720452028
+((5.9128027,13.061303), (5.0355134,12.989442), (5.53692,12.293219)), 0.32341043985660395
+((5.0870337,14.941701), (4.885597,14.2216625), (5.488164,14.628441)), 0.17596557807299154
+((2.2537253,14.684776), (1.9869359,14.198703), (2.6645968,14.036383)), 0.18634918821588928
+((0.98231477,14.153033), (0.46266225,13.536872), (1.3605838,13.453577)), 0.2982744685341833
+((0.7850919,14.941444), (0.22062574,14.326156), (0.98231477,14.153033)), 0.2831901810417484
+((0.10749049,14.940468), (0.22062574,14.326156), (0.7850919,14.941444)), 0.20818465510565823
+((-0.30145705,14.529024), (-0.29737955,13.688644), (0.22062574,14.326156)), 0.21896032031821563
+((-1.6690366,13.776158), (-2.3338573,13.3654175), (-1.7487155,12.88864)), 0.278656418620092
+((-2.5634782,14.255245), (-3.154602,13.583153), (-2.3338573,13.3654175)), 0.3401624018752849
+((-1.7712559,14.643752), (-2.5634782,14.255245), (-1.6690366,13.776158)), 0.3635199798119818
+((-1.1092887,14.9412), (-1.7712559,14.643752), (-0.83829105,14.312458)), 0.24840718480254728
+((-5.178788,14.175843), (-5.2341337,13.380087), (-4.6172266,14.006111)), 0.228130047886012
+((-4.7804747,14.59771), (-5.178788,14.175843), (-4.6172266,14.006111)), 0.1522552832472114
+((-2.9967988,14.778169), (-3.3145733,14.248667), (-2.5634782,14.255245)), 0.19780790745494775
+((-4.3688035,14.942395), (-4.7804747,14.59771), (-3.9935815,14.6204815)), 0.13092807133806886
+#Area Sum
+88.64935
+#Wall Edges
+((-0.5,0.0), (0.0,-0.86))
+((-0.5,0.0), (-1.372608,0.0901417))
+((0.0,-0.86), (0.5,0.0))
+((0.0,-0.86), (-0.5,0.0))
+((0.5,0.0), (0.0,-0.86))
+((0.5,0.0), (1.3663249,0.073090024))
+((1.3663249,0.073090024), (1.3663249,0.073090024))
+((1.3663249,0.073090024), (2.226745,0.13524753))
+((-1.372608,0.0901417), (-1.372608,0.0901417))
+((-1.372608,0.0901417), (-2.23547,0.14286138))
+((-2.23547,0.14286138), (-2.23547,0.14286138))
+((-2.23547,0.14286138), (-3.0892408,0.21102856))
+((3.5941439,14.78142), (4.391339,14.934227))
+((3.5941439,14.78142), (2.948727,14.63971))
+((2.226745,0.13524753), (2.226745,0.13524753))
+((2.226745,0.13524753), (3.0940137,0.20958602))
+((5.94107,14.260953), (5.942102,13.598103))
+((5.94107,14.260953), (5.942296,14.795307))
+((-5.6766176,14.116932), (-5.940905,13.30335))
+((-5.6766176,14.116932), (-5.9401946,14.600474))
+((-3.0892408,0.21102856), (-3.0892408,0.21102856))
+((-3.0892408,0.21102856), (-3.9571507,0.23544534))
+((3.0940137,0.20958602), (3.0940137,0.20958602))
+((3.0940137,0.20958602), (3.9709237,0.2872964))
+((-5.940905,13.30335), (-5.8790665,12.555292))
+((-5.940905,13.30335), (-5.940905,13.30335))
+((5.942102,13.598103), (5.9128027,13.061303))
+((5.942102,13.598103), (5.942102,13.598103))
+((-3.9935815,14.6204815), (-2.9967988,14.778169))
+((-3.9935815,14.6204815), (-4.3688035,14.942395))
+((-3.9571507,0.23544534), (-3.9571507,0.23544534))
+((-3.9571507,0.23544534), (-4.8370066,0.24200748))
+((5.488164,14.628441), (5.0870337,14.941701))
+((5.488164,14.628441), (5.942296,14.795307))
+((5.53692,12.293219), (5.940591,11.67533))
+((5.53692,12.293219), (5.9128027,13.061303))
+((3.9709237,0.2872964), (3.9709237,0.2872964))
+((3.9709237,0.2872964), (4.8274274,0.32077718))
+((-4.8370066,0.24200748), (-4.8370066,0.24200748))
+((-4.8370066,0.24200748), (-5.726999,0.26754236))
+((5.942296,14.795307), (5.942296,14.795307))
+((5.942296,14.795307), (5.942296,14.795307))
+((-5.544124,10.257848), (-5.9415374,9.476719))
+((-5.544124,10.257848), (-5.942714,11.028638))
+((-2.3551986,14.940687), (-2.9967988,14.778169))
+((-2.3551986,14.940687), (-1.7712559,14.643752))
+((4.8274274,0.32077718), (4.8274274,0.32077718))
+((4.8274274,0.32077718), (5.6900263,0.3640122))
+((-5.8790665,12.555292), (-5.473505,11.778935))
+((-5.8790665,12.555292), (-5.8790665,12.555292))
+((-5.726999,0.26754236), (-5.726999,0.26754236))
+((-5.726999,0.26754236), (-5.9404917,0.89061695))
+((5.6900263,0.3640122), (5.6900263,0.3640122))
+((5.6900263,0.3640122), (5.9415226,1.0974395))
+((5.554999,1.8990787), (5.9415226,1.0974395))
+((5.554999,1.8990787), (5.941681,2.3124936))
+((5.6892767,2.73809), (5.941681,2.3124936))
+((5.6892767,2.73809), (5.8876204,3.7434974))
+((-5.626593,1.7809234), (-5.9404917,0.89061695))
+((-5.626593,1.7809234), (-5.940931,2.514094))
+((5.9415226,1.0974395), (5.9415226,1.0974395))
+((5.9415226,1.0974395), (5.9415226,1.0974395))
+((-5.940931,2.514094), (-5.940931,2.514094))
+((-5.940931,2.514094), (-5.656146,3.313764))
+((-5.9404917,0.89061695), (-5.9404917,0.89061695))
+((-5.9404917,0.89061695), (-5.9404917,0.89061695))
+((-5.656146,3.313764), (-5.656146,3.313764))
+((-5.656146,3.313764), (-5.940933,4.1429577))
+((5.5532937,4.348863), (5.8876204,3.7434974))
+((5.5532937,4.348863), (5.7712445,5.2108393))
+((5.941681,2.3124936), (5.941681,2.3124936))
+((5.941681,2.3124936), (5.941681,2.3124936))
+((5.8876204,3.7434974), (5.8876204,3.7434974))
+((5.8876204,3.7434974), (5.8876204,3.7434974))
+((-5.940933,4.1429577), (-5.940933,4.1429577))
+((-5.940933,4.1429577), (-5.940119,4.7373824))
+((-5.765902,5.7003007), (-5.940119,4.7373824))
+((-5.765902,5.7003007), (-5.942913,6.367926))
+((5.7712445,5.2108393), (5.7712445,5.2108393))
+((5.7712445,5.2108393), (5.8237453,5.9329343))
+((-5.940119,4.7373824), (-5.940119,4.7373824))
+((-5.940119,4.7373824), (-5.940119,4.7373824))
+((1.4538691,14.887983), (2.2537253,14.684776))
+((1.4538691,14.887983), (0.7850919,14.941444))
+((-5.9401946,14.600474), (-5.9401946,14.600474))
+((-5.9401946,14.600474), (-5.4824367,14.744026))
+((-5.4824367,14.744026), (-4.7804747,14.59771))
+((-5.4824367,14.744026), (-5.4824367,14.744026))
+((-5.69527,7.26256), (-5.942913,6.367926))
+((-5.69527,7.26256), (-5.940298,7.9250236))
+((-5.942913,6.367926), (-5.942913,6.367926))
+((-5.942913,6.367926), (-5.942913,6.367926))
+((5.8237453,5.9329343), (5.8237453,5.9329343))
+((5.8237453,5.9329343), (5.9415817,6.4949303))
+((2.948727,14.63971), (2.2537253,14.684776))
+((2.948727,14.63971), (2.948727,14.63971))
+((5.8914914,8.660492), (5.9401298,7.8004336))
+((5.8914914,8.660492), (5.8188014,9.351535))
+((5.9415817,6.4949303), (5.9415817,6.4949303))
+((5.9415817,6.4949303), (5.799463,7.1589446))
+((5.799463,7.1589446), (5.799463,7.1589446))
+((5.799463,7.1589446), (5.9401298,7.8004336))
+((5.9401298,7.8004336), (5.9401298,7.8004336))
+((5.9401298,7.8004336), (5.9401298,7.8004336))
+((5.8188014,9.351535), (5.8188014,9.351535))
+((5.8188014,9.351535), (5.900673,10.134408))
+((-5.940298,7.9250236), (-5.940298,7.9250236))
+((-5.940298,7.9250236), (-5.6251383,8.741364))
+((-5.6251383,8.741364), (-5.6251383,8.741364))
+((-5.6251383,8.741364), (-5.9415374,9.476719))
+((-5.9415374,9.476719), (-5.9415374,9.476719))
+((-5.9415374,9.476719), (-5.9415374,9.476719))
+((5.900673,10.134408), (5.900673,10.134408))
+((5.900673,10.134408), (5.7467136,10.921084))
+((-5.942714,11.028638), (-5.942714,11.028638))
+((-5.942714,11.028638), (-5.473505,11.778935))
+((-5.473505,11.778935), (-5.473505,11.778935))
+((-5.473505,11.778935), (-5.473505,11.778935))
+((5.7467136,10.921084), (5.7467136,10.921084))
+((5.7467136,10.921084), (5.940591,11.67533))
+((5.940591,11.67533), (5.940591,11.67533))
+((5.940591,11.67533), (5.940591,11.67533))
+((4.391339,14.934227), (4.391339,14.934227))
+((4.391339,14.934227), (5.0870337,14.941701))
+((5.9128027,13.061303), (5.9128027,13.061303))
+((5.9128027,13.061303), (5.9128027,13.061303))
+((5.0870337,14.941701), (5.0870337,14.941701))
+((5.0870337,14.941701), (5.0870337,14.941701))
+((2.2537253,14.684776), (2.2537253,14.684776))
+((2.2537253,14.684776), (2.2537253,14.684776))
+((0.7850919,14.941444), (0.7850919,14.941444))
+((0.7850919,14.941444), (0.10749049,14.940468))
+((0.10749049,14.940468), (0.10749049,14.940468))
+((0.10749049,14.940468), (-0.30145705,14.529024))
+((-0.30145705,14.529024), (-0.30145705,14.529024))
+((-0.30145705,14.529024), (-1.1092887,14.9412))
+((-1.7712559,14.643752), (-1.1092887,14.9412))
+((-1.7712559,14.643752), (-1.7712559,14.643752))
+((-1.1092887,14.9412), (-1.1092887,14.9412))
+((-1.1092887,14.9412), (-1.1092887,14.9412))
+((-4.7804747,14.59771), (-4.7804747,14.59771))
+((-4.7804747,14.59771), (-4.3688035,14.942395))
+((-2.9967988,14.778169), (-2.9967988,14.778169))
+((-2.9967988,14.778169), (-2.9967988,14.778169))
+((-4.3688035,14.942395), (-4.3688035,14.942395))
+((-4.3688035,14.942395), (-4.3688035,14.942395))
+#Blacklist Edges

@@ -1,0 +1,1646 @@
+/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/usr/bin/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/compilefontconfig.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/javazic.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar:/home/doms/Research/SwarmRoboticResearch/platypus3000/target/classes:/home/doms/.m2/repository/org/processing/core/core/2.2/core-2.2.jar:/home/doms/.m2/repository/org/processing/pdf/pdf/2.2/pdf-2.2.jar:/home/doms/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/home/doms/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/home/doms/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:/home/doms/.m2/repository/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar:/home/doms/.m2/repository/org/jbox2d/jbox2d-library/2.2.1.1/jbox2d-library-2.2.1.1.jar:/home/doms/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all-main/2.1.5-01/jogl-all-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt-main/2.1.5-01/gluegen-rt-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/javabits/jgrapht/jgrapht-core/0.9.1/jgrapht-core-0.9.1.jar:/usr/bin/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain projects.triangulation.Environment.HeadlessRunner
+Loading configuration from /home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1.properties
+Radius = 0.05 meter
+Range = 1.2 meter
+MessageBufferSize = 5000
+MaximalAcceleration = 0.1
+MaximalVelocity = 1.0
+MaximalBrakePower = 0.3
+MaximalRotationAcceleration = 1.0
+MaximalRotationVelocity = 10.0
+MaximalRotationBreak = 1.0
+ConnectivityProbability = 1.0
+NeighborPositionAngleNoise = 0.0
+NeighborPositionDistanceNoise = 0.01
+SpeedDeviationChange = 0.2 (Noisy)
+RotationSpeedDeviationChange = 0.2 (Noisy)
+CleanOldMessages = False
+#Environment:
+/home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1-lineenvdata
+#Neighborhood Update Probability
+1/2
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+4 evasion -> no adjacent triangle
+16 deleted because: Partition
+16 closest triangle has a high difference to actual triangle -> restart -0.5801043 -0.8919641
+LocalizationTriangle.locateNbr: No NeighborState of 15, returning null
+Unable to transform
+185 closest triangle has a high difference to actual triangle -> restart 0.17056309 -0.1690644
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+194 deleted because: Blacklist
+207 deleted because: DeletionDemand
+210 deleted because: triangles.isEmpty()
+213 closest triangle has a high difference to actual triangle -> restart -0.24929321 0.20765251
+214 closest triangle has a high difference to actual triangle -> restart -0.27693292 0.039514545
+210 closest triangle has a high difference to actual triangle -> restart -0.4653809 -0.16414018
+Unable to transform
+65 deleted because: Partition
+102 deleted because: Partition
+87 deleted because: Partition
+85 deleted because: Partition
+64 deleted because: Partition
+104 deleted because: Partition
+98 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(64, 87, 98)
+Failed to update localization triangle LocalizationTriangle(98, 114, 104)
+85: loop_prologue - Removing Localization Triangle LocalizationTriangle(64, 87, 98)
+87: loop_prologue - Removing Localization Triangle LocalizationTriangle(98, 114, 104)
+85: MovementController Failed
+87: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(98, 114, 104)
+102: loop_prologue - Removing Localization Triangle LocalizationTriangle(98, 114, 104)
+102: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(49, 64, 85)
+64: loop_prologue - Removing Localization Triangle LocalizationTriangle(49, 64, 85)
+64: MovementController Failed
+65 closest triangle has a high difference to actual triangle -> restart -0.6198766 -0.9253643
+LocalizationTriangle.locateNbr: No NeighborState of 96, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(94, 108, 95)
+87: loop_prologue - Removing Localization Triangle LocalizationTriangle(94, 108, 95)
+87: MovementController Failed
+213 deleted because: Blacklist
+239 deleted because: DeletionDemand
+241 deleted because: triangles.isEmpty()
+243 closest triangle has a high difference to actual triangle -> restart -0.17032366 0.17779809
+Could not determine adjacent triangle
+242 evasion -> no adjacent triangle
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:80)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 239! Restarting...
+Failed to update localization triangle LocalizationTriangle(213, 229, 241)
+241: loop_prologue - Removing Localization Triangle LocalizationTriangle(213, 229, 241)
+ROBOT-241 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(212, 227, 229)
+241: loop_prologue - Removing Localization Triangle LocalizationTriangle(212, 227, 229)
+ROBOT-241 called evasion without a valid triangle
+262 closest triangle has a high difference to actual triangle -> restart 0.15492737 -0.15072905
+24 deleted because: Partition
+25 deleted because: Partition
+13 deleted because: Partition
+36 deleted because: Partition
+78 deleted because: Partition
+126 deleted because: Partition
+128 deleted because: Partition
+40 deleted because: Partition
+44 deleted because: Partition
+107 deleted because: Partition
+22 deleted because: Partition
+23 deleted because: Partition
+35 deleted because: Partition
+81 deleted because: Partition
+82 deleted because: Partition
+127 deleted because: Partition
+38 deleted because: Partition
+42 deleted because: Partition
+53 deleted because: Partition
+54 deleted because: Partition
+57 deleted because: Partition
+59 deleted because: Partition
+101 deleted because: Partition
+Could not determine adjacent triangle
+273 evasion -> no adjacent triangle
+37 deleted because: Partition
+69 deleted because: Partition
+79 deleted because: Partition
+83 deleted because: Partition
+115 deleted because: Partition
+125 deleted because: Partition
+271 closest triangle has a high difference to actual triangle -> restart -0.4474425 0.20044294
+23: No closest triangle -> restart
+Could not determine adjacent triangle
+273 evasion -> no adjacent triangle
+52 deleted because: Partition
+73 deleted because: Partition
+80 deleted because: Partition
+100 deleted because: Partition
+123 deleted because: Partition
+97 deleted because: triangles.isEmpty()
+Unable to transform
+51 deleted because: Partition
+62 deleted because: Partition
+57: No closest triangle -> restart
+83: No closest triangle -> restart
+272 closest triangle has a high difference to actual triangle -> restart -0.28496265 0.17900655
+56 deleted because: triangles.isEmpty()
+79: No closest triangle -> restart
+Could not determine adjacent triangle
+273 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(51, 56, 62)
+37: loop_prologue - Removing Localization Triangle LocalizationTriangle(51, 56, 62)
+37: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(51, 56, 62)
+51: loop_prologue - Removing Localization Triangle LocalizationTriangle(51, 56, 62)
+ROBOT-51 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(51, 56, 62)
+62: loop_prologue - Removing Localization Triangle LocalizationTriangle(51, 56, 62)
+62: MovementController Failed
+42: No closest triangle -> restart
+52: No closest triangle -> restart
+73: No closest triangle -> restart
+80: No closest triangle -> restart
+97: No closest triangle -> restart
+Could not determine adjacent triangle
+274 evasion -> no adjacent triangle
+78: No closest triangle -> restart
+107 closest triangle has a high difference to actual triangle -> restart -0.8107726 -0.5097059
+LocalizationTriangle.locateNbr: No NeighborState of 78, returning null
+Unable to transform
+82 closest triangle has a high difference to actual triangle -> restart -0.69542634 -0.39026222
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(13, 23, 22)
+Failed to update localization triangle LocalizationTriangle(13, 24, 23)
+22: loop_prologue - Removing Localization Triangle LocalizationTriangle(13, 23, 22)
+ROBOT-22 called evasion without a valid triangle
+24: loop_prologue - Removing Localization Triangle LocalizationTriangle(13, 24, 23)
+24: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(80, 100, 97)
+81: loop_prologue - Removing Localization Triangle LocalizationTriangle(80, 100, 97)
+ROBOT-81 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(80, 100, 97)
+271: loop_prologue - Removing Localization Triangle LocalizationTriangle(80, 100, 97)
+ROBOT-271 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(23, 38, 37)
+36: loop_prologue - Removing Localization Triangle LocalizationTriangle(23, 38, 37)
+ROBOT-36 called evasion without a valid triangle
+35 closest triangle has a high difference to actual triangle -> restart -1.0118495 -0.7044747
+LocalizationTriangle.locateNbr: No NeighborState of 52, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(97, 100, 123)
+100: loop_prologue - Removing Localization Triangle LocalizationTriangle(97, 100, 123)
+ROBOT-100 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(97, 100, 123)
+123: loop_prologue - Removing Localization Triangle LocalizationTriangle(97, 100, 123)
+ROBOT-123 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(17, 26, 19)
+35: loop_prologue - Removing Localization Triangle LocalizationTriangle(17, 26, 19)
+35: MovementController Failed
+128 closest triangle has a high difference to actual triangle -> restart -0.84441113 -0.5326955
+LocalizationTriangle.locateNbr: No NeighborState of 128, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(52, 62, 73)
+69: loop_prologue - Removing Localization Triangle LocalizationTriangle(52, 62, 73)
+69: MovementController Failed
+44 closest triangle has a high difference to actual triangle -> restart -0.8073505 -0.5018778
+LocalizationTriangle.locateNbr: No NeighborState of 51, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(62, 97, 73)
+62: loop_prologue - Removing Localization Triangle LocalizationTriangle(62, 97, 73)
+ROBOT-62 called evasion without a valid triangle
+115 closest triangle has a high difference to actual triangle -> restart -0.49986526 -0.19713324
+LocalizationTriangle.locateNbr: No NeighborState of 115, returning null
+Unable to transform
+13 closest triangle has a high difference to actual triangle -> restart -0.5610073 -0.25408426
+LocalizationTriangle.locateNbr: No NeighborState of 13, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(131, 154, 136)
+83: loop_prologue - Removing Localization Triangle LocalizationTriangle(131, 154, 136)
+ROBOT-83 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(38, 54, 53)
+53: loop_prologue - Removing Localization Triangle LocalizationTriangle(38, 54, 53)
+Failed to update localization triangle LocalizationTriangle(127, 128, 160)
+127: loop_prologue - Removing Localization Triangle LocalizationTriangle(127, 128, 160)
+127: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(70, 89, 77)
+42: loop_prologue - Removing Localization Triangle LocalizationTriangle(70, 89, 77)
+ROBOT-42 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(116, 124, 141)
+23: loop_prologue - Removing Localization Triangle LocalizationTriangle(116, 124, 141)
+ROBOT-23 called evasion without a valid triangle
+252 deleted because: Blacklist
+62 deleted because: triangles.isEmpty()
+254 deleted because: DeletionDemand
+268 deleted because: triangles.isEmpty()
+57 closest triangle has a high difference to actual triangle -> restart -0.17474934 0.17595808
+269 closest triangle has a high difference to actual triangle -> restart -0.4426013 0.0497826
+52 deleted because: Blacklist
+245 deleted because: DeletionDemand
+115 deleted because: triangles.isEmpty()
+35 closest triangle has a high difference to actual triangle -> restart -0.26895845 0.2275132
+Could not determine adjacent triangle
+42 evasion -> no adjacent triangle
+97 closest triangle has a high difference to actual triangle -> restart -0.39529604 0.08607478
+Failed to update localization triangle LocalizationTriangle(217, 246, 245)
+97: loop_prologue - Removing Localization Triangle LocalizationTriangle(217, 246, 245)
+ROBOT-97 called evasion without a valid triangle
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+Unable to transform
+35 deleted because: Blacklist
+97 deleted because: DeletionDemand
+115 deleted because: triangles.isEmpty()
+22 closest triangle has a high difference to actual triangle -> restart -0.31712013 0.1510675
+245 closest triangle has a high difference to actual triangle -> restart -0.26281565 0.18639097
+42 closest triangle has a high difference to actual triangle -> restart -0.2531435 0.059408344
+Could not determine adjacent triangle
+297 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(35, 115, 97)
+42: loop_prologue - Removing Localization Triangle LocalizationTriangle(35, 115, 97)
+ROBOT-42 called evasion without a valid triangle
+42 closest triangle has a high difference to actual triangle -> restart -0.37398183 -0.7072882
+LocalizationTriangle.locateNbr: No NeighborState of 253, returning null
+Unable to transform
+203 deleted because: Partition
+234 deleted because: Partition
+196 deleted because: Partition
+168 deleted because: Partition
+177 deleted because: Partition
+233 deleted because: Partition
+248 deleted because: Partition
+222 deleted because: triangles.isEmpty()
+175 deleted because: Partition
+201 deleted because: Partition
+Failed to update localization triangle LocalizationTriangle(201, 222, 203)
+203: loop_prologue - Removing Localization Triangle LocalizationTriangle(201, 222, 203)
+203: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(201, 233, 222)
+233: loop_prologue - Removing Localization Triangle LocalizationTriangle(201, 233, 222)
+233: MovementController Failed
+51 deleted because: Partition
+163 deleted because: Partition
+195 deleted because: Partition
+222 closest triangle has a high difference to actual triangle -> restart -0.8275229 -0.42897335
+178 deleted because: Partition
+179 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(175, 179, 195)
+Failed to update localization triangle LocalizationTriangle(171, 178, 179)
+175: loop_prologue - Removing Localization Triangle LocalizationTriangle(175, 179, 195)
+178: loop_prologue - Removing Localization Triangle LocalizationTriangle(171, 178, 179)
+175: MovementController Failed
+178: MovementController Failed
+196: No closest triangle -> restart
+203: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(251, 267, 254)
+222: loop_prologue - Removing Localization Triangle LocalizationTriangle(251, 267, 254)
+222: MovementController Failed
+168 closest triangle has a high difference to actual triangle -> restart -0.7959086 -0.4891251
+LocalizationTriangle.locateNbr: No NeighborState of 195, returning null
+Unable to transform
+234 closest triangle has a high difference to actual triangle -> restart -0.5101575 -0.81172156
+LocalizationTriangle.locateNbr: No NeighborState of 234, returning null
+Unable to transform
+LocalizationTriangle.locateNbr: No NeighborState of 51, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(51, 254, 123)
+248: loop_prologue - Removing Localization Triangle LocalizationTriangle(51, 254, 123)
+248: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(146, 158, 171)
+196: loop_prologue - Removing Localization Triangle LocalizationTriangle(146, 158, 171)
+ROBOT-196 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(162, 164, 198)
+163: loop_prologue - Removing Localization Triangle LocalizationTriangle(162, 164, 198)
+163: MovementController Failed
+272 deleted because: Partition
+36 deleted because: Partition
+222 closest triangle has a high difference to actual triangle -> restart -0.34844375 0.10243255
+Failed to update localization triangle LocalizationTriangle(195, 215, 197)
+195: loop_prologue - Removing Localization Triangle LocalizationTriangle(195, 215, 197)
+195: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(215, 217, 296)
+195: loop_prologue - Removing Localization Triangle LocalizationTriangle(215, 217, 296)
+195: MovementController Failed
+262 deleted because: Partition
+240 deleted because: Partition
+209 deleted because: Partition
+223 deleted because: Partition
+238 deleted because: Partition
+260 deleted because: Partition
+230 deleted because: Partition
+266 deleted because: Partition
+79 deleted because: Partition
+127 deleted because: triangles.isEmpty()
+187 deleted because: Partition
+100 deleted because: Partition
+128 deleted because: Partition
+214 deleted because: Partition
+222 closest triangle has a high difference to actual triangle -> restart -0.34597287 0.064433135
+234 closest triangle has a high difference to actual triangle -> restart -0.36288273 0.0050719036
+Failed to update localization triangle LocalizationTriangle(127, 240, 260)
+262: loop_prologue - Removing Localization Triangle LocalizationTriangle(127, 240, 260)
+262: MovementController Failed
+150 deleted because: Partition
+165 deleted because: Partition
+204 deleted because: Partition
+196 closest triangle has a high difference to actual triangle -> restart -0.20902252 0.21207607
+107 deleted because: Partition
+152 deleted because: Partition
+183 deleted because: triangles.isEmpty()
+202 deleted because: Partition
+261 deleted because: Partition
+153 deleted because: Partition
+184 deleted because: Partition
+194 deleted because: Partition
+211 deleted because: Partition
+229 deleted because: Partition
+310 closest triangle has a high difference to actual triangle -> restart -0.25839564 0.19569245
+65 deleted because: Partition
+180 deleted because: Partition
+151 deleted because: Partition
+181 deleted because: Partition
+182 deleted because: Partition
+206 deleted because: Partition
+205 deleted because: Partition
+212 deleted because: Partition
+213 deleted because: Partition
+242 deleted because: Partition
+Could not determine adjacent triangle
+245 evasion -> no adjacent triangle
+228 deleted because: Partition
+327 closest triangle has a high difference to actual triangle -> restart -0.20291567 0.19672178
+180: No closest triangle -> restart
+208 deleted because: Partition
+328 closest triangle has a high difference to actual triangle -> restart -0.28342146 0.11070755
+329 closest triangle has a high difference to actual triangle -> restart -0.2448621 0.24813038
+210 deleted because: triangles.isEmpty()
+225 deleted because: Partition
+227 deleted because: Partition
+209: No closest triangle -> restart
+212 closest triangle has a high difference to actual triangle -> restart -0.8530992 -0.5078489
+248 closest triangle has a high difference to actual triangle -> restart -0.3695129 0.0074860854
+226 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(208, 226, 210)
+208: loop_prologue - Removing Localization Triangle LocalizationTriangle(208, 226, 210)
+ROBOT-208 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(225, 227, 226)
+225: loop_prologue - Removing Localization Triangle LocalizationTriangle(225, 227, 226)
+Failed to update localization triangle LocalizationTriangle(225, 227, 226)
+225: MovementController Failed
+227: loop_prologue - Removing Localization Triangle LocalizationTriangle(225, 227, 226)
+227: MovementController Failed
+206: No closest triangle -> restart
+222: No closest triangle -> restart
+187 closest triangle has a high difference to actual triangle -> restart -0.5804459 -0.2764811
+Unable to transform
+238 closest triangle has a high difference to actual triangle -> restart -0.5962528 -0.293299
+Unable to transform
+Could not determine adjacent triangle
+Robot-175 failed to get adjacent triangle, restart
+242 closest triangle has a high difference to actual triangle -> restart -0.69771457 -0.39146635
+LocalizationTriangle.locateNbr: No NeighborState of 226, returning null
+Unable to transform
+Could not determine adjacent triangle
+51 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(153, 180, 181)
+153: loop_prologue - Removing Localization Triangle LocalizationTriangle(153, 180, 181)
+ROBOT-153 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(153, 180, 181)
+223: loop_prologue - Removing Localization Triangle LocalizationTriangle(153, 180, 181)
+ROBOT-223 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(181, 210, 206)
+181: loop_prologue - Removing Localization Triangle LocalizationTriangle(181, 210, 206)
+ROBOT-181 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(181, 210, 206)
+183: loop_prologue - Removing Localization Triangle LocalizationTriangle(181, 210, 206)
+ROBOT-183 called evasion without a valid triangle
+261 closest triangle has a high difference to actual triangle -> restart -0.8130354 -0.5073789
+Failed to update localization triangle LocalizationTriangle(100, 127, 262)
+201: loop_prologue - Removing Localization Triangle LocalizationTriangle(100, 127, 262)
+ROBOT-201 called evasion without a valid triangle
+LocalizationTriangle.locateNbr: No NeighborState of 261, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(182, 205, 208)
+182: loop_prologue - Removing Localization Triangle LocalizationTriangle(182, 205, 208)
+ROBOT-182 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(182, 205, 208)
+205: loop_prologue - Removing Localization Triangle LocalizationTriangle(182, 205, 208)
+ROBOT-205 called evasion without a valid triangle
+230 closest triangle has a high difference to actual triangle -> restart -0.7723679 -0.43026996
+Unable to transform
+Could not determine adjacent triangle
+272 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(126, 295, 315)
+272: loop_prologue - Removing Localization Triangle LocalizationTriangle(126, 295, 315)
+272: MovementController Failed
+204 closest triangle has a high difference to actual triangle -> restart -0.38776413 -0.07924177
+Failed to update localization triangle LocalizationTriangle(151, 184, 182)
+152: loop_prologue - Removing Localization Triangle LocalizationTriangle(151, 184, 182)
+152: MovementController Failed
+229 closest triangle has a high difference to actual triangle -> restart -0.2086858 0.09942618
+Failed to update localization triangle LocalizationTriangle(64, 265, 87)
+225: loop_prologue - Removing Localization Triangle LocalizationTriangle(64, 265, 87)
+225: MovementController Failed
+260 closest triangle has a high difference to actual triangle -> restart -0.54305464 -0.8439188
+LocalizationTriangle.locateNbr: No NeighborState of 221, returning null
+Unable to transform
+213 closest triangle has a high difference to actual triangle -> restart -0.327375 -0.023377264
+Failed to update localization triangle LocalizationTriangle(107, 128, 261)
+107: loop_prologue - Removing Localization Triangle LocalizationTriangle(107, 128, 261)
+ROBOT-107 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(79, 107, 261)
+128: loop_prologue - Removing Localization Triangle LocalizationTriangle(79, 107, 261)
+ROBOT-128 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(107, 128, 261)
+262: loop_prologue - Removing Localization Triangle LocalizationTriangle(107, 128, 261)
+ROBOT-262 called evasion without a valid triangle
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(208, 226, 210)
+328: loop_prologue - Removing Localization Triangle LocalizationTriangle(208, 226, 210)
+ROBOT-328 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(65, 228, 225)
+65: loop_prologue - Removing Localization Triangle LocalizationTriangle(65, 228, 225)
+65: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(81, 125, 255)
+201: loop_prologue - Removing Localization Triangle LocalizationTriangle(81, 125, 255)
+ROBOT-201 called evasion without a valid triangle
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+Failed to update localization triangle LocalizationTriangle(189, 192, 193)
+182: loop_prologue - Removing Localization Triangle LocalizationTriangle(189, 192, 193)
+182: MovementController Failed
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 194! Restarting...
+Failed to update localization triangle LocalizationTriangle(239, 259, 241)
+272: loop_prologue - Removing Localization Triangle LocalizationTriangle(239, 259, 241)
+ROBOT-272 called evasion without a valid triangle
+79 closest triangle has a high difference to actual triangle -> restart -0.40669352 -0.7120198
+LocalizationTriangle.locateNbr: No NeighborState of 241, returning null
+Unable to transform
+151 closest triangle has a high difference to actual triangle -> restart -0.58475864 -0.8898637
+Unable to transform
+228 closest triangle has a high difference to actual triangle -> restart -0.506939 -0.8124148
+Unable to transform
+184 closest triangle has a high difference to actual triangle -> restart -0.7773688 -0.46646008
+Failed to update localization triangle LocalizationTriangle(243, 256, 259)
+181: loop_prologue - Removing Localization Triangle LocalizationTriangle(243, 256, 259)
+ROBOT-181 called evasion without a valid triangle
+LocalizationTriangle.locateNbr: No NeighborState of 193, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(243, 256, 259)
+206: loop_prologue - Removing Localization Triangle LocalizationTriangle(243, 256, 259)
+ROBOT-206 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(235, 239, 241)
+222: loop_prologue - Removing Localization Triangle LocalizationTriangle(235, 239, 241)
+ROBOT-222 called evasion without a valid triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+262 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+165 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+165 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+209 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+209 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+209 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+209 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+209 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+209 evasion -> no adjacent triangle
+277 deleted because: Partition
+276 deleted because: Partition
+37 deleted because: Partition
+51 closest triangle has a high difference to actual triangle -> restart -0.22123751 0.22919531
+65 closest triangle has a high difference to actual triangle -> restart -0.22926246 0.22929317
+59 deleted because: Partition
+230 closest triangle has a high difference to actual triangle -> restart -0.3454747 0.08206357
+306 closest triangle has a high difference to actual triangle -> restart -0.2865113 0.08413915
+309 closest triangle has a high difference to actual triangle -> restart -0.2502941 0.17148587
+226 closest triangle has a high difference to actual triangle -> restart -0.18201593 0.17127581
+229 closest triangle has a high difference to actual triangle -> restart -0.14723226 0.15679447
+Could not determine adjacent triangle
+214 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+228 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+35 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+35 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+35 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+35 evasion -> no adjacent triangle
+Could not determine adjacent triangle
+35 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(37, 265, 59)
+65: loop_prologue - Removing Localization Triangle LocalizationTriangle(37, 265, 59)
+ROBOT-65 called evasion without a valid triangle
+#Steps
+330200
+#Robots
+241
+#Triangles
+((-0.5,0.0), (0.0,-0.86), (0.5,0.0)), 0.42999998347703766
+((-0.012937929,0.7269707), (-0.5,0.0), (0.5,0.0)), 0.363485340502318
+((-0.012937929,0.7269707), (0.36883414,1.5081457), (-0.42942718,1.4200487)), 0.2949744171429089
+((-0.8754749,0.78439265), (-0.5,0.0), (-0.012937929,0.7269707)), 0.32750356956167337
+((-0.8754749,0.78439265), (-1.2890512,1.5536677), (-1.7571948,0.8541502)), 0.3247174827786645
+((0.85931456,0.78193665), (-0.012937929,0.7269707), (0.5,0.0)), 0.33114803877259386
+((0.85931456,0.78193665), (1.7284886,0.8934852), (1.2419716,1.5808372)), 0.325849362212431
+((-1.3627461,0.059629645), (-0.5,0.0), (-0.8754749,0.78439265)), 0.32717116547391956
+((0.36883414,1.5081457), (-0.012937929,0.7269707), (0.85931456,0.78193665)), 0.33019866096859324
+((-0.42942718,1.4200487), (-0.8754749,0.78439265), (-0.012937929,0.7269707)), 0.2869449196381546
+((1.3758155,0.09027637), (0.85931456,0.78193665), (0.5,0.0)), 0.3261973205508984
+((1.7284886,0.8934852), (0.85931456,0.78193665), (1.3758155,0.09027637)), 0.3293940435836263
+((-1.2890512,1.5536677), (-0.8754749,0.78439265), (-0.42942718,1.4200487)), 0.3030128428818735
+((1.2419716,1.5808372), (0.36883414,1.5081457), (0.85931456,0.78193665)), 0.3348670694487911
+((5.314803,13.895102), (5.419241,13.06332), (5.9360986,13.197748)), 0.22197596039433773
+((5.314803,13.895102), (5.750733,14.49274), (5.064391,14.742151)), 0.25945498600504563
+((-1.7571948,0.8541502), (-1.3627461,0.059629645), (-0.8754749,0.78439265)), 0.3365143436524922
+((-1.7571948,0.8541502), (-2.1618366,1.6325587), (-2.6470156,0.883287)), 0.34042706250542726
+((2.2450113,0.20014474), (1.7284886,0.8934852), (1.3758155,0.09027637)), 0.3296990559799013
+((5.941487,6.286322), (5.3228927,6.4690537), (5.8578186,5.6809874)), 0.19487271386531246
+((-2.1618366,1.6325587), (-1.7571948,0.8541502), (-1.2890512,1.5536677)), 0.323730537794287
+((-2.230254,0.103059486), (-1.3627461,0.059629645), (-1.7571948,0.8541502)), 0.3360609670458284
+((-2.6470156,0.883287), (-2.230254,0.103059486), (-1.7571948,0.8541502)), 0.34105976732294185
+((-2.6470156,0.883287), (-3.044224,1.6555554), (-3.5376337,0.89199215)), 0.34216920464087425
+((0.74611455,2.2869031), (0.36883414,1.5081457), (1.2419716,1.5808372)), 0.3262685986402485
+((2.5941682,1.0033245), (1.7284886,0.8934852), (2.2450113,0.20014474)), 0.328472600471372
+((2.5941682,1.0033245), (3.1368856,0.30029085), (3.4518504,1.0297691)), 0.3086657500473986
+((-4.6207657,14.46679), (-4.9017324,13.7946005), (-3.9801939,14.374479)), 0.22826104777748246
+((-4.6207657,14.46679), (-5.1601496,14.545458), (-4.9017324,13.7946005)), 0.19233561677571695
+((-4.6207657,14.46679), (-3.9801939,14.374479), (-4.134175,14.910043)), 0.16442637735706048
+((-4.6207657,14.46679), (-4.134175,14.910043), (-4.812759,14.941481)), 0.15804078167206517
+((-4.6314964,12.215145), (-5.3055973,12.532922), (-5.133439,11.693918)), 0.25543260289447883
+((-4.6314964,12.215145), (-3.9395704,11.790573), (-4.0107417,12.6266775)), 0.2741525292930553
+((-4.6314964,12.215145), (-4.0107417,12.6266775), (-4.641503,13.124767)), 0.2843851218675401
+((5.9360986,13.197748), (5.419241,13.06332), (5.8660955,12.62371)), 0.14364290446291628
+((-5.9417706,13.281197), (-5.9417963,12.695857), (-5.398556,13.378412)), 0.1589811643421548
+((-3.044224,1.6555554), (-2.6470156,0.883287), (-2.1618366,1.6325587)), 0.3361526842466335
+((-3.044224,1.6555554), (-3.4841878,2.4086273), (-3.9319384,1.6669755)), 0.3317441596722314
+((1.6207416,2.3887777), (0.74611455,2.2869031), (1.2419716,1.5808372)), 0.33402978019594404
+((1.6207416,2.3887777), (2.4910488,2.4498546), (1.9522702,3.2122743)), 0.348223095518671
+((2.4910488,2.4498546), (3.3556876,2.5767884), (2.822614,3.2475567)), 0.32381869533600427
+((1.1067228,3.11195), (0.74611455,2.2869031), (1.6207416,2.3887777)), 0.3424357410872407
+((2.9870281,1.7683578), (3.8456995,1.8087076), (3.3556876,2.5767884)), 0.3396504937888972
+((3.4518504,1.0297691), (2.9870281,1.7683578), (2.5941682,1.0033245)), 0.3228832107050819
+((3.4518504,1.0297691), (4.3051624,1.2254721), (3.8456995,1.8087076)), 0.29380007732950597
+((3.1368856,0.30029085), (2.5941682,1.0033245), (2.2450113,0.20014474)), 0.34068438817186225
+((4.026118,0.38663766), (3.4518504,1.0297691), (3.1368856,0.30029085)), 0.31073963732485205
+((-3.0989234,0.15209642), (-2.230254,0.103059486), (-2.6470156,0.883287)), 0.32866154807959097
+((2.6046903,12.888512), (2.6896303,12.205998), (3.2260787,12.646978)), 0.20179500181692597
+((2.6046903,12.888512), (1.8120552,12.213879), (2.6896303,12.205998)), 0.2991436184215039
+((2.6046903,12.888512), (1.7929523,12.722765), (1.8120552,12.213879)), 0.20812433408796757
+((2.6046903,12.888512), (2.6910055,13.761875), (2.072848,13.28314)), 0.24927702315143335
+((1.9522702,3.2122743), (1.1067228,3.11195), (1.6207416,2.3887777)), 0.33152245077429293
+((1.9522702,3.2122743), (2.35691,3.9858706), (1.4231145,3.9261196)), 0.349101502195594
+((5.8660955,12.62371), (5.297257,12.359261), (5.8560777,12.071709)), 0.15567511061036085
+((5.8660955,12.62371), (5.419241,13.06332), (5.297257,12.359261)), 0.18411883889279712
+((1.4231145,3.9261196), (1.1067228,3.11195), (1.9522702,3.2122743)), 0.3283385875910011
+((1.4231145,3.9261196), (2.35691,3.9858706), (1.9977721,4.5731606)), 0.28493382649815985
+((-5.8052764,14.814618), (-5.839918,14.141058), (-5.1601496,14.545458)), 0.22192797431387956
+((-5.8052764,14.814618), (-5.1601496,14.545458), (-4.812759,14.941481)), 0.17449436133443727
+((-3.5376337,0.89199215), (-3.0989234,0.15209642), (-2.6470156,0.883287)), 0.32757270972272173
+((-3.5376337,0.89199215), (-3.9319384,1.6669755), (-4.395855,0.8869768)), 0.33354242541965307
+((-5.398556,13.378412), (-5.9417963,12.695857), (-5.3055973,12.532922)), 0.2613769405827483
+((-5.398556,13.378412), (-5.3055973,12.532922), (-4.641503,13.124767)), 0.3082514445788465
+((-5.398556,13.378412), (-4.641503,13.124767), (-4.9017324,13.7946005)), 0.2205467767475381
+((-5.398556,13.378412), (-4.9017324,13.7946005), (-5.839918,14.141058)), 0.281295057502244
+((-3.9319384,1.6669755), (-3.5376337,0.89199215), (-3.044224,1.6555554)), 0.34173042741384146
+((-3.9319384,1.6669755), (-4.800486,1.6707988), (-4.395855,0.8869768)), 0.33961986972203956
+((-3.4841878,2.4086273), (-3.8874788,3.180333), (-4.349678,2.4175835)), 0.33214586187174044
+((3.3556876,2.5767884), (2.4910488,2.4498546), (2.9870281,1.7683578)), 0.32610256349491257
+((-3.976162,0.13289338), (-3.0989234,0.15209642), (-3.5376337,0.89199215)), 0.3287447798064284
+((2.822614,3.2475567), (1.9522702,3.2122743), (2.4910488,2.4498546)), 0.34128830266839333
+((2.35691,3.9858706), (1.9522702,3.2122743), (2.822614,3.2475567)), 0.32950906399400276
+((-5.3055973,12.532922), (-5.914078,12.05208), (-5.133439,11.693918)), 0.2966492572620493
+((-4.395855,0.8869768), (-3.976162,0.13289338), (-3.5376337,0.89199215)), 0.3246376594495769
+((-4.395855,0.8869768), (-5.304285,0.910166), (-4.846436,0.15792085)), 0.3363725262972323
+((-3.044509,13.30523), (-3.1528876,12.54775), (-2.3971653,12.871414)), 0.2686830248658567
+((-3.044509,13.30523), (-2.3971653,12.871414), (-2.1390226,13.696201)), 0.32295359379862015
+((-3.044509,13.30523), (-2.8854923,14.174891), (-3.4598768,13.854296)), 0.22426992556761358
+((-5.839918,14.141058), (-5.9417706,13.281197), (-5.398556,13.378412)), 0.2285936825452954
+((3.8456995,1.8087076), (2.9870281,1.7683578), (3.4518504,1.0297691)), 0.32648027425227627
+((1.9977721,4.5731606), (2.327553,5.3178077), (1.4744724,5.181826)), 0.2951999136846437
+((4.3051624,1.2254721), (3.4518504,1.0297691), (4.026118,0.38663766)), 0.3305887978209276
+((4.3051624,1.2254721), (4.8602405,0.55723757), (5.1768327,1.2736895)), 0.3046222763675467
+((-4.0107417,12.6266775), (-3.420913,11.970388), (-3.1528876,12.54775)), 0.2582234373196973
+((-4.0107417,12.6266775), (-3.9395704,11.790573), (-3.420913,11.970388)), 0.22322475068220154
+((3.9665265,11.560727), (4.528724,10.964055), (4.6432877,11.824874)), 0.27615360323665067
+((3.9665265,11.560727), (4.11071,12.179625), (3.4937956,11.989823)), 0.1772202927487455
+((4.8602405,0.55723757), (4.3051624,1.2254721), (4.026118,0.38663766)), 0.3260429264487079
+((4.8602405,0.55723757), (5.0530467,0.060132787), (5.722778,0.58165157)), 0.21673932041820776
+((4.715129,2.0004232), (3.8456995,1.8087076), (4.3051624,1.2254721)), 0.2975841259620435
+((4.715129,2.0004232), (5.5719748,2.0650759), (5.077319,2.79372)), 0.32815826338239446
+((5.1768327,1.2736895), (4.715129,2.0004232), (4.3051624,1.2254721)), 0.3278671795795514
+((5.1768327,1.2736895), (5.901402,1.3011471), (5.5719748,2.0650759)), 0.2812823038622869
+((-5.9417963,12.695857), (-5.914078,12.05208), (-5.3055973,12.532922)), 0.20252697282279258
+((-3.8874788,3.180333), (-4.314035,3.9772403), (-4.7701097,3.189011)), 0.3498366485597337
+((-4.349678,2.4175835), (-3.9319384,1.6669755), (-3.4841878,2.4086273)), 0.3229512060315932
+((-4.349678,2.4175835), (-4.7701097,3.189011), (-5.2132077,2.4410706)), 0.3281379538204337
+((-4.800486,1.6707988), (-3.9319384,1.6669755), (-4.349678,2.4175835)), 0.3251708539866361
+((-4.800486,1.6707988), (-5.2132077,2.4410706), (-5.674313,1.7057401)), 0.32933163170979807
+((-2.1390226,13.696201), (-1.7571459,14.488964), (-2.407757,14.530363)), 0.2657947839142611
+((-4.846436,0.15792085), (-3.976162,0.13289338), (-4.395855,0.8869768)), 0.3228776841578191
+((-5.2132077,2.4410706), (-4.800486,1.6707988), (-4.349678,2.4175835)), 0.32772945223033545
+((-5.2132077,2.4410706), (-5.6593757,3.197349), (-5.942269,2.4417884)), 0.2755264866951403
+((-5.304285,0.910166), (-4.395855,0.8869768), (-4.800486,1.6707988)), 0.35133220759304323
+((-5.304285,0.910166), (-5.674313,1.7057401), (-5.940713,0.7880808)), 0.27575021628598734
+((-4.7701097,3.189011), (-4.349678,2.4175835), (-3.8874788,3.180333)), 0.3386186133261547
+((-4.7701097,3.189011), (-5.176639,3.9735444), (-5.6593757,3.197349)), 0.3471345845198429
+((-1.7571459,14.488964), (-2.1390226,13.696201), (-1.2266206,13.76288)), 0.3489276056378103
+((-1.7571459,14.488964), (-1.2266206,13.76288), (-1.0859201,14.60024)), 0.273200368237352
+((-1.7571459,14.488964), (-1.0859201,14.60024), (-2.040403,14.943384)), 0.16826904422623912
+((-2.8854923,14.174891), (-3.044509,13.30523), (-2.1390226,13.696201)), 0.3626477655604115
+((-2.8854923,14.174891), (-2.407757,14.530363), (-3.0904634,14.855916)), 0.19910542686982702
+((-2.3971653,12.871414), (-3.1528876,12.54775), (-2.6580117,12.071851)), 0.2599107007352735
+((-4.641503,13.124767), (-5.3055973,12.532922), (-4.6314964,12.215145)), 0.3049986546518015
+((1.2268828,13.24995), (1.0720872,12.479743), (1.7929523,12.722765)), 0.2587984191354671
+((1.2268828,13.24995), (1.7929523,12.722765), (2.072848,13.28314)), 0.23238410161914902
+((1.2268828,13.24995), (1.6244755,13.83421), (0.7512337,13.77155)), 0.24264349617144598
+((-5.702286,0.13047825), (-4.846436,0.15792085), (-5.304285,0.910166)), 0.3281866878469687
+((5.157433,11.544936), (4.528724,10.964055), (5.363443,10.6762085)), 0.33292200991138654
+((5.157433,11.544936), (5.363443,10.6762085), (5.6811314,11.315304)), 0.20382235105443228
+((5.157433,11.544936), (5.8560777,12.071709), (5.297257,12.359261)), 0.24763401846275063
+((-5.940713,0.7880808), (-5.702286,0.13047825), (-5.304285,0.910166)), 0.223812480865793
+((3.4937956,11.989823), (4.11071,12.179625), (3.2260787,12.646978)), 0.22811072905856042
+((-5.674313,1.7057401), (-5.304285,0.910166), (-4.800486,1.6707988)), 0.34113241732281907
+((-4.314035,3.9772403), (-4.689067,4.768793), (-5.176639,3.9735444)), 0.3420913953253178
+((2.851266,4.6880455), (1.9977721,4.5731606), (2.35691,3.9858706)), 0.2712539820444715
+((2.851266,4.6880455), (3.244608,5.4379025), (2.327553,5.3178077)), 0.3202108012389512
+((5.722778,0.58165157), (5.1768327,1.2736895), (4.8602405,0.55723757)), 0.3051186592047999
+((4.477756,0.057734866), (4.8602405,0.55723757), (4.026118,0.38663766)), 0.1756973596240142
+((2.327553,5.3178077), (1.9977721,4.5731606), (2.851266,4.6880455)), 0.29883238845476534
+((2.327553,5.3178077), (2.6842809,6.13138), (1.8056098,5.8532777)), 0.30782784409207886
+((5.077319,2.79372), (5.9400725,2.8358872), (5.413546,3.5951462)), 0.3386277223909202
+((5.413546,3.5951462), (5.940343,3.42973), (5.7683663,4.3869166)), 0.2378975640147766
+((5.5719748,2.0650759), (4.715129,2.0004232), (5.1768327,1.2736895)), 0.32627455871051786
+((5.8560777,12.071709), (5.157433,11.544936), (5.6811314,11.315304)), 0.21815066317781642
+((5.0530467,0.060132787), (4.8602405,0.55723757), (4.477756,0.057734866)), 0.1432210457551437
+((1.7929523,12.722765), (1.0720872,12.479743), (1.8120552,12.213879)), 0.1857404401919613
+((5.940648,10.745549), (5.363443,10.6762085), (5.8866444,10.161938)), 0.16655944502034642
+((5.6062355,0.05894617), (5.722778,0.58165157), (5.0530467,0.060132787)), 0.1446464955454246
+((5.6811314,11.315304), (5.363443,10.6762085), (5.940648,10.745549)), 0.17343021777046302
+((3.244608,5.4379025), (4.1306224,5.556247), (3.5760398,6.258663)), 0.3439913249391285
+((5.901402,1.3011471), (5.1768327,1.2736895), (5.722778,0.58165157)), 0.2582099480816754
+((5.9400725,2.8358872), (5.077319,2.79372), (5.5719748,2.0650759)), 0.3247492138990384
+((5.940343,3.42973), (5.413546,3.5951462), (5.9400725,2.8358872)), 0.1564396124955095
+((-5.942269,2.4417884), (-5.674313,1.7057401), (-5.2132077,2.4410706)), 0.2682159645880832
+((2.6842809,6.13138), (2.327553,5.3178077), (3.244608,5.4379025)), 0.35162468466217406
+((2.6842809,6.13138), (3.003196,6.940119), (2.011708,6.707323)), 0.3638063348163554
+((1.8056098,5.8532777), (1.4744724,5.181826), (2.327553,5.3178077)), 0.26388686563457947
+((1.8056098,5.8532777), (2.011708,6.707323), (1.2539195,6.5103207)), 0.3032920008684293
+((1.2539195,6.5103207), (1.4442475,7.350762), (0.6373706,6.8852215)), 0.29476359838076677
+((4.9313903,4.1439595), (5.7683663,4.3869166), (5.380331,4.942486)), 0.2796370562024982
+((-5.941373,10.80548), (-5.5367312,10.373424), (-5.5454526,11.238327)), 0.17310389726664277
+((-4.218731,5.4679246), (-5.162898,5.5122204), (-4.689067,4.768793)), 0.3404654483538793
+((-4.218731,5.4679246), (-3.7486515,6.179797), (-4.63485,6.237904)), 0.32908763912642963
+((-5.176639,3.9735444), (-4.7701097,3.189011), (-4.314035,3.9772403)), 0.3391220607391159
+((-5.176639,3.9735444), (-5.567958,4.759062), (-5.940556,3.917079)), 0.31108300097071623
+((-5.6593757,3.197349), (-5.2132077,2.4410706), (-4.7701097,3.189011)), 0.3344063574802635
+((-5.940556,3.917079), (-5.6593757,3.197349), (-5.176639,3.9735444)), 0.282845435674759
+((-5.162898,5.5122204), (-5.567958,4.759062), (-4.689067,4.768793)), 0.32900126708940386
+((-5.162898,5.5122204), (-5.526436,6.2607594), (-5.942572,5.4654408)), 0.30031131595294797
+((-5.162898,5.5122204), (-4.63485,6.237904), (-5.526436,6.2607594)), 0.3295389884991514
+((-5.567958,4.759062), (-5.176639,3.9735444), (-4.689067,4.768793)), 0.3470961312655115
+((-3.9395704,11.790573), (-3.3832667,11.220673), (-3.420913,11.970388)), 0.19780754021367217
+((-3.7486515,6.179797), (-3.281471,6.8726993), (-4.161138,6.971858)), 0.32792408786739013
+((-3.1528876,12.54775), (-3.420913,11.970388), (-2.6580117,12.071851)), 0.2066378815005501
+((4.1306224,5.556247), (5.0001063,5.646515), (4.4646506,6.383455)), 0.34454589518519796
+((-1.9967302,7.6223965), (-1.3505033,7.4067755), (-1.1293418,8.158179)), 0.2666321761332065
+((-1.9967302,7.6223965), (-1.7826957,8.499568), (-2.438704,8.384488)), 0.27540037800718614
+((0.6373706,6.8852215), (0.87814766,7.7391543), (0.24620104,7.6668634)), 0.2611170014278967
+((5.7683663,4.3869166), (4.9313903,4.1439595), (5.413546,3.5951462)), 0.28824342205518866
+((2.011708,6.707323), (1.8056098,5.8532777), (2.6842809,6.13138)), 0.3465542956035509
+((3.5760398,6.258663), (2.6842809,6.13138), (3.244608,5.4379025)), 0.3448675261866714
+((3.5760398,6.258663), (4.4646506,6.383455), (3.863153,7.0857654)), 0.3495713431700891
+((1.4442475,7.350762), (1.2539195,6.5103207), (2.011708,6.707323)), 0.29969080896310957
+((0.24620104,7.6668634), (0.38902983,8.415193), (-0.32133788,8.358382)), 0.26173735310498325
+((5.0001063,5.646515), (5.8578186,5.6809874), (5.3228927,6.4690537)), 0.3471871651065011
+((5.380331,4.942486), (5.9419365,4.9060526), (5.8578186,5.6809874)), 0.21607143584783964
+((5.9419365,4.9060526), (5.380331,4.942486), (5.7683663,4.3869166)), 0.14893665586697374
+((5.8578186,5.6809874), (5.0001063,5.646515), (5.380331,4.942486)), 0.30848082154120937
+((-4.63485,6.237904), (-5.162898,5.5122204), (-4.218731,5.4679246)), 0.3542785210781513
+((-4.161138,6.971858), (-4.63485,6.237904), (-3.7486515,6.179797)), 0.3389774110267321
+((-3.281471,6.8726993), (-2.8833587,7.636392), (-3.6749613,7.6621914)), 0.30740618053736807
+((4.4646506,6.383455), (3.5760398,6.258663), (4.1306224,5.556247)), 0.34669081978990457
+((4.4646506,6.383455), (5.3228927,6.4690537), (4.725498,7.2086945)), 0.3429635436373242
+((5.3228927,6.4690537), (4.4646506,6.383455), (5.0001063,5.646515)), 0.3391536414357964
+((5.3228927,6.4690537), (5.861448,7.1479363), (5.356428,7.325819)), 0.21932434567725972
+((-2.8833587,7.636392), (-2.438704,8.384488), (-3.26853,8.4244)), 0.31926830403797296
+((3.003196,6.940119), (2.6842809,6.13138), (3.5760398,6.258663)), 0.340303701702121
+((-0.6952866,7.5327816), (-0.32133788,8.358382), (-1.1293418,8.158179)), 0.29611148026256284
+((3.863153,7.0857654), (3.003196,6.940119), (3.5760398,6.258663)), 0.3347276370062105
+((0.87814766,7.7391543), (0.6373706,6.8852215), (1.4442475,7.350762)), 0.28846361651650215
+((-0.32133788,8.358382), (-0.6952866,7.5327816), (0.24620104,7.6668634)), 0.3635765639154425
+((-0.32133788,8.358382), (-0.021629252,9.180028), (-0.8959832,9.004893)), 0.3329599071959252
+((4.725498,7.2086945), (3.863153,7.0857654), (4.4646506,6.383455)), 0.3397878842091645
+((4.725498,7.2086945), (5.356428,7.325819), (4.9475737,8.063702)), 0.2567195556126478
+((-3.6749613,7.6621914), (-4.161138,6.971858), (-3.281471,6.8726993)), 0.327736101839338
+((-2.438704,8.384488), (-2.8833587,7.636392), (-1.9967302,7.6223965)), 0.3347532445872854
+((-5.045926,7.01648), (-4.63485,6.237904), (-4.161138,6.971858)), 0.335265807716429
+((-5.045926,7.01648), (-5.4004226,7.825314), (-5.911505,7.0352817)), 0.3467223664998101
+((-1.1293418,8.158179), (-1.3505033,7.4067755), (-0.6952866,7.5327816)), 0.23223232104939462
+((-1.1293418,8.158179), (-0.8959832,9.004893), (-1.7826957,8.499568)), 0.31643491779956273
+((-1.7826957,8.499568), (-1.9967302,7.6223965), (-1.1293418,8.158179)), 0.32308617367814796
+((-0.8959832,9.004893), (-1.1293418,8.158179), (-0.32133788,8.358382)), 0.3187146106409654
+((-0.8959832,9.004893), (-0.6263007,9.826062), (-1.517597,9.333251)), 0.2995011349236219
+((5.861448,7.1479363), (5.3228927,6.4690537), (5.941487,6.286322)), 0.2591819228397152
+((-5.942572,5.4654408), (-5.567958,4.759062), (-5.162898,5.5122204)), 0.2841348121054764
+((-5.526436,6.2607594), (-4.63485,6.237904), (-5.045926,7.01648)), 0.342385977835421
+((-5.911505,7.0352817), (-5.526436,6.2607594), (-5.045926,7.01648)), 0.3315852254868852
+((-3.26853,8.4244), (-3.6749613,7.6621914), (-2.8833587,7.636392)), 0.306926132728032
+((0.38902983,8.415193), (0.24620104,7.6668634), (0.87814766,7.7391543)), 0.23128945297623157
+((-5.943018,7.590685), (-5.911505,7.0352817), (-5.4004226,7.825314)), 0.154376570726427
+((-5.4004226,7.825314), (-5.3672442,8.694288), (-5.940862,8.280883)), 0.2423715507356323
+((-5.940862,8.280883), (-5.943018,7.590685), (-5.4004226,7.825314)), 0.1869961804341562
+((-0.021629252,9.180028), (-0.32133788,8.358382), (0.38902983,8.415193)), 0.2833219607726154
+((5.356428,7.325819), (4.725498,7.2086945), (5.3228927,6.4690537)), 0.26831551738991033
+((5.356428,7.325819), (5.941358,7.795376), (4.9475737,8.063702)), 0.31179504751474213
+((4.9475737,8.063702), (5.7271147,8.457793), (5.094633,8.926569)), 0.30734283080591424
+((5.941358,7.795376), (5.356428,7.325819), (5.861448,7.1479363)), 0.1705921425552371
+((5.7271147,8.457793), (4.9475737,8.063702), (5.941358,7.795376)), 0.3004065198128252
+((5.8528094,9.317358), (5.094633,8.926569), (5.7271147,8.457793)), 0.3012908111921139
+((5.135306,9.798466), (5.094633,8.926569), (5.8528094,9.317358)), 0.3225785210298198
+((5.135306,9.798466), (5.8866444,10.161938), (5.363443,10.6762085)), 0.28828021465415393
+((-5.3672442,8.694288), (-5.2403936,9.547361), (-5.9404616,8.854886)), 0.25468410770520794
+((-1.517597,9.333251), (-1.7826957,8.499568), (-0.8959832,9.004893)), 0.3026379954830294
+((-1.517597,9.333251), (-1.3451501,10.1448145), (-2.0927796,9.988585)), 0.2899038211440737
+((-2.0927796,9.988585), (-1.7878221,10.73347), (-2.4589198,10.690989)), 0.24346760108303572
+((-0.6263007,9.826062), (-0.8959832,9.004893), (-0.021629252,9.180028)), 0.33538075821547353
+((-0.6263007,9.826062), (-0.78505504,10.498215), (-1.3451501,10.1448145)), 0.2162865999979663
+((4.6062765,10.205893), (5.363443,10.6762085), (4.528724,10.964055)), 0.3052646232987256
+((-5.2403936,9.547361), (-4.7300305,10.012301), (-5.5367312,10.373424)), 0.2796854237527343
+((-5.2403936,9.547361), (-5.5367312,10.373424), (-5.9412274,9.490945)), 0.29782530872143564
+((-5.9404616,8.854886), (-5.940862,8.280883), (-5.3672442,8.694288)), 0.16454647409478815
+((-1.3451501,10.1448145), (-1.517597,9.333251), (-0.6263007,9.826062)), 0.3191798817502454
+((-1.3451501,10.1448145), (-0.78505504,10.498215), (-1.7878221,10.73347)), 0.24307175688258814
+((-5.9412274,9.490945), (-5.9404616,8.854886), (-5.2403936,9.547361)), 0.2229073764671486
+((-0.20321523,10.35908), (0.47845352,10.555206), (-0.35062817,11.04363)), 0.24777368083943713
+((-0.78505504,10.498215), (-0.6263007,9.826062), (-0.20321523,10.35908)), 0.1844984752383973
+((-2.4589198,10.690989), (-2.1762178,11.506581), (-2.815506,11.355357)), 0.23932373540002844
+((-0.35062817,11.04363), (-0.78505504,10.498215), (-0.20321523,10.35908)), 0.1888939283310744
+((-1.7878221,10.73347), (-2.0927796,9.988585), (-1.3451501,10.1448145)), 0.25462721655325166
+((-2.1762178,11.506581), (-2.4589198,10.690989), (-1.7878221,10.73347)), 0.26766639144666765
+((0.3511267,11.311081), (-0.35062817,11.04363), (0.47845352,10.555206)), 0.28224624248382196
+((0.3511267,11.311081), (0.41313982,12.021179), (-0.2935413,11.908605)), 0.2474159491877005
+((-0.2935413,11.908605), (-0.35062817,11.04363), (0.3511267,11.311081)), 0.29586623114132926
+((0.8774535,11.487264), (1.3778077,11.78737), (0.41313982,12.021179)), 0.20324509994880602
+((5.8866444,10.161938), (5.135306,9.798466), (5.8528094,9.317358)), 0.31113359220111325
+((-4.800917,10.888237), (-5.133439,11.693918), (-5.5454526,11.238327)), 0.24172283789316462
+((-4.800917,10.888237), (-5.5454526,11.238327), (-5.5367312,10.373424)), 0.32044900916129837
+((5.363443,10.6762085), (4.6062765,10.205893), (5.135306,9.798466)), 0.2786503892448865
+((4.6432877,11.824874), (4.528724,10.964055), (5.157433,11.544936)), 0.23732832802649503
+((-2.815506,11.355357), (-2.6580117,12.071851), (-3.420913,11.970388)), 0.2653170792372057
+((-3.3832667,11.220673), (-2.815506,11.355357), (-3.420913,11.970388)), 0.21536480401215016
+((-2.6580117,12.071851), (-2.815506,11.355357), (-2.1762178,11.506581)), 0.21711449082075848
+((1.3778077,11.78737), (1.8120552,12.213879), (1.0720872,12.479743)), 0.21552694240268247
+((0.41313982,12.021179), (0.3511267,11.311081), (0.8774535,11.487264)), 0.18140908322023414
+((1.0720872,12.479743), (0.41313982,12.021179), (1.3778077,11.78737)), 0.2982149877429821
+((3.2260787,12.646978), (2.6896303,12.205998), (3.4937956,11.989823)), 0.2352938046950738
+((4.11071,12.179625), (3.9665265,11.560727), (4.6432877,11.824874)), 0.19038007040904742
+((-3.5396717,14.70857), (-3.4598768,13.854296), (-2.8854923,14.174891)), 0.2581317543272946
+((-3.5396717,14.70857), (-3.9801939,14.374479), (-3.4598768,13.854296)), 0.20149262791889758
+((5.297257,12.359261), (4.6432877,11.824874), (5.157433,11.544936)), 0.2289115459233115
+((-5.914078,12.05208), (-5.5454526,11.238327), (-5.133439,11.693918)), 0.251609952964704
+((2.072848,13.28314), (1.7929523,12.722765), (2.6046903,12.888512)), 0.20424300408025917
+((2.072848,13.28314), (2.1929898,14.119244), (1.6244755,13.83421)), 0.2205462024474421
+((5.940906,13.796968), (5.314803,13.895102), (5.9360986,13.197748)), 0.1878227198417811
+((-5.1601496,14.545458), (-5.839918,14.141058), (-4.9017324,13.7946005)), 0.3074565286263298
+((5.750733,14.49274), (5.314803,13.895102), (5.940906,13.796968)), 0.20848104882733628
+((2.6910055,13.761875), (2.7618515,14.610674), (2.1929898,14.119244)), 0.22401658490849294
+((3.9530008,13.813492), (3.8844035,14.711194), (3.2585676,14.304515)), 0.2948556408811708
+((3.2585676,14.304515), (3.275219,14.940631), (2.7618515,14.610674)), 0.1605335072244899
+((1.6244755,13.83421), (1.2268828,13.24995), (2.072848,13.28314)), 0.24053384367089714
+((1.6244755,13.83421), (1.6713079,14.408422), (0.98188585,14.272599)), 0.19475673759311027
+((4.6905875,14.296121), (4.4925613,14.941985), (3.8844035,14.711194)), 0.2192451119155318
+((2.1929898,14.119244), (2.072848,13.28314), (2.6910055,13.761875)), 0.22966368739934498
+((2.1929898,14.119244), (2.1298382,14.764355), (1.6713079,14.408422)), 0.15914033625693103
+((3.8844035,14.711194), (3.9530008,13.813492), (4.6905875,14.296121)), 0.3476201478022116
+((3.275219,14.940631), (3.2585676,14.304515), (3.8844035,14.711194)), 0.1956662122288869
+((2.7618515,14.610674), (2.6910055,13.761875), (3.2585676,14.304515)), 0.22165105861703163
+((5.064391,14.742151), (4.6905875,14.296121), (5.314803,13.895102)), 0.21416086561204678
+((2.1298382,14.764355), (2.1929898,14.119244), (2.7618515,14.610674)), 0.19900679064790716
+((2.1298382,14.764355), (1.2052997,14.921438), (1.6713079,14.408422)), 0.20055027638230624
+((1.6713079,14.408422), (1.6244755,13.83421), (2.1929898,14.119244)), 0.15654950047964292
+((4.4925613,14.941985), (4.6905875,14.296121), (5.064391,14.742151)), 0.16487613513532637
+((0.26681122,14.341004), (0.7512337,13.77155), (0.98188585,14.272599)), 0.18703262371619978
+((0.26681122,14.341004), (-0.32818425,14.9422245), (-0.5363689,14.149812)), 0.298323410755356
+((0.26681122,14.341004), (0.98188585,14.272599), (0.36144075,14.941243)), 0.21784434853289458
+((0.98188585,14.272599), (0.7512337,13.77155), (1.6244755,13.83421)), 0.21154214594873555
+((0.98188585,14.272599), (1.2052997,14.921438), (0.36144075,14.941243)), 0.2759766397118376
+((-5.5367312,10.373424), (-4.7300305,10.012301), (-4.800917,10.888237)), 0.34050955172093816
+((-4.812759,14.941481), (-5.1601496,14.545458), (-4.6207657,14.46679)), 0.12046838220399159
+((-4.134175,14.910043), (-3.9801939,14.374479), (-3.5396717,14.70857)), 0.143685566673447
+((5.560213,14.93947), (5.064391,14.742151), (5.750733,14.49274)), 0.12954602280367403
+((-3.0904634,14.855916), (-3.5396717,14.70857), (-2.8854923,14.174891)), 0.16806178510520228
+((-2.407757,14.530363), (-2.8854923,14.174891), (-2.1390226,13.696201)), 0.247017994343462
+((-2.040403,14.943384), (-2.407757,14.530363), (-1.7571459,14.488964)), 0.14196211195962655
+((-0.32818425,14.9422245), (-1.0859201,14.60024), (-0.5363689,14.149812)), 0.2646218036608133
+((-1.0859201,14.60024), (-1.2266206,13.76288), (-0.5363689,14.149812)), 0.2617736445689765
+((0.36144075,14.941243), (-0.32818425,14.9422245), (0.26681122,14.341004)), 0.20701628756886778
+((1.2052997,14.921438), (0.98188585,14.272599), (1.6713079,14.408422)), 0.20848956310041183
+((5.940315,14.942101), (5.560213,14.93947), (5.750733,14.49274)), 0.08515208490054908
+#Area Sum
+82.70311
+#Wall Edges
+((-0.5,0.0), (0.0,-0.86))
+((-0.5,0.0), (-1.3627461,0.059629645))
+((0.0,-0.86), (0.5,0.0))
+((0.0,-0.86), (-0.5,0.0))
+((0.5,0.0), (0.0,-0.86))
+((0.5,0.0), (1.3758155,0.09027637))
+((-1.3627461,0.059629645), (-1.3627461,0.059629645))
+((-1.3627461,0.059629645), (-2.230254,0.103059486))
+((1.3758155,0.09027637), (1.3758155,0.09027637))
+((1.3758155,0.09027637), (2.2450113,0.20014474))
+((2.2450113,0.20014474), (2.2450113,0.20014474))
+((2.2450113,0.20014474), (3.1368856,0.30029085))
+((5.941487,6.286322), (5.8578186,5.6809874))
+((5.941487,6.286322), (5.861448,7.1479363))
+((-2.230254,0.103059486), (-2.230254,0.103059486))
+((-2.230254,0.103059486), (-3.0989234,0.15209642))
+((5.9360986,13.197748), (5.8660955,12.62371))
+((5.9360986,13.197748), (5.940906,13.796968))
+((-5.9417706,13.281197), (-5.9417963,12.695857))
+((-5.9417706,13.281197), (-5.839918,14.141058))
+((3.1368856,0.30029085), (3.1368856,0.30029085))
+((3.1368856,0.30029085), (4.026118,0.38663766))
+((4.026118,0.38663766), (4.026118,0.38663766))
+((4.026118,0.38663766), (4.477756,0.057734866))
+((-3.0989234,0.15209642), (-3.0989234,0.15209642))
+((-3.0989234,0.15209642), (-3.976162,0.13289338))
+((5.8660955,12.62371), (5.8560777,12.071709))
+((5.8660955,12.62371), (5.8660955,12.62371))
+((-5.8052764,14.814618), (-4.812759,14.941481))
+((-5.8052764,14.814618), (-5.839918,14.141058))
+((-3.976162,0.13289338), (-3.976162,0.13289338))
+((-3.976162,0.13289338), (-4.846436,0.15792085))
+((-5.839918,14.141058), (-5.839918,14.141058))
+((-5.839918,14.141058), (-5.839918,14.141058))
+((-5.9417963,12.695857), (-5.914078,12.05208))
+((-5.9417963,12.695857), (-5.9417963,12.695857))
+((-4.846436,0.15792085), (-4.846436,0.15792085))
+((-4.846436,0.15792085), (-5.702286,0.13047825))
+((-5.702286,0.13047825), (-5.702286,0.13047825))
+((-5.702286,0.13047825), (-5.940713,0.7880808))
+((-5.940713,0.7880808), (-5.674313,1.7057401))
+((-5.940713,0.7880808), (-5.940713,0.7880808))
+((-5.674313,1.7057401), (-5.674313,1.7057401))
+((-5.674313,1.7057401), (-5.942269,2.4417884))
+((5.722778,0.58165157), (5.901402,1.3011471))
+((5.722778,0.58165157), (5.6062355,0.05894617))
+((4.477756,0.057734866), (4.477756,0.057734866))
+((4.477756,0.057734866), (5.0530467,0.060132787))
+((5.5719748,2.0650759), (5.901402,1.3011471))
+((5.5719748,2.0650759), (5.9400725,2.8358872))
+((5.8560777,12.071709), (5.6811314,11.315304))
+((5.8560777,12.071709), (5.8560777,12.071709))
+((5.0530467,0.060132787), (5.0530467,0.060132787))
+((5.0530467,0.060132787), (5.6062355,0.05894617))
+((5.940648,10.745549), (5.8866444,10.161938))
+((5.940648,10.745549), (5.6811314,11.315304))
+((5.6062355,0.05894617), (5.6062355,0.05894617))
+((5.6062355,0.05894617), (5.6062355,0.05894617))
+((5.6811314,11.315304), (5.6811314,11.315304))
+((5.6811314,11.315304), (5.6811314,11.315304))
+((5.901402,1.3011471), (5.901402,1.3011471))
+((5.901402,1.3011471), (5.901402,1.3011471))
+((5.9400725,2.8358872), (5.9400725,2.8358872))
+((5.9400725,2.8358872), (5.940343,3.42973))
+((5.940343,3.42973), (5.940343,3.42973))
+((5.940343,3.42973), (5.7683663,4.3869166))
+((-5.942269,2.4417884), (-5.942269,2.4417884))
+((-5.942269,2.4417884), (-5.6593757,3.197349))
+((-5.941373,10.80548), (-5.5367312,10.373424))
+((-5.941373,10.80548), (-5.5454526,11.238327))
+((-5.6593757,3.197349), (-5.6593757,3.197349))
+((-5.6593757,3.197349), (-5.940556,3.917079))
+((-5.940556,3.917079), (-5.567958,4.759062))
+((-5.940556,3.917079), (-5.940556,3.917079))
+((-5.567958,4.759062), (-5.567958,4.759062))
+((-5.567958,4.759062), (-5.942572,5.4654408))
+((5.7683663,4.3869166), (5.7683663,4.3869166))
+((5.7683663,4.3869166), (5.9419365,4.9060526))
+((5.9419365,4.9060526), (5.9419365,4.9060526))
+((5.9419365,4.9060526), (5.8578186,5.6809874))
+((5.8578186,5.6809874), (5.8578186,5.6809874))
+((5.8578186,5.6809874), (5.8578186,5.6809874))
+((5.861448,7.1479363), (5.941358,7.795376))
+((5.861448,7.1479363), (5.861448,7.1479363))
+((-5.942572,5.4654408), (-5.942572,5.4654408))
+((-5.942572,5.4654408), (-5.526436,6.2607594))
+((-5.526436,6.2607594), (-5.526436,6.2607594))
+((-5.526436,6.2607594), (-5.911505,7.0352817))
+((-5.911505,7.0352817), (-5.911505,7.0352817))
+((-5.911505,7.0352817), (-5.943018,7.590685))
+((-5.943018,7.590685), (-5.943018,7.590685))
+((-5.943018,7.590685), (-5.940862,8.280883))
+((-5.940862,8.280883), (-5.940862,8.280883))
+((-5.940862,8.280883), (-5.9404616,8.854886))
+((5.941358,7.795376), (5.941358,7.795376))
+((5.941358,7.795376), (5.7271147,8.457793))
+((5.7271147,8.457793), (5.7271147,8.457793))
+((5.7271147,8.457793), (5.8528094,9.317358))
+((5.8528094,9.317358), (5.8528094,9.317358))
+((5.8528094,9.317358), (5.8866444,10.161938))
+((-5.9404616,8.854886), (-5.9404616,8.854886))
+((-5.9404616,8.854886), (-5.9412274,9.490945))
+((-5.9412274,9.490945), (-5.9412274,9.490945))
+((-5.9412274,9.490945), (-5.9412274,9.490945))
+((-5.9412274,9.490945), (-5.5367312,10.373424))
+((5.8866444,10.161938), (5.8866444,10.161938))
+((5.8866444,10.161938), (5.8866444,10.161938))
+((-5.5454526,11.238327), (-5.5454526,11.238327))
+((-5.5454526,11.238327), (-5.914078,12.05208))
+((-5.5454526,11.238327), (-5.5454526,11.238327))
+((-5.5454526,11.238327), (-5.5454526,11.238327))
+((-3.5396717,14.70857), (-4.134175,14.910043))
+((-3.5396717,14.70857), (-3.0904634,14.855916))
+((-5.914078,12.05208), (-5.914078,12.05208))
+((-5.914078,12.05208), (-5.914078,12.05208))
+((5.940906,13.796968), (5.940906,13.796968))
+((5.940906,13.796968), (5.750733,14.49274))
+((5.750733,14.49274), (5.750733,14.49274))
+((5.750733,14.49274), (5.940315,14.942101))
+((3.8844035,14.711194), (4.4925613,14.941985))
+((3.8844035,14.711194), (3.275219,14.940631))
+((3.275219,14.940631), (2.7618515,14.610674))
+((3.275219,14.940631), (3.275219,14.940631))
+((2.7618515,14.610674), (2.7618515,14.610674))
+((2.7618515,14.610674), (2.1298382,14.764355))
+((5.064391,14.742151), (4.4925613,14.941985))
+((5.064391,14.742151), (5.560213,14.93947))
+((2.1298382,14.764355), (1.2052997,14.921438))
+((2.1298382,14.764355), (2.1298382,14.764355))
+((4.4925613,14.941985), (4.4925613,14.941985))
+((4.4925613,14.941985), (4.4925613,14.941985))
+((-5.5367312,10.373424), (-5.5367312,10.373424))
+((-5.5367312,10.373424), (-5.5367312,10.373424))
+((-4.812759,14.941481), (-4.812759,14.941481))
+((-4.812759,14.941481), (-4.134175,14.910043))
+((-4.134175,14.910043), (-4.134175,14.910043))
+((-4.134175,14.910043), (-4.134175,14.910043))
+((5.560213,14.93947), (5.560213,14.93947))
+((5.560213,14.93947), (5.940315,14.942101))
+((-3.0904634,14.855916), (-2.407757,14.530363))
+((-3.0904634,14.855916), (-3.0904634,14.855916))
+((-2.407757,14.530363), (-2.407757,14.530363))
+((-2.407757,14.530363), (-2.040403,14.943384))
+((-2.040403,14.943384), (-1.0859201,14.60024))
+((-2.040403,14.943384), (-2.040403,14.943384))
+((-0.32818425,14.9422245), (-1.0859201,14.60024))
+((-0.32818425,14.9422245), (0.36144075,14.941243))
+((-1.0859201,14.60024), (-1.0859201,14.60024))
+((-1.0859201,14.60024), (-1.0859201,14.60024))
+((0.36144075,14.941243), (1.2052997,14.921438))
+((0.36144075,14.941243), (0.36144075,14.941243))
+((1.2052997,14.921438), (1.2052997,14.921438))
+((1.2052997,14.921438), (1.2052997,14.921438))
+((5.940315,14.942101), (5.940315,14.942101))
+((5.940315,14.942101), (5.940315,14.942101))
+#Blacklist Edges

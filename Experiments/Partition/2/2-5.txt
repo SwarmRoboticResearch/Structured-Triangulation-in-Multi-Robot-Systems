@@ -1,0 +1,926 @@
+/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/usr/bin/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/compilefontconfig.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/javazic.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar:/home/doms/Research/SwarmRoboticResearch/platypus3000/target/classes:/home/doms/.m2/repository/org/processing/core/core/2.2/core-2.2.jar:/home/doms/.m2/repository/org/processing/pdf/pdf/2.2/pdf-2.2.jar:/home/doms/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/home/doms/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/home/doms/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:/home/doms/.m2/repository/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar:/home/doms/.m2/repository/org/jbox2d/jbox2d-library/2.2.1.1/jbox2d-library-2.2.1.1.jar:/home/doms/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all-main/2.1.5-01/jogl-all-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt-main/2.1.5-01/gluegen-rt-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/javabits/jgrapht/jgrapht-core/0.9.1/jgrapht-core-0.9.1.jar:/usr/bin/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain projects.triangulation.Environment.HeadlessRunner
+Loading configuration from /home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1.properties
+Radius = 0.05 meter
+Range = 1.2 meter
+MessageBufferSize = 5000
+MaximalAcceleration = 0.1
+MaximalVelocity = 1.0
+MaximalBrakePower = 0.3
+MaximalRotationAcceleration = 1.0
+MaximalRotationVelocity = 10.0
+MaximalRotationBreak = 1.0
+ConnectivityProbability = 1.0
+NeighborPositionAngleNoise = 0.0
+NeighborPositionDistanceNoise = 0.01
+SpeedDeviationChange = 0.2 (Noisy)
+RotationSpeedDeviationChange = 0.2 (Noisy)
+CleanOldMessages = False
+#Environment:
+/home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1-lineenvdata
+#Neighborhood Update Probability
+1/2
+6 deleted because: Partition
+8 deleted because: Partition
+87 closest triangle has a high difference to actual triangle -> restart -0.23625335 0.24130942
+88 closest triangle has a high difference to actual triangle -> restart -0.15560727 0.1464906
+Failed to update localization triangle LocalizationTriangle(8, 15, 22)
+6: loop_prologue - Removing Localization Triangle LocalizationTriangle(8, 15, 22)
+6: MovementController Failed
+6 closest triangle has a high difference to actual triangle -> restart -0.6085928 -0.9112786
+Unable to transform
+37 deleted because: Partition
+36 deleted because: Partition
+36 closest triangle has a high difference to actual triangle -> restart -0.24989936 -0.5589612
+LocalizationTriangle.locateNbr: No NeighborState of 36, returning null
+Unable to transform
+34 deleted because: Partition
+53 deleted because: Partition
+35 deleted because: Partition
+158 closest triangle has a high difference to actual triangle -> restart -0.3350487 0.07244669
+Failed to update localization triangle LocalizationTriangle(35, 55, 56)
+53: loop_prologue - Removing Localization Triangle LocalizationTriangle(35, 55, 56)
+53: MovementController Failed
+53 closest triangle has a high difference to actual triangle -> restart -0.53693664 -1.0162674
+LocalizationTriangle.locateNbr: No NeighborState of 86, returning null
+Unable to transform
+89 deleted because: Partition
+8 deleted because: Partition
+8 closest triangle has a high difference to actual triangle -> restart -0.61405283 -0.9160476
+LocalizationTriangle.locateNbr: No NeighborState of 8, returning null
+Unable to transform
+72 deleted because: Partition
+74 deleted because: Partition
+185 closest triangle has a high difference to actual triangle -> restart -0.34918395 0.11057522
+90 deleted because: Partition
+Unable to transform
+185 closest triangle has a high difference to actual triangle -> restart -0.3763286 -0.074781224
+72 closest triangle has a high difference to actual triangle -> restart 0.1576168 -0.1580546
+LocalizationTriangle.locateNbr: No NeighborState of 72, returning null
+Unable to transform
+90 closest triangle has a high difference to actual triangle -> restart -0.5081822 -0.81974196
+LocalizationTriangle.locateNbr: No NeighborState of 90, returning null
+Unable to transform
+Could not determine adjacent triangle
+203 evasion -> no adjacent triangle
+142 deleted because: Partition
+122 deleted because: Partition
+143 deleted because: Partition
+125 deleted because: Partition
+128 deleted because: Partition
+128 closest triangle has a high difference to actual triangle -> restart -0.83733094 -0.5258527
+LocalizationTriangle.locateNbr: No NeighborState of 128, returning null
+Unable to transform
+210 closest triangle has a high difference to actual triangle -> restart -0.28061748 0.08811044
+Failed to update localization triangle LocalizationTriangle(122, 128, 125)
+122: loop_prologue - Removing Localization Triangle LocalizationTriangle(122, 128, 125)
+122: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(125, 128, 143)
+143: loop_prologue - Removing Localization Triangle LocalizationTriangle(125, 128, 143)
+143: MovementController Failed
+125 closest triangle has a high difference to actual triangle -> restart -0.55405456 -0.2433847
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(37, 149, 172)
+143: loop_prologue - Removing Localization Triangle LocalizationTriangle(37, 149, 172)
+143: MovementController Failed
+143 deleted because: Blacklist
+165 deleted because: DeletionDemand
+211 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(143, 165, 211)
+165: loop_prologue - Removing Localization Triangle LocalizationTriangle(143, 165, 211)
+ROBOT-165 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(143, 165, 211)
+237: loop_prologue - Removing Localization Triangle LocalizationTriangle(143, 165, 211)
+235 closest triangle has a high difference to actual triangle -> restart -0.23628227 0.23255286
+237 closest triangle has a high difference to actual triangle -> restart -0.80856496 -0.26176158
+Unable to transform
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:98)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 165! Restarting...
+LocalizationTriangle.locateNbr: No NeighborState of 204, returning null
+Unable to transform
+Could not determine adjacent triangle
+Robot-245 failed to get adjacent triangle, restart
+176 deleted because: Partition
+155 deleted because: Partition
+187 deleted because: Partition
+140 deleted because: Partition
+181 deleted because: Partition
+262 closest triangle has a high difference to actual triangle -> restart -0.30664718 0.010300124
+151 deleted because: Partition
+187 closest triangle has a high difference to actual triangle -> restart -0.862545 -0.5607059
+Unable to transform
+LocalizationTriangle.locateNbr: No NeighborState of 140, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(135, 156, 155)
+155: loop_prologue - Removing Localization Triangle LocalizationTriangle(135, 156, 155)
+155: MovementController Failed
+181 closest triangle has a high difference to actual triangle -> restart -0.5712537 -0.8713468
+Unable to transform
+155 closest triangle has a high difference to actual triangle -> restart -0.4298453 -0.74122417
+LocalizationTriangle.locateNbr: No NeighborState of 183, returning null
+Unable to transform
+160 deleted because: Partition
+89 deleted because: Partition
+280 closest triangle has a high difference to actual triangle -> restart -0.2974819 0.16039279
+167 deleted because: Partition
+279 closest triangle has a high difference to actual triangle -> restart -0.26681688 0.22451831
+Could not determine adjacent triangle
+Robot-281 failed to get adjacent triangle, restart
+167 closest triangle has a high difference to actual triangle -> restart -0.5958847 -0.89978784
+LocalizationTriangle.locateNbr: No NeighborState of 168, returning null
+Unable to transform
+89 closest triangle has a high difference to actual triangle -> restart -0.59801584 -0.90280944
+LocalizationTriangle.locateNbr: No NeighborState of 202, returning null
+Unable to transform
+178 deleted because: Partition
+177 deleted because: Partition
+179 deleted because: Partition
+195 deleted because: Partition
+8 deleted because: Partition
+180 deleted because: triangles.isEmpty()
+198 deleted because: Partition
+282 closest triangle has a high difference to actual triangle -> restart -0.38875622 0.031285737
+Unable to transform
+284 closest triangle has a high difference to actual triangle -> restart -0.15321885 0.14697252
+Could not determine adjacent triangle
+283 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(177, 195, 180)
+178: loop_prologue - Removing Localization Triangle LocalizationTriangle(177, 195, 180)
+178: MovementController Failed
+LocalizationTriangle.locateNbr: No NeighborState of 179, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(8, 198, 199)
+8: loop_prologue - Removing Localization Triangle LocalizationTriangle(8, 198, 199)
+ROBOT-8 called evasion without a valid triangle
+220 deleted because: Partition
+238 deleted because: Partition
+240 deleted because: Partition
+176 deleted because: Partition
+234 deleted because: Partition
+243 deleted because: Partition
+239 deleted because: triangles.isEmpty()
+261 deleted because: Partition
+Failed to update localization triangle LocalizationTriangle(234, 238, 239)
+240: loop_prologue - Removing Localization Triangle LocalizationTriangle(234, 238, 239)
+240: MovementController Failed
+243 closest triangle has a high difference to actual triangle -> restart -0.6995509 -0.39245948
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(241, 243, 242)
+239: loop_prologue - Removing Localization Triangle LocalizationTriangle(241, 243, 242)
+ROBOT-239 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(241, 243, 242)
+234: loop_prologue - Removing Localization Triangle LocalizationTriangle(241, 243, 242)
+ROBOT-234 called evasion without a valid triangle
+143 deleted because: Partition
+237 deleted because: Partition
+236 deleted because: Partition
+252 deleted because: Partition
+253 deleted because: Partition
+251 deleted because: triangles.isEmpty()
+251: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(143, 236, 251)
+236: loop_prologue - Removing Localization Triangle LocalizationTriangle(143, 236, 251)
+ROBOT-236 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(143, 236, 251)
+252: loop_prologue - Removing Localization Triangle LocalizationTriangle(143, 236, 251)
+ROBOT-252 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(236, 237, 251)
+237: loop_prologue - Removing Localization Triangle LocalizationTriangle(236, 237, 251)
+237: MovementController Failed
+143 closest triangle has a high difference to actual triangle -> restart -0.5419747 -0.24008267
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(261, 268, 266)
+261: loop_prologue - Removing Localization Triangle LocalizationTriangle(261, 268, 266)
+261: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(176, 268, 261)
+176: loop_prologue - Removing Localization Triangle LocalizationTriangle(176, 268, 261)
+176: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(140, 269, 268)
+176: loop_prologue - Removing Localization Triangle LocalizationTriangle(140, 269, 268)
+176: MovementController Failed
+258 deleted because: Partition
+178 deleted because: Partition
+255 deleted because: Partition
+323 closest triangle has a high difference to actual triangle -> restart -0.2744176 0.077203035
+155 deleted because: Partition
+#Steps
+328450
+#Robots
+299
+#Triangles
+((-0.5,0.0), (0.0,-0.86), (0.5,0.0)), 0.42999998347703766
+((-0.0020675305,0.7143195), (-0.5,0.0), (0.5,0.0)), 0.35715975295700514
+((0.8654461,0.7832679), (-0.0020675305,0.7143195), (0.5,0.0)), 0.3271493143098383
+((0.8654461,0.7832679), (1.7481139,0.8729483), (1.2532548,1.5751984)), 0.33211638537222543
+((-0.8717015,0.77538687), (-0.5,0.0), (-0.0020675305,0.7143195)), 0.3258019479630418
+((-0.8717015,0.77538687), (-1.2483773,1.5608608), (-1.745304,0.8652312)), 0.3261748901958782
+((5.7530117,1.2965244), (5.107816,1.5053798), (5.1736426,0.9044166)), 0.18699525407070028
+((5.7530117,1.2965244), (5.1736426,0.9044166), (5.412522,0.34233233)), 0.20966033708446857
+((1.3743124,0.08089566), (0.8654461,0.7832679), (0.5,0.0)), 0.3276289300802933
+((-0.50967574,14.942167), (-1.0164571,14.9411125), (-0.39734933,14.404939)), 0.13618796037444705
+((-0.50967574,14.942167), (-0.39734933,14.404939), (0.28043893,14.694708)), 0.19833796400252846
+((-1.3751285,0.0720071), (-0.5,0.0), (-0.8717015,0.77538687)), 0.32589901001043325
+((-1.2483773,1.5608608), (-1.7251579,2.3409195), (-2.1195083,1.6572742)), 0.31678263330021156
+((1.2532548,1.5751984), (2.1111152,1.6633261), (1.650493,2.3804808)), 0.3279060700609751
+((-1.745304,0.8652312), (-1.3751285,0.0720071), (-0.8717015,0.77538687)), 0.3298521679229178
+((-1.745304,0.8652312), (-2.1195083,1.6572742), (-2.6327932,0.93099403)), 0.3391604295285192
+((-2.2365506,0.13385645), (-1.3751285,0.0720071), (-1.745304,0.8652312)), 0.33020281270623913
+((1.7481139,0.8729483), (0.8654461,0.7832679), (1.3743124,0.08089566)), 0.3327983186055485
+((1.7481139,0.8729483), (2.6408408,1.0026021), (2.1111152,1.6633261)), 0.3292635284228191
+((-0.11329445,2.2222764), (0.24045588,3.033276), (-0.54828894,2.971852)), 0.3089714635955738
+((2.259495,0.19252999), (1.7481139,0.8729483), (1.3743124,0.08089566)), 0.32969107874514386
+((0.7580765,2.3035202), (1.1548924,3.0781236), (0.24045588,3.033276)), 0.3452647495482238
+((2.1111152,1.6633261), (1.2532548,1.5751984), (1.7481139,0.8729483)), 0.32302168963598776
+((2.1111152,1.6633261), (2.973182,1.8078854), (2.4592326,2.3627932)), 0.2763318420022112
+((2.6408408,1.0026021), (1.7481139,0.8729483), (2.259495,0.19252999)), 0.33686513130793533
+((2.6408408,1.0026021), (3.5062335,1.0679141), (2.973182,1.8078854)), 0.3375901997972871
+((-2.1195083,1.6572742), (-1.745304,0.8652312), (-1.2483773,1.5608608)), 0.32694742660387693
+((-2.6327932,0.93099403), (-2.2365506,0.13385645), (-1.745304,0.8652312)), 0.34069644896070533
+((-2.6327932,0.93099403), (-2.975607,1.7221388), (-3.5016997,0.95540434)), 0.3395313383542054
+((-0.8472284,2.169677), (-0.54828894,2.971852), (-1.2916907,2.937269)), 0.2930000669907308
+((0.24045588,3.033276), (-0.11329445,2.2222764), (0.7580765,2.3035202)), 0.3389707401590346
+((-2.975607,1.7221388), (-2.6327932,0.93099403), (-2.1195083,1.6572742)), 0.3275307428512381
+((-2.975607,1.7221388), (-3.461499,2.4538357), (-3.8521068,1.7610425)), 0.31121464076519567
+((3.1256988,0.28301206), (2.6408408,1.0026021), (2.259495,0.19252999)), 0.3335912744577648
+((2.973182,1.8078854), (2.1111152,1.6633261), (2.6408408,1.0026021)), 0.3230824608904578
+((2.973182,1.8078854), (3.8383276,1.8940294), (3.1821988,2.4963439)), 0.2888056799845527
+((-0.54828894,2.971852), (-0.8472284,2.169677), (-0.11329445,2.2222764)), 0.2865097375466548
+((-0.54828894,2.971852), (-0.21360813,3.7637892), (-0.96307933,3.766196)), 0.29716978997090215
+((-1.7251579,2.3409195), (-1.2483773,1.5608608), (-0.8472284,2.169677)), 0.30159573693016706
+((-1.2916907,2.937269), (-1.7251579,2.3409195), (-0.8472284,2.169677)), 0.29889040030030717
+((-1.2916907,2.937269), (-0.96307933,3.766196), (-1.6836545,3.7865417)), 0.30199508227440097
+((1.650493,2.3804808), (0.7580765,2.3035202), (1.2532548,1.5751984)), 0.34403780246551263
+((2.4592326,2.3627932), (1.650493,2.3804808), (2.1111152,1.6633261)), 0.28592201514084037
+((2.4592326,2.3627932), (3.1821988,2.4963439), (2.9066982,3.1044686)), 0.23822348316559214
+((-3.101094,0.17483217), (-2.2365506,0.13385645), (-2.6327932,0.93099403)), 0.3364618666830436
+((1.1548924,3.0781236), (0.7580765,2.3035202), (1.650493,2.3804808)), 0.33036484764570073
+((5.600485,7.574734), (4.9522743,6.958529), (5.9322867,6.7404156)), 0.37263609953648463
+((5.600485,7.574734), (4.8455667,7.538881), (4.9522743,6.958529)), 0.220971973365468
+((-2.9438684,7.620707), (-3.2487154,6.9283423), (-2.4444728,6.8629036)), 0.28838896251058116
+((-2.9438684,7.620707), (-2.4444728,6.8629036), (-2.2454007,7.6499705)), 0.27195762989989053
+((-2.9438684,7.620707), (-2.6186056,8.436221), (-3.2573857,8.431384)), 0.25968042568298233
+((-4.2476754,6.9791136), (-4.7410207,6.2315607), (-3.7729516,6.2234163)), 0.3638503836060064
+((-4.2476754,6.9791136), (-3.7729516,6.2234163), (-3.2487154,6.9283423)), 0.3654045279816342
+((-4.2476754,6.9791136), (-4.5816283,7.7777452), (-5.1100645,7.0107813)), 0.33907786479539354
+((-1.5361089,7.389056), (-1.1536783,8.16094), (-1.8317754,8.279509)), 0.2843782183706077
+((-3.5016997,0.95540434), (-3.101094,0.17483217), (-2.6327932,0.93099403)), 0.33423267303400117
+((-3.5016997,0.95540434), (-3.8521068,1.7610425), (-4.3443704,1.019756)), 0.32816918393518185
+((-0.21360813,3.7637892), (-0.54828894,2.971852), (0.24045588,3.033276)), 0.3020394254980104
+((-0.21360813,3.7637892), (0.17694472,4.5763116), (-0.62185895,4.427722)), 0.29550690130785373
+((-0.96307933,3.766196), (-1.2916907,2.937269), (-0.54828894,2.971852)), 0.3024307204746206
+((-0.96307933,3.766196), (-0.62185895,4.427722), (-1.3045853,4.5576334)), 0.24798482584388049
+((-1.6836545,3.7865417), (-2.1187508,4.472267), (-2.5813549,3.8824444)), 0.2869245622036758
+((-3.9741712,0.2253217), (-3.101094,0.17483217), (-3.5016997,0.95540434)), 0.33063666359171645
+((3.5062335,1.0679141), (2.6408408,1.0026021), (3.1256988,0.28301206)), 0.32719750107615975
+((3.5062335,1.0679141), (4.362105,1.1344844), (3.8383276,1.8940294)), 0.3424704209488912
+((-3.461499,2.4538357), (-3.8696473,3.2359865), (-4.32562,2.4917583)), 0.33019751020598426
+((3.8383276,1.8940294), (2.973182,1.8078854), (3.5062335,1.0679141)), 0.3430510589441764
+((2.9066982,3.1044686), (3.767715,3.1198528), (3.2189052,3.9299233)), 0.35296365419300363
+((3.1821988,2.4963439), (2.4592326,2.3627932), (2.973182,1.8078854)), 0.23490893421869857
+((-3.8521068,1.7610425), (-3.5016997,0.95540434), (-2.975607,1.7221388)), 0.3462547814558933
+((-3.8521068,1.7610425), (-4.32562,2.4917583), (-4.7386856,1.8282025)), 0.3080180508128088
+((-2.995499,3.192218), (-3.4710763,3.9449744), (-3.8696473,3.2359865)), 0.3186027205300184
+((3.9867516,0.33776745), (3.5062335,1.0679141), (3.1256988,0.28301206)), 0.32750288707246844
+((4.362105,1.1344844), (3.5062335,1.0679141), (3.9867516,0.33776745)), 0.3284499512117082
+((4.362105,1.1344844), (5.1736426,0.9044166), (5.107816,1.5053798)), 0.23627990829789133
+((4.709475,1.9374812), (3.8383276,1.8940294), (4.362105,1.1344844)), 0.3422173230139101
+((4.709475,1.9374812), (5.107816,1.5053798), (5.5900693,1.892172)), 0.18122875524846113
+((4.709475,1.9374812), (5.401181,2.463259), (4.859251,2.7802937)), 0.2521149019830025
+((-3.2573857,8.431384), (-2.9417524,9.249548), (-3.6415925,9.245042)), 0.2855807502159648
+((2.356898,3.995523), (3.2189052,3.9299233), (2.7134826,4.795628)), 0.3565440420042135
+((1.0059551,4.602997), (1.3096138,5.4321885), (0.5705828,5.3480067)), 0.2936178899507479
+((0.17694472,4.5763116), (0.5705828,5.3480067), (-0.37005904,5.2642055)), 0.3464507300589554
+((-1.3045853,4.5576334), (-1.6836545,3.7865417), (-0.96307933,3.766196)), 0.28167097057820095
+((-1.3045853,4.5576334), (-0.97089887,5.0608873), (-1.8020341,5.2658076)), 0.24332563555203437
+((3.767715,3.1198528), (2.9066982,3.1044686), (3.1821988,2.4963439)), 0.2639219722728427
+((-0.62185895,4.427722), (-0.96307933,3.766196), (-0.21360813,3.7637892)), 0.24830796925626153
+((-0.62185895,4.427722), (-0.37005904,5.2642055), (-0.97089887,5.0608873)), 0.2256985915650716
+((-2.1187508,4.472267), (-1.6836545,3.7865417), (-1.3045853,4.5576334)), 0.29771826841400106
+((-2.1187508,4.472267), (-1.8020341,5.2658076), (-2.5491333,5.28994)), 0.3002482683360518
+((-2.5813549,3.8824444), (-2.976256,4.656041), (-3.4710763,3.9449744)), 0.33179620389284403
+((-4.3443704,1.019756), (-3.9741712,0.2253217), (-3.5016997,0.95540434)), 0.322811739035316
+((-4.3443704,1.019756), (-5.2266746,1.0942578), (-4.8381095,0.2810487)), 0.34427450003044374
+((-4.8381095,0.2810487), (-3.9741712,0.2253217), (-4.3443704,1.019756)), 0.3328560737955074
+((-3.8696473,3.2359865), (-3.461499,2.4538357), (-2.995499,3.192218)), 0.3329258703281307
+((-4.32562,2.4917583), (-3.8521068,1.7610425), (-3.461499,2.4538357)), 0.30673515174918553
+((-4.32562,2.4917583), (-4.73121,3.2554), (-5.195559,2.5604844)), 0.31822343275874165
+((-3.4710763,3.9449744), (-2.995499,3.192218), (-2.5813549,3.8824444)), 0.32000276663075977
+((-4.7386856,1.8282025), (-4.3443704,1.019756), (-3.8521068,1.7610425)), 0.34513467723870195
+((-4.7386856,1.8282025), (-5.195559,2.5604844), (-5.6285596,1.866929)), 0.31697275521727375
+((-5.2266746,1.0942578), (-4.3443704,1.019756), (-4.7386856,1.8282025)), 0.3419592553387333
+((-5.2266746,1.0942578), (-5.6285596,1.866929), (-5.9401684,1.0807537)), 0.2783616286279421
+((-4.73121,3.2554), (-4.32562,2.4917583), (-3.8696473,3.2359865)), 0.3250256688728372
+((-4.73121,3.2554), (-5.2438045,3.9536834), (-5.631827,3.323252)), 0.2970525561963217
+((3.2189052,3.9299233), (2.356898,3.995523), (2.9066982,3.1044686)), 0.366014270108218
+((1.8509932,4.7213583), (2.2063222,5.537861), (1.3096138,5.4321885)), 0.347308123876939
+((4.1458144,9.519475), (3.6736825,8.789424), (4.6738176,8.819976)), 0.35786256564833696
+((4.1458144,9.519475), (3.5028183,9.637874), (3.6736825,8.789424)), 0.2626598575305719
+((4.1458144,9.519475), (4.6738176,8.819976), (4.98209,9.636308)), 0.3233310427514934
+((4.1458144,9.519475), (4.6980457,10.178602), (3.9806838,10.287762)), 0.2665570260321026
+((4.859251,2.7802937), (5.401181,2.463259), (5.6111903,3.2754004)), 0.2533520886705321
+((5.9401865,8.208894), (5.204544,8.182194), (5.600485,7.574734)), 0.2287223158301837
+((4.8510327,0.3963462), (4.362105,1.1344844), (3.9867516,0.33776745)), 0.3332998723381787
+((4.4541874,0.05756852), (4.8510327,0.3963462), (3.9867516,0.33776745)), 0.13477624630191698
+((-2.976256,4.656041), (-2.5813549,3.8824444), (-2.1187508,4.472267)), 0.29539535107044024
+((-2.976256,4.656041), (-2.5491333,5.28994), (-3.3842342,5.4296994)), 0.29453191175310584
+((-1.8020341,5.2658076), (-2.1187508,4.472267), (-1.3045853,4.5576334)), 0.3095181538537612
+((-0.37005904,5.2642055), (-0.62185895,4.427722), (0.17694472,4.5763116)), 0.31538565597040447
+((-0.97089887,5.0608873), (-1.3045853,4.5576334), (-0.62185895,4.427722)), 0.19346721608880613
+((0.5705828,5.3480067), (0.17694472,4.5763116), (1.0059551,4.602997)), 0.31461947051438094
+((0.5705828,5.3480067), (0.8361087,6.201025), (0.022435522,6.0527754)), 0.3273569723476903
+((-5.699593,0.3320828), (-4.8381095,0.2810487), (-5.2266746,1.0942578)), 0.3403681293975093
+((-5.195559,2.5604844), (-4.7386856,1.8282025), (-4.32562,2.4917583)), 0.30282067330178675
+((-5.195559,2.5604844), (-5.631827,3.323252), (-5.9417243,2.540206)), 0.2889987643316113
+((5.1736426,0.9044166), (4.362105,1.1344844), (4.8510327,0.3963462)), 0.2432702456970274
+((1.3096138,5.4321885), (1.0059551,4.602997), (1.8509932,4.7213583)), 0.3323785087906669
+((1.3096138,5.4321885), (1.6430861,6.21574), (0.8361087,6.201025)), 0.31370069388023125
+((2.7134826,4.795628), (1.8509932,4.7213583), (2.356898,3.995523)), 0.3317993813014284
+((2.7134826,4.795628), (3.2110608,5.533009), (2.2063222,5.537861)), 0.3716446251099606
+((2.2063222,5.537861), (1.8509932,4.7213583), (2.7134826,4.795628)), 0.3389173465071151
+((2.2063222,5.537861), (2.7211075,6.2490983), (2.196109,6.333265)), 0.20836310869267952
+((5.107816,1.5053798), (4.709475,1.9374812), (4.362105,1.1344844)), 0.23498288636338796
+((-5.634501,14.050355), (-5.752338,13.499104), (-5.178571,13.653594)), 0.14904250901603355
+((-5.634501,14.050355), (-5.178571,13.653594), (-4.6876855,14.317596)), 0.2487513682792642
+((3.0971441,9.199537), (3.5028183,9.637874), (2.6867416,9.877053)), 0.22737254651881345
+((4.8514247,3.7759345), (5.5620394,4.043097), (5.186971,4.6145296)), 0.25313627429861507
+((-3.3842342,5.4296994), (-2.8822873,6.1336107), (-3.7729516,6.2234163)), 0.336013219860687
+((3.5836716,4.7215457), (2.7134826,4.795628), (3.2189052,3.9299233)), 0.35794192143262743
+((3.5836716,4.7215457), (4.458003,4.7212524), (4.087677,5.451428)), 0.3191533981437864
+((4.458003,4.7212524), (5.186971,4.6145296), (4.9676886,5.4419436)), 0.28987801701422006
+((-5.2438045,3.9536834), (-5.6464047,4.7286706), (-5.9400806,3.974053)), 0.2657021943288878
+((-5.6285596,1.866929), (-5.2266746,1.0942578), (-4.7386856,1.8282025)), 0.3360082086180583
+((5.412522,0.34233233), (5.1736426,0.9044166), (4.8510327,0.3963462)), 0.15135070341860116
+((5.9407263,0.6829009), (5.7530117,1.2965244), (5.412522,0.34233233)), 0.19402416658427707
+((5.5900693,1.892172), (5.107816,1.5053798), (5.7530117,1.2965244)), 0.1751388626843763
+((5.5900693,1.892172), (5.9420567,2.7163327), (5.401181,2.463259)), 0.1783448101150557
+((5.401181,2.463259), (4.709475,1.9374812), (5.5900693,1.892172)), 0.24716875881760597
+((-5.9401684,1.0807537), (-5.699593,0.3320828), (-5.2266746,1.0942578)), 0.26871040684674924
+((5.6111903,3.2754004), (4.8514247,3.7759345), (4.859251,2.7802937)), 0.3762681499171699
+((5.6111903,3.2754004), (5.9420567,2.7163327), (5.9416375,3.6462195)), 0.1537169895168246
+((5.9420567,2.7163327), (5.6111903,3.2754004), (5.401181,2.463259)), 0.1930598144486483
+((5.5620394,4.043097), (4.8514247,3.7759345), (5.6111903,3.2754004)), 0.27933389911806744
+((-5.631827,3.323252), (-5.195559,2.5604844), (-4.73121,3.2554)), 0.32867975115378184
+((-2.5491333,5.28994), (-2.976256,4.656041), (-2.1187508,4.472267)), 0.3110327129178218
+((-2.5491333,5.28994), (-2.1564379,6.0483537), (-2.8822873,6.1336107)), 0.2919871224566902
+((3.2110608,5.533009), (2.7134826,4.795628), (3.5836716,4.7215457)), 0.3392612902913797
+((3.2110608,5.533009), (3.699564,6.2435045), (2.7211075,6.2490983)), 0.34896073293098107
+((-5.9417243,2.540206), (-5.6285596,1.866929), (-5.195559,2.5604844)), 0.2543631477547171
+((1.6430861,6.21574), (1.3096138,5.4321885), (2.2063222,5.537861)), 0.33368927483551963
+((2.7211075,6.2490983), (2.2063222,5.537861), (3.2110608,5.533009)), 0.3585526552941698
+((2.7211075,6.2490983), (3.224094,6.967083), (2.5514467,6.883717)), 0.220509232954885
+((-5.9400806,3.974053), (-5.631827,3.323252), (-5.2438045,3.9536834)), 0.22342911651195835
+((-5.225006,5.5004783), (-5.6464047,4.7286706), (-4.7659416,4.7610703)), 0.3329475214011937
+((-5.225006,5.5004783), (-4.7659416,4.7610703), (-4.2739096,5.4919715)), 0.34967160869758535
+((-5.225006,5.5004783), (-5.6167417,6.283697), (-5.9412003,5.425535)), 0.2951473359538492
+((-5.9412003,5.425535), (-5.6464047,4.7286706), (-5.225006,5.5004783)), 0.2605916563838101
+((-5.6464047,4.7286706), (-5.2438045,3.9536834), (-4.7659416,4.7610703)), 0.3476958948740567
+((-4.2739096,5.4919715), (-3.7729516,6.2234163), (-4.7410207,6.2315607)), 0.35608456267104416
+((-2.1564379,6.0483537), (-2.5491333,5.28994), (-1.8020341,5.2658076)), 0.2880434813168911
+((0.8361087,6.201025), (0.5705828,5.3480067), (1.3096138,5.4321885)), 0.30402725772155814
+((0.8361087,6.201025), (1.2328708,6.9632254), (0.2906077,6.8797555)), 0.3425377581659959
+((5.940592,0.10147312), (5.9407263,0.6829009), (5.412522,0.34233233)), 0.15353344724058485
+((-2.8822873,6.1336107), (-3.3842342,5.4296994), (-2.5491333,5.28994)), 0.32899441658662254
+((-2.8822873,6.1336107), (-2.4444728,6.8629036), (-3.2487154,6.9283423)), 0.30758918755877956
+((5.186971,4.6145296), (4.458003,4.7212524), (4.8514247,3.7759345)), 0.32355982683229595
+((5.186971,4.6145296), (5.9432063,4.7193723), (5.710808,5.4129043)), 0.27441927541756816
+((0.96405697,10.743755), (0.46320027,10.117241), (1.1210433,9.899292)), 0.2606546919533393
+((0.96405697,10.743755), (1.1210433,9.899292), (1.6256121,10.617422)), 0.2694132449798769
+((-3.7729516,6.2234163), (-4.2739096,5.4919715), (-3.3842342,5.4296994)), 0.3409720905389594
+((5.9432063,4.7193723), (5.186971,4.6145296), (5.5620394,4.043097)), 0.23573027409220215
+((-5.941152,9.280822), (-5.8440046,8.637083), (-5.36593,9.373951)), 0.18966996672792474
+((-5.941152,9.280822), (-5.36593,9.373951), (-5.7480345,10.160845)), 0.24411186048810785
+((0.022435522,6.0527754), (-0.37005904,5.2642055), (0.5705828,5.3480067)), 0.3544351621216725
+((0.2906077,6.8797555), (0.022435522,6.0527754), (0.8361087,6.201025)), 0.3165675093771317
+((0.2906077,6.8797555), (0.698745,7.6663985), (0.094834365,7.6650653)), 0.23725898522364755
+((1.6256121,10.617422), (1.1210433,9.899292), (1.9881237,9.829559)), 0.3289307170656374
+((1.6256121,10.617422), (1.9881237,9.829559), (2.320371,10.701961)), 0.2890104040678765
+((4.087677,5.451428), (3.2110608,5.533009), (3.5836716,4.7215457)), 0.3404719805203131
+((4.087677,5.451428), (4.9676886,5.4419436), (4.582752,6.175768)), 0.32106145663887387
+((-4.7410207,6.2315607), (-5.225006,5.5004783), (-4.2739096,5.4919715)), 0.34972355219537027
+((-4.7410207,6.2315607), (-5.1100645,7.0107813), (-5.6167417,6.283697)), 0.33156958629071753
+((4.9676886,5.4419436), (4.087677,5.451428), (4.458003,4.7212524)), 0.31952528633204536
+((4.9676886,5.4419436), (5.371939,6.1981316), (4.582752,6.175768)), 0.29386653668342844
+((3.699564,6.2435045), (3.2110608,5.533009), (4.087677,5.451428)), 0.33134225154553354
+((3.699564,6.2435045), (4.1569734,6.9946833), (3.224094,6.967083)), 0.3440672754065459
+((5.710808,5.4129043), (4.9676886,5.4419436), (5.186971,4.6145296)), 0.30424970572198007
+((5.371939,6.1981316), (4.9676886,5.4419436), (5.710808,5.4129043)), 0.28683844258615726
+((5.371939,6.1981316), (5.9322867,6.7404156), (4.9522743,6.958529)), 0.32683221137620844
+((3.224094,6.967083), (2.7211075,6.2490983), (3.699564,6.2435045)), 0.3526651891235439
+((1.2328708,6.9632254), (0.8361087,6.201025), (1.6430861,6.21574)), 0.3046200139549855
+((4.582752,6.175768), (3.699564,6.2435045), (4.087677,5.451428)), 0.3366316012122324
+((4.582752,6.175768), (4.9522743,6.958529), (4.1569734,6.9946833)), 0.31794522266371206
+((2.196109,6.333265), (1.6430861,6.21574), (2.2063222,5.537861)), 0.22053848303335932
+((-3.2487154,6.9283423), (-3.7729516,6.2234163), (-2.8822873,6.1336107)), 0.3374658792520045
+((1.2341496,13.659264), (0.29865322,13.786395), (0.553252,13.251349)), 0.2340828505252256
+((1.2341496,13.659264), (1.6339127,12.9010105), (1.9372141,13.731697)), 0.2810285676717668
+((1.2341496,13.659264), (1.5522786,14.330917), (0.8734184,14.490801)), 0.2534112947794257
+((-2.4444728,6.8629036), (-2.8822873,6.1336107), (-2.1564379,6.0483537)), 0.28334174874140555
+((-3.137579,11.457862), (-3.732108,10.834987), (-2.7216663,10.681113)), 0.3604306596821628
+((-3.137579,11.457862), (-4.1311574,11.615162), (-3.732108,10.834987)), 0.3561973859181833
+((-3.137579,11.457862), (-2.7216663,10.681113), (-2.27348,11.447807)), 0.33350292997488656
+((5.9416375,3.6462195), (5.5620394,4.043097), (5.6111903,3.2754004)), 0.13595467683638385
+((-0.3994285,7.424274), (0.094834365,7.6650653), (-0.5671706,8.102761)), 0.1878709600392413
+((-0.3994285,7.424274), (-0.5671706,8.102761), (-0.9029937,7.6276875)), 0.15377078727016355
+((0.698745,7.6663985), (0.2906077,6.8797555), (1.2328708,6.9632254)), 0.3535787831576417
+((0.698745,7.6663985), (1.097366,8.470165), (0.42239457,8.333144)), 0.24395003699804543
+((-2.2454007,7.6499705), (-2.4444728,6.8629036), (-1.5361089,7.389056)), 0.3051004423606826
+((-2.2454007,7.6499705), (-1.8317754,8.279509), (-2.6186056,8.436221)), 0.2800798977379447
+((2.5514467,6.883717), (2.196109,6.333265), (2.7211075,6.2490983)), 0.15944704760044237
+((4.9522743,6.958529), (4.582752,6.175768), (5.371939,6.1981316)), 0.304740509899354
+((5.3654504,12.075778), (5.429522,11.526355), (5.9081798,11.838371)), 0.14148852341719317
+((5.3654504,12.075778), (5.8363175,12.391554), (5.3713584,12.596226)), 0.1215980588161289
+((5.9322867,6.7404156), (5.371939,6.1981316), (5.941524,5.991586)), 0.21230696367238566
+((5.941524,5.991586), (5.371939,6.1981316), (5.710808,5.4129043)), 0.18863089572535374
+((4.1569734,6.9946833), (3.699564,6.2435045), (4.582752,6.175768)), 0.34720781958697006
+((4.1569734,6.9946833), (4.8455667,7.538881), (3.932496,7.517651)), 0.2411360914117721
+((3.932496,7.517651), (3.224094,6.967083), (4.1569734,6.9946833)), 0.24703078274136772
+((4.8455667,7.538881), (4.1569734,6.9946833), (4.9522743,6.958529)), 0.22884819902572343
+((4.8455667,7.538881), (5.204544,8.182194), (4.3078403,8.077145)), 0.2695753918312817
+((4.3078403,8.077145), (3.932496,7.517651), (4.8455667,7.538881)), 0.2514443694733031
+((4.3078403,8.077145), (4.6738176,8.819976), (3.6736825,8.789424)), 0.3658751308674215
+((0.094834365,7.6650653), (-0.3994285,7.424274), (0.2906077,6.8797555)), 0.2176449743199576
+((0.094834365,7.6650653), (0.42239457,8.333144), (-0.5671706,8.102761)), 0.2928216819382067
+((-0.98487544,13.949377), (-1.6407794,13.598658), (-0.79223996,13.075701)), 0.3203043355133848
+((-0.98487544,13.949377), (-0.79223996,13.075701), (-0.43397185,13.656416)), 0.21243836546876188
+((-0.98487544,13.949377), (-0.39734933,14.404939), (-1.3468231,14.399972)), 0.21481288341391439
+((-5.1100645,7.0107813), (-4.7410207,6.2315607), (-4.2476754,6.9791136)), 0.3301522549786035
+((-5.1100645,7.0107813), (-4.5816283,7.7777452), (-5.4819164,7.7880607)), 0.34796978174818033
+((-5.1100645,7.0107813), (-5.4819164,7.7880607), (-5.941098,6.900908)), 0.3434009839257389
+((-2.6186056,8.436221), (-2.9438684,7.620707), (-2.2454007,7.6499705)), 0.28004596530890213
+((-5.6167417,6.283697), (-5.225006,5.5004783), (-4.7410207,6.2315607)), 0.3327287752209178
+((-4.756319,13.031374), (-5.184667,12.261541), (-4.5248036,12.204446)), 0.2662206030901042
+((-4.756319,13.031374), (-5.4385867,12.946539), (-5.184667,12.261541)), 0.24444650180825664
+((-4.756319,13.031374), (-4.192961,13.684147), (-5.178571,13.653594)), 0.3130836401062059
+((-5.941098,6.900908), (-5.6167417,6.283697), (-5.1100645,7.0107813)), 0.2742805970918591
+((-4.6876855,14.317596), (-5.178571,13.653594), (-4.192961,13.684147)), 0.31972475325177957
+((-4.6876855,14.317596), (-4.192961,13.684147), (-3.741572,14.444498)), 0.3310482845981278
+((-4.6876855,14.317596), (-4.2618723,14.94232), (-5.284672,14.731163)), 0.27452672905800807
+((-2.9417524,9.249548), (-3.2573857,8.431384), (-2.6186056,8.436221)), 0.2605499959412748
+((-2.9417524,9.249548), (-2.3995323,9.917268), (-3.2613685,10.094547)), 0.3357948288583846
+((-3.6415925,9.245042), (-3.2613685,10.094547), (-4.0299773,10.022182)), 0.31271126281735084
+((-4.9722657,8.5505085), (-5.36593,9.373951), (-5.8440046,8.637083)), 0.3418727681507297
+((-4.9722657,8.5505085), (-5.8440046,8.637083), (-5.4819164,7.7880607)), 0.35438910212369756
+((-1.1536783,8.16094), (-1.5361089,7.389056), (-0.9029937,7.6276875)), 0.19871579990095814
+((-0.5671706,8.102761), (-1.1536783,8.16094), (-0.9029937,7.6276875)), 0.14908611859236282
+((-1.8317754,8.279509), (-2.2454007,7.6499705), (-1.5361089,7.389056)), 0.2772234669287184
+((0.42239457,8.333144), (0.094834365,7.6650653), (0.698745,7.6663985)), 0.20151158695237711
+((2.4074092,14.453969), (1.5522786,14.330917), (1.9372141,13.731697)), 0.2798892188819767
+((2.4074092,14.453969), (1.9372141,13.731697), (2.7266846,13.63961)), 0.30675550604948615
+((2.4074092,14.453969), (3.0052173,14.451383), (2.4391074,14.941611)), 0.1457992489754044
+((0.28043893,14.694708), (-0.39734933,14.404939), (0.29865322,13.786395)), 0.3104608524587048
+((0.28043893,14.694708), (0.29865322,13.786395), (0.8734184,14.490801)), 0.26744842170189725
+((1.5522786,14.330917), (1.2341496,13.659264), (1.9372141,13.731697)), 0.22458639441977243
+((1.5522786,14.330917), (1.8899615,14.941124), (1.302653,14.942087)), 0.17935240639804886
+((2.1952484,12.9705925), (2.1424108,12.178941), (2.7293499,12.78076)), 0.21642632649524018
+((2.1952484,12.9705925), (1.6339127,12.9010105), (2.1424108,12.178941)), 0.22035290773627245
+((2.1952484,12.9705925), (2.7266846,13.63961), (1.9372141,13.731697)), 0.2885540408133282
+((1.097366,8.470165), (1.6100284,9.184163), (0.5980283,9.176539)), 0.3593287438187718
+((4.6738176,8.819976), (4.3078403,8.077145), (5.204544,8.182194)), 0.3138269860396777
+((4.6738176,8.819976), (5.204544,8.182194), (5.573001,8.976636)), 0.3283133533836325
+((5.204544,8.182194), (4.8455667,7.538881), (5.600485,7.574734)), 0.23638901044435534
+((1.6100284,9.184163), (1.9881237,9.829559), (1.1210433,9.899292)), 0.29298796272858113
+((2.1424108,12.178941), (1.8934222,11.5020685), (2.5019987,11.51848)), 0.20392106028005252
+((2.1424108,12.178941), (2.5019987,11.51848), (3.074199,11.980099)), 0.2719540135895925
+((2.5107365,9.111721), (2.6867416,9.877053), (1.9881237,9.829559)), 0.2631578450532289
+((3.5028183,9.637874), (3.0971441,9.199537), (3.6736825,8.789424)), 0.20954504296222504
+((2.6867416,9.877053), (2.5107365,9.111721), (3.0971441,9.199537)), 0.21667027428417351
+((0.5980283,9.176539), (0.42239457,8.333144), (1.097366,8.470165)), 0.2726010334975214
+((0.5980283,9.176539), (1.1210433,9.899292), (0.46320027,10.117241)), 0.29472415182393
+((-0.15994807,9.661521), (-0.31185248,10.4686775), (-0.96353996,10.103403)), 0.2907503057881696
+((1.1210433,9.899292), (0.5980283,9.176539), (1.6100284,9.184163)), 0.3637191635183237
+((1.9881237,9.829559), (1.6100284,9.184163), (2.5107365,9.111721)), 0.30435176839037426
+((0.8734184,14.490801), (0.29865322,13.786395), (1.2341496,13.659264)), 0.36601986796098906
+((0.8734184,14.490801), (1.302653,14.942087), (0.59629136,14.940417)), 0.15902727237238895
+((-4.0299773,10.022182), (-3.732108,10.834987), (-4.465021,10.820629)), 0.29571905458546094
+((0.46320027,10.117241), (-0.15994807,9.661521), (0.5980283,9.176539)), 0.3238202138930656
+((-0.39734933,14.404939), (-0.98487544,13.949377), (-0.43397185,13.656416)), 0.2115463899538822
+((-0.39734933,14.404939), (-1.0164571,14.9411125), (-1.3468231,14.399972)), 0.25607893164857554
+((-0.39734933,14.404939), (-0.43397185,13.656416), (0.29865322,13.786395)), 0.27181318665604337
+((-2.3995323,9.917268), (-1.9174848,10.643597), (-2.7216663,10.681113)), 0.3010925317095274
+((-0.96353996,10.103403), (-0.72383296,10.821332), (-1.4096924,10.658991)), 0.2267419991905977
+((-2.7216663,10.681113), (-3.2613685,10.094547), (-2.3995323,9.917268)), 0.3006009267300656
+((-2.7216663,10.681113), (-3.732108,10.834987), (-3.2613685,10.094547)), 0.3378683093866047
+((-3.2613685,10.094547), (-3.6415925,9.245042), (-2.9417524,9.249548)), 0.29640229135543333
+((-3.732108,10.834987), (-4.0299773,10.022182), (-3.2613685,10.094547)), 0.30158662106593853
+((-1.9174848,10.643597), (-1.4096924,10.658991), (-1.4549332,11.389702)), 0.1858729559004185
+((-1.4096924,10.658991), (-0.72383296,10.821332), (-1.4549332,11.389702)), 0.25425476217733145
+((-2.27348,11.447807), (-2.7216663,10.681113), (-1.9174848,10.643597)), 0.3166878353852656
+((-4.880596,10.052578), (-5.357457,10.8209915), (-5.7480345,10.160845)), 0.30746155692362725
+((-1.4549332,11.389702), (-2.27348,11.447807), (-1.9174848,10.643597)), 0.31879937593585667
+((-1.4549332,11.389702), (-0.72383296,10.821332), (-0.75949514,11.422741)), 0.20971041970554472
+((-1.4549332,11.389702), (-1.106861,12.28122), (-1.7878503,12.131567)), 0.27751219026750934
+((-5.7480345,10.160845), (-5.36593,9.373951), (-4.880596,10.052578)), 0.320606317905367
+((-5.9406433,12.374776), (-5.740352,11.600894), (-5.184667,12.261541)), 0.2811782268496725
+((-0.31185248,10.4686775), (-0.15994807,9.661521), (0.46320027,10.117241)), 0.2861020849608605
+((-0.31185248,10.4686775), (-0.20728692,11.221574), (-0.72383296,10.821332)), 0.1735270174658575
+((5.573001,8.976636), (5.204544,8.182194), (5.9401865,8.208894)), 0.2872937447378472
+((4.98209,9.636308), (4.6738176,8.819976), (5.573001,8.976636)), 0.34286898723966736
+((4.98209,9.636308), (5.505052,10.293771), (4.6980457,10.178602)), 0.2351740408976282
+((3.9806838,10.287762), (3.5028183,9.637874), (4.1458144,9.519475)), 0.23722706219780548
+((3.9806838,10.287762), (4.429372,10.964916), (3.7344048,11.119672)), 0.2700185379092827
+((5.833704,9.802435), (4.98209,9.636308), (5.573001,8.976636)), 0.3299760265565007
+((4.6980457,10.178602), (4.1458144,9.519475), (4.98209,9.636308)), 0.24334664747777138
+((4.6980457,10.178602), (5.106462,10.8738165), (4.429372,10.964916)), 0.25396466683576174
+((5.505052,10.293771), (4.98209,9.636308), (5.833704,9.802435)), 0.2365132623400624
+((5.505052,10.293771), (5.815568,10.699036), (5.106462,10.8738165)), 0.17082398563974574
+((5.9400373,10.146403), (5.505052,10.293771), (5.833704,9.802435)), 0.08264561055994953
+((5.729331,13.346411), (5.298918,13.083923), (5.800623,12.862089)), 0.11358581903573338
+((5.729331,13.346411), (5.3051248,13.62569), (5.298918,13.083923)), 0.1157772201153369
+((5.729331,13.346411), (5.697869,14.179149), (5.3051248,13.62569)), 0.17223294871605824
+((2.320371,10.701961), (1.9881237,9.829559), (2.6867416,9.877053)), 0.29684769354270063
+((2.320371,10.701961), (2.971462,11.231572), (2.5019987,11.51848)), 0.21771827991402543
+((3.7344048,11.119672), (4.429372,10.964916), (3.6904552,11.710601)), 0.20193737640070106
+((4.429372,10.964916), (3.9806838,10.287762), (4.6980457,10.178602)), 0.2673717454691696
+((2.971462,11.231572), (3.6904552,11.710601), (3.074199,11.980099)), 0.24448577896839438
+((1.8934222,11.5020685), (1.6256121,10.617422), (2.320371,10.701961)), 0.2959878364702522
+((-0.72383296,10.821332), (-0.96353996,10.103403), (-0.31185248,10.4686775)), 0.19015319509881237
+((-1.7878503,12.131567), (-2.27348,11.447807), (-1.4549332,11.389702)), 0.293953486737626
+((-4.465021,10.820629), (-4.880596,10.052578), (-4.0299773,10.022182)), 0.33297520139433073
+((-4.465021,10.820629), (-4.1311574,11.615162), (-4.872104,11.471234)), 0.2703271531119046
+((-4.1311574,11.615162), (-4.465021,10.820629), (-3.732108,10.834987)), 0.2887649809266293
+((-5.357457,10.8209915), (-4.880596,10.052578), (-4.465021,10.820629)), 0.34279355373205506
+((-5.357457,10.8209915), (-4.872104,11.471234), (-5.740352,11.600894)), 0.313751349826204
+((-5.942691,10.761789), (-5.7480345,10.160845), (-5.357457,10.8209915)), 0.18160854589566272
+((-5.740352,11.600894), (-5.942691,10.761789), (-5.357457,10.8209915)), 0.23954674538137402
+((-4.872104,11.471234), (-5.357457,10.8209915), (-4.465021,10.820629)), 0.2902380007367189
+((-4.872104,11.471234), (-4.5248036,12.204446), (-5.184667,12.261541)), 0.2518244422122122
+((-5.184667,12.261541), (-5.740352,11.600894), (-4.872104,11.471234)), 0.32282780250033594
+((5.697869,14.179149), (5.181756,14.494613), (5.3051248,13.62569)), 0.20477173033122706
+((5.181756,14.494613), (4.431717,14.426942), (4.7026076,13.914851)), 0.20120974989703316
+((5.181756,14.494613), (4.7026076,13.914851), (5.3051248,13.62569)), 0.24393356698120486
+((5.181756,14.494613), (4.4860606,14.941554), (4.431717,14.426942)), 0.1911509134222134
+((-0.75949514,11.422741), (-0.72383296,10.821332), (-0.20728692,11.221574)), 0.16246443093266152
+((-0.75949514,11.422741), (-0.53044194,12.278937), (-1.106861,12.28122)), 0.24702543672867217
+((-1.106861,12.28122), (-1.4549332,11.389702), (-0.75949514,11.422741)), 0.3042479547981976
+((-1.106861,12.28122), (-0.79223996,13.075701), (-1.537262,12.7475395)), 0.24432944815942725
+((-5.4819164,7.7880607), (-4.5816283,7.7777452), (-4.9722657,8.5505085)), 0.345840006739026
+((2.5019987,11.51848), (1.8934222,11.5020685), (2.320371,10.701961)), 0.24696690200853746
+((3.074199,11.980099), (2.5019987,11.51848), (2.971462,11.231572)), 0.1904408965113053
+((-4.5248036,12.204446), (-4.872104,11.471234), (-4.1311574,11.615162)), 0.246642280998386
+((5.106462,10.8738165), (4.6980457,10.178602), (5.505052,10.293771)), 0.2570028306734665
+((3.6904552,11.710601), (2.971462,11.231572), (3.7344048,11.119672)), 0.22296352265398206
+((5.815568,10.699036), (5.505052,10.293771), (5.9400373,10.146403)), 0.1110220642222342
+((5.873564,11.275137), (5.106462,10.8738165), (5.815568,10.699036)), 0.20932673104284696
+((5.429522,11.526355), (5.106462,10.8738165), (5.873564,11.275137)), 0.18545633415886445
+((-0.53044194,12.278937), (-0.13815027,13.036067), (-0.79223996,13.075701)), 0.25538935696300785
+((-0.79223996,13.075701), (-1.106861,12.28122), (-0.53044194,12.278937)), 0.22933598335953093
+((-0.79223996,13.075701), (-1.6407794,13.598658), (-1.537262,12.7475395)), 0.33403608133821105
+((2.7293499,12.78076), (2.1424108,12.178941), (3.074199,11.980099)), 0.3387380238383168
+((2.7293499,12.78076), (3.5126345,13.187781), (2.7266846,13.63961)), 0.3369046527820088
+((3.5126345,13.187781), (3.301957,13.757863), (2.7266846,13.63961)), 0.17643271102480065
+((-0.13815027,13.036067), (0.29865322,13.786395), (-0.43397185,13.656416)), 0.24646690627160944
+((1.9372141,13.731697), (1.6339127,12.9010105), (2.1952484,12.9705925)), 0.22259488012917836
+((0.29865322,13.786395), (-0.13815027,13.036067), (0.553252,13.251349)), 0.21237121003077047
+((-0.43397185,13.656416), (-0.79223996,13.075701), (-0.13815027,13.036067)), 0.19701966919470518
+((-1.537262,12.7475395), (-1.7878503,12.131567), (-1.106861,12.28122)), 0.1909846313856842
+((-1.6407794,13.598658), (-1.3468231,14.399972), (-1.9962062,14.392391)), 0.2590657752121062
+((-2.5286965,13.700775), (-2.5778568,14.54465), (-3.141468,14.314518)), 0.2434653900829273
+((-3.141468,14.314518), (-2.5778568,14.54465), (-3.3259807,14.941858)), 0.19801917474912636
+((-5.4385867,12.946539), (-5.9406433,12.374776), (-5.184667,12.261541)), 0.244544709539036
+((-5.4385867,12.946539), (-5.178571,13.653594), (-5.752338,13.499104)), 0.1827573391436109
+((-5.9401712,12.87835), (-5.9406433,12.374776), (-5.4385867,12.946539)), 0.12627645770058357
+((-5.178571,13.653594), (-5.4385867,12.946539), (-4.756319,13.031374)), 0.23017118123264388
+((-5.752338,13.499104), (-5.9401712,12.87835), (-5.4385867,12.946539)), 0.14927607129373321
+((-3.741572,14.444498), (-3.3259807,14.941858), (-4.2618723,14.94232)), 0.23283354580884763
+((-1.9962062,14.392391), (-2.5286965,13.700775), (-1.6407794,13.598658)), 0.3342371870522418
+((-1.9962062,14.392391), (-1.6892554,14.942875), (-2.5778568,14.54465)), 0.18346257291871518
+((-1.3468231,14.399972), (-1.6407794,13.598658), (-0.98487544,13.949377)), 0.2112445362783977
+((-1.6892554,14.942875), (-1.9962062,14.392391), (-1.3468231,14.399972)), 0.17757393858473028
+((-3.3259807,14.941858), (-3.741572,14.444498), (-3.141468,14.314518)), 0.17624319624788629
+((-5.284672,14.731163), (-5.634501,14.050355), (-4.6876855,14.317596)), 0.27555539227509873
+((-4.2618723,14.94232), (-4.6876855,14.317596), (-3.741572,14.444498)), 0.26851148778077233
+((-2.5778568,14.54465), (-2.5286965,13.700775), (-1.9962062,14.392391)), 0.24167764740830908
+((-5.9415393,14.618517), (-5.634501,14.050355), (-5.284672,14.731163)), 0.2038969081624135
+((-1.0164571,14.9411125), (-1.6892554,14.942875), (-1.3468231,14.399972)), 0.18233034995036723
+((4.982644,12.354143), (5.3713584,12.596226), (4.878564,12.840022)), 0.10703204687197787
+((5.9081798,11.838371), (5.429522,11.526355), (5.873564,11.275137)), 0.12939786366903946
+((5.8363175,12.391554), (5.3654504,12.075778), (5.9081798,11.838371)), 0.14158394144848002
+((5.3713584,12.596226), (4.982644,12.354143), (5.3654504,12.075778)), 0.10043762902665174
+((5.3713584,12.596226), (5.800623,12.862089), (5.298918,13.083923)), 0.11430529887354184
+((5.800623,12.862089), (5.3713584,12.596226), (5.8363175,12.391554)), 0.10573700063869156
+((4.1005282,13.095486), (4.8128443,13.341908), (3.922784,13.796899)), 0.27171402418733365
+((3.922784,13.796899), (3.5126345,13.187781), (4.1005282,13.095486)), 0.1979756842424727
+((3.922784,13.796899), (3.6082306,14.582834), (3.301957,13.757863)), 0.2501044502214326
+((3.922784,13.796899), (4.7026076,13.914851), (4.431717,14.426942)), 0.2156462852365926
+((4.878564,12.840022), (5.298918,13.083923), (4.8128443,13.341908)), 0.11349948464420506
+((4.8128443,13.341908), (4.1005282,13.095486), (4.878564,12.840022)), 0.1868482727055924
+((4.8128443,13.341908), (5.3051248,13.62569), (4.7026076,13.914851)), 0.1566658506272839
+((5.298918,13.083923), (4.878564,12.840022), (5.3713584,12.596226)), 0.11133695868530455
+((5.3051248,13.62569), (4.8128443,13.341908), (5.298918,13.083923)), 0.1324699767416567
+((3.301957,13.757863), (3.5126345,13.187781), (3.922784,13.796899)), 0.18107308147206178
+((3.301957,13.757863), (3.0052173,14.451383), (2.7266846,13.63961)), 0.21702644290639955
+((2.7266846,13.63961), (2.1952484,12.9705925), (2.7293499,12.78076)), 0.22910369293184957
+((4.431717,14.426942), (3.6082306,14.582834), (3.922784,13.796899)), 0.2990852571118027
+((4.431717,14.426942), (3.883969,14.941651), (3.6082306,14.582834)), 0.16923325867417227
+((3.6082306,14.582834), (3.0052173,14.451383), (3.301957,13.757863)), 0.22860420987961902
+((3.0052173,14.451383), (2.4074092,14.453969), (2.7266846,13.63961)), 0.24300224404515483
+((3.0052173,14.451383), (3.3290825,14.943161), (2.4391074,14.941611)), 0.2185843044527999
+((1.302653,14.942087), (0.8734184,14.490801), (1.5522786,14.330917)), 0.18749393016209256
+((0.59629136,14.940417), (0.28043893,14.694708), (0.8734184,14.490801)), 0.10505259497969778
+((1.8899615,14.941124), (1.5522786,14.330917), (2.4074092,14.453969)), 0.2401269346821504
+((2.4391074,14.941611), (1.8899615,14.941124), (2.4074092,14.453969)), 0.13388566893897075
+((3.3290825,14.943161), (3.0052173,14.451383), (3.6082306,14.582834)), 0.12698815669383642
+((4.4860606,14.941554), (3.883969,14.941651), (4.431717,14.426942)), 0.15492445637239913
+((4.7026076,13.914851), (3.922784,13.796899), (4.8128443,13.341908)), 0.22989845028228834
+((3.883969,14.941651), (3.3290825,14.943161), (3.6082306,14.582834)), 0.09975952630905226
+((5.774273,14.941932), (5.181756,14.494613), (5.697869,14.179149)), 0.2088923831152079
+#Area Sum
+112.35663
+#Wall Edges
+((-0.5,0.0), (0.0,-0.86))
+((-0.5,0.0), (-1.3751285,0.0720071))
+((0.0,-0.86), (0.5,0.0))
+((0.0,-0.86), (-0.5,0.0))
+((0.5,0.0), (0.0,-0.86))
+((0.5,0.0), (1.3743124,0.08089566))
+((5.7530117,1.2965244), (5.5900693,1.892172))
+((5.7530117,1.2965244), (5.9407263,0.6829009))
+((1.3743124,0.08089566), (1.3743124,0.08089566))
+((1.3743124,0.08089566), (2.259495,0.19252999))
+((-0.50967574,14.942167), (0.28043893,14.694708))
+((-0.50967574,14.942167), (-1.0164571,14.9411125))
+((-1.3751285,0.0720071), (-1.3751285,0.0720071))
+((-1.3751285,0.0720071), (-2.2365506,0.13385645))
+((-2.2365506,0.13385645), (-2.2365506,0.13385645))
+((-2.2365506,0.13385645), (-3.101094,0.17483217))
+((2.259495,0.19252999), (2.259495,0.19252999))
+((2.259495,0.19252999), (3.1256988,0.28301206))
+((3.1256988,0.28301206), (3.1256988,0.28301206))
+((3.1256988,0.28301206), (3.9867516,0.33776745))
+((-3.101094,0.17483217), (-3.101094,0.17483217))
+((-3.101094,0.17483217), (-3.9741712,0.2253217))
+((5.600485,7.574734), (5.9322867,6.7404156))
+((5.600485,7.574734), (5.9401865,8.208894))
+((-3.9741712,0.2253217), (-3.9741712,0.2253217))
+((-3.9741712,0.2253217), (-4.8381095,0.2810487))
+((3.9867516,0.33776745), (3.9867516,0.33776745))
+((3.9867516,0.33776745), (4.4541874,0.05756852))
+((-4.8381095,0.2810487), (-4.8381095,0.2810487))
+((-4.8381095,0.2810487), (-5.699593,0.3320828))
+((5.9401865,8.208894), (5.9401865,8.208894))
+((5.9401865,8.208894), (5.573001,8.976636))
+((4.8510327,0.3963462), (4.4541874,0.05756852))
+((4.8510327,0.3963462), (5.412522,0.34233233))
+((4.4541874,0.05756852), (4.4541874,0.05756852))
+((4.4541874,0.05756852), (4.4541874,0.05756852))
+((-5.699593,0.3320828), (-5.699593,0.3320828))
+((-5.699593,0.3320828), (-5.9401684,1.0807537))
+((-5.634501,14.050355), (-5.9415393,14.618517))
+((-5.634501,14.050355), (-5.752338,13.499104))
+((-5.6285596,1.866929), (-5.9401684,1.0807537))
+((-5.6285596,1.866929), (-5.9417243,2.540206))
+((5.412522,0.34233233), (5.412522,0.34233233))
+((5.412522,0.34233233), (5.940592,0.10147312))
+((5.9407263,0.6829009), (5.9407263,0.6829009))
+((5.9407263,0.6829009), (5.940592,0.10147312))
+((5.5900693,1.892172), (5.9420567,2.7163327))
+((5.5900693,1.892172), (5.5900693,1.892172))
+((-5.9401684,1.0807537), (-5.9401684,1.0807537))
+((-5.9401684,1.0807537), (-5.9401684,1.0807537))
+((5.9420567,2.7163327), (5.9420567,2.7163327))
+((5.9420567,2.7163327), (5.9420567,2.7163327))
+((5.9420567,2.7163327), (5.9416375,3.6462195))
+((5.5620394,4.043097), (5.9432063,4.7193723))
+((5.5620394,4.043097), (5.9416375,3.6462195))
+((-5.631827,3.323252), (-5.9417243,2.540206))
+((-5.631827,3.323252), (-5.9400806,3.974053))
+((-5.9417243,2.540206), (-5.9417243,2.540206))
+((-5.9417243,2.540206), (-5.9417243,2.540206))
+((-5.9400806,3.974053), (-5.9400806,3.974053))
+((-5.9400806,3.974053), (-5.6464047,4.7286706))
+((-5.9412003,5.425535), (-5.6167417,6.283697))
+((-5.9412003,5.425535), (-5.6464047,4.7286706))
+((-5.6464047,4.7286706), (-5.6464047,4.7286706))
+((-5.6464047,4.7286706), (-5.6464047,4.7286706))
+((5.940592,0.10147312), (5.940592,0.10147312))
+((5.940592,0.10147312), (5.940592,0.10147312))
+((5.9432063,4.7193723), (5.9432063,4.7193723))
+((5.9432063,4.7193723), (5.710808,5.4129043))
+((-5.941152,9.280822), (-5.7480345,10.160845))
+((-5.941152,9.280822), (-5.8440046,8.637083))
+((5.710808,5.4129043), (5.710808,5.4129043))
+((5.710808,5.4129043), (5.941524,5.991586))
+((5.9416375,3.6462195), (5.9416375,3.6462195))
+((5.9416375,3.6462195), (5.9416375,3.6462195))
+((5.9322867,6.7404156), (5.941524,5.991586))
+((5.9322867,6.7404156), (5.9322867,6.7404156))
+((5.941524,5.991586), (5.941524,5.991586))
+((5.941524,5.991586), (5.941524,5.991586))
+((-5.6167417,6.283697), (-5.6167417,6.283697))
+((-5.6167417,6.283697), (-5.941098,6.900908))
+((-5.941098,6.900908), (-5.941098,6.900908))
+((-5.941098,6.900908), (-5.941098,6.900908))
+((-5.941098,6.900908), (-5.4819164,7.7880607))
+((-5.8440046,8.637083), (-5.8440046,8.637083))
+((-5.8440046,8.637083), (-5.4819164,7.7880607))
+((0.28043893,14.694708), (0.59629136,14.940417))
+((0.28043893,14.694708), (0.28043893,14.694708))
+((-5.7480345,10.160845), (-5.7480345,10.160845))
+((-5.7480345,10.160845), (-5.942691,10.761789))
+((-5.9406433,12.374776), (-5.740352,11.600894))
+((-5.9406433,12.374776), (-5.9401712,12.87835))
+((5.573001,8.976636), (5.573001,8.976636))
+((5.573001,8.976636), (5.833704,9.802435))
+((5.833704,9.802435), (5.833704,9.802435))
+((5.833704,9.802435), (5.9400373,10.146403))
+((5.9400373,10.146403), (5.9400373,10.146403))
+((5.9400373,10.146403), (5.815568,10.699036))
+((5.729331,13.346411), (5.697869,14.179149))
+((5.729331,13.346411), (5.800623,12.862089))
+((-5.942691,10.761789), (-5.942691,10.761789))
+((-5.942691,10.761789), (-5.740352,11.600894))
+((-5.740352,11.600894), (-5.740352,11.600894))
+((-5.740352,11.600894), (-5.740352,11.600894))
+((5.697869,14.179149), (5.697869,14.179149))
+((5.697869,14.179149), (5.774273,14.941932))
+((5.181756,14.494613), (4.4860606,14.941554))
+((5.181756,14.494613), (5.774273,14.941932))
+((-5.4819164,7.7880607), (-5.4819164,7.7880607))
+((-5.4819164,7.7880607), (-5.4819164,7.7880607))
+((5.815568,10.699036), (5.815568,10.699036))
+((5.815568,10.699036), (5.873564,11.275137))
+((5.873564,11.275137), (5.873564,11.275137))
+((5.873564,11.275137), (5.9081798,11.838371))
+((-5.9401712,12.87835), (-5.9401712,12.87835))
+((-5.9401712,12.87835), (-5.752338,13.499104))
+((-5.752338,13.499104), (-5.752338,13.499104))
+((-5.752338,13.499104), (-5.752338,13.499104))
+((-1.6892554,14.942875), (-2.5778568,14.54465))
+((-1.6892554,14.942875), (-1.0164571,14.9411125))
+((-3.3259807,14.941858), (-4.2618723,14.94232))
+((-3.3259807,14.941858), (-2.5778568,14.54465))
+((-5.284672,14.731163), (-4.2618723,14.94232))
+((-5.284672,14.731163), (-5.9415393,14.618517))
+((-4.2618723,14.94232), (-4.2618723,14.94232))
+((-4.2618723,14.94232), (-4.2618723,14.94232))
+((-2.5778568,14.54465), (-2.5778568,14.54465))
+((-2.5778568,14.54465), (-2.5778568,14.54465))
+((-5.9415393,14.618517), (-5.9415393,14.618517))
+((-5.9415393,14.618517), (-5.9415393,14.618517))
+((-1.0164571,14.9411125), (-1.0164571,14.9411125))
+((-1.0164571,14.9411125), (-1.0164571,14.9411125))
+((5.9081798,11.838371), (5.9081798,11.838371))
+((5.9081798,11.838371), (5.8363175,12.391554))
+((5.8363175,12.391554), (5.8363175,12.391554))
+((5.8363175,12.391554), (5.800623,12.862089))
+((5.800623,12.862089), (5.800623,12.862089))
+((5.800623,12.862089), (5.800623,12.862089))
+((1.302653,14.942087), (1.8899615,14.941124))
+((1.302653,14.942087), (0.59629136,14.940417))
+((0.59629136,14.940417), (0.59629136,14.940417))
+((0.59629136,14.940417), (0.59629136,14.940417))
+((1.8899615,14.941124), (1.8899615,14.941124))
+((1.8899615,14.941124), (2.4391074,14.941611))
+((2.4391074,14.941611), (2.4391074,14.941611))
+((2.4391074,14.941611), (2.4391074,14.941611))
+((2.4391074,14.941611), (3.3290825,14.943161))
+((3.3290825,14.943161), (3.3290825,14.943161))
+((3.3290825,14.943161), (3.883969,14.941651))
+((4.4860606,14.941554), (3.883969,14.941651))
+((4.4860606,14.941554), (4.4860606,14.941554))
+((3.883969,14.941651), (3.883969,14.941651))
+((3.883969,14.941651), (3.883969,14.941651))
+((5.774273,14.941932), (5.774273,14.941932))
+((5.774273,14.941932), (5.774273,14.941932))
+#Blacklist Edges

@@ -1,0 +1,2685 @@
+/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/usr/bin/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/compilefontconfig.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/javazic.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar:/home/doms/Research/SwarmRoboticResearch/platypus3000/target/classes:/home/doms/.m2/repository/org/processing/core/core/2.2/core-2.2.jar:/home/doms/.m2/repository/org/processing/pdf/pdf/2.2/pdf-2.2.jar:/home/doms/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/home/doms/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/home/doms/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:/home/doms/.m2/repository/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar:/home/doms/.m2/repository/org/jbox2d/jbox2d-library/2.2.1.1/jbox2d-library-2.2.1.1.jar:/home/doms/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all-main/2.1.5-01/jogl-all-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt-main/2.1.5-01/gluegen-rt-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/javabits/jgrapht/jgrapht-core/0.9.1/jgrapht-core-0.9.1.jar:/usr/bin/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain projects.triangulation.Environment.HeadlessRunner
+Loading configuration from /home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1.properties
+Radius = 0.05 meter
+Range = 1.2 meter
+MessageBufferSize = 5000
+MaximalAcceleration = 0.1
+MaximalVelocity = 1.0
+MaximalBrakePower = 0.3
+MaximalRotationAcceleration = 1.0
+MaximalRotationVelocity = 10.0
+MaximalRotationBreak = 1.0
+ConnectivityProbability = 1.0
+NeighborPositionAngleNoise = 0.0
+NeighborPositionDistanceNoise = 0.01
+SpeedDeviationChange = 0.2 (Noisy)
+RotationSpeedDeviationChange = 0.2 (Noisy)
+CleanOldMessages = False
+#Environment:
+/home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1-lineenvdata
+#Neighborhood Update Probability
+1/2
+Could not determine adjacent triangle
+128 evasion -> no adjacent triangle
+19 deleted because: Partition
+29 deleted because: Partition
+29 closest triangle has a high difference to actual triangle -> restart -0.60825235 -0.9147664
+LocalizationTriangle.locateNbr: No NeighborState of 52, returning null
+Unable to transform
+47 deleted because: Partition
+47 closest triangle has a high difference to actual triangle -> restart -0.5670594 -0.8674666
+Unable to transform
+37 deleted because: Partition
+36 deleted because: Partition
+17 deleted because: Partition
+22 deleted because: Partition
+155 closest triangle has a high difference to actual triangle -> restart -0.29611596 0.16146892
+24 deleted because: triangles.isEmpty()
+31 deleted because: Partition
+10 deleted because: Partition
+154 closest triangle has a high difference to actual triangle -> restart -0.25842103 0.17308821
+Unable to transform
+156 closest triangle has a high difference to actual triangle -> restart -0.28702357 0.19072565
+155 closest triangle has a high difference to actual triangle -> restart -1.031021 -0.41948196
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(38, 39, 60)
+155: loop_prologue - Removing Localization Triangle LocalizationTriangle(38, 39, 60)
+155: MovementController Failed
+37 closest triangle has a high difference to actual triangle -> restart -0.728296 -0.41903928
+LocalizationTriangle.locateNbr: No NeighborState of 37, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(36, 37, 59)
+36: loop_prologue - Removing Localization Triangle LocalizationTriangle(36, 37, 59)
+36: MovementController Failed
+LocalizationTriangle.locateNbr: No NeighborState of 22, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(26, 35, 39)
+31: loop_prologue - Removing Localization Triangle LocalizationTriangle(26, 35, 39)
+31: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(59, 66, 68)
+31: loop_prologue - Removing Localization Triangle LocalizationTriangle(59, 66, 68)
+31: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(43, 59, 67)
+36: loop_prologue - Removing Localization Triangle LocalizationTriangle(43, 59, 67)
+36: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(59, 66, 68)
+36: loop_prologue - Removing Localization Triangle LocalizationTriangle(59, 66, 68)
+36: MovementController Failed
+168 closest triangle has a high difference to actual triangle -> restart 0.15547478 -0.16058598
+103 deleted because: Partition
+87 deleted because: Partition
+203 closest triangle has a high difference to actual triangle -> restart -0.24077961 0.16461036
+Failed to update localization triangle LocalizationTriangle(87, 110, 141)
+103: loop_prologue - Removing Localization Triangle LocalizationTriangle(87, 110, 141)
+103: MovementController Failed
+75 deleted because: Partition
+95 deleted because: Partition
+75 closest triangle has a high difference to actual triangle -> restart -0.5848379 -0.8852651
+LocalizationTriangle.locateNbr: No NeighborState of 112, returning null
+Unable to transform
+95 closest triangle has a high difference to actual triangle -> restart -0.5680114 -0.8758488
+Unable to transform
+94 deleted because: Partition
+101 deleted because: Partition
+116 deleted because: Partition
+134 deleted because: Partition
+98 deleted because: triangles.isEmpty()
+214 closest triangle has a high difference to actual triangle -> restart -0.232739 0.15409732
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 214! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 214
+Failed to update localization triangle LocalizationTriangle(98, 116, 134)
+214: loop_prologue - Removing Localization Triangle LocalizationTriangle(98, 116, 134)
+Failed to update localization triangle LocalizationTriangle(56, 98, 101)
+98: loop_prologue - Removing Localization Triangle LocalizationTriangle(56, 98, 101)
+98: MovementController Failed
+101 closest triangle has a high difference to actual triangle -> restart 0.055245347 -0.24519958
+LocalizationTriangle.locateNbr: No NeighborState of 101, returning null
+Unable to transform
+142 deleted because: Partition
+150 deleted because: Partition
+172 deleted because: Partition
+264 closest triangle has a high difference to actual triangle -> restart -0.33331856 -0.018221792
+169 deleted because: Partition
+180 deleted because: Partition
+179 deleted because: Partition
+180 closest triangle has a high difference to actual triangle -> restart -0.37350628 -0.07322772
+Failed to update localization triangle LocalizationTriangle(168, 180, 169)
+169: loop_prologue - Removing Localization Triangle LocalizationTriangle(168, 180, 169)
+169: MovementController Failed
+228 deleted because: Partition
+101 deleted because: Partition
+228 closest triangle has a high difference to actual triangle -> restart 0.15372363 -0.14973225
+LocalizationTriangle.locateNbr: No NeighborState of 228, returning null
+Unable to transform
+Could not determine adjacent triangle
+321 evasion -> no adjacent triangle
+224 deleted because: Partition
+191 deleted because: Partition
+75 deleted because: Partition
+331 closest triangle has a high difference to actual triangle -> restart -0.20863275 0.18837065
+332 closest triangle has a high difference to actual triangle -> restart -0.16395806 0.16720791
+204 deleted because: Partition
+206 deleted because: Partition
+194 deleted because: Partition
+200 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(75, 194, 200)
+224: loop_prologue - Removing Localization Triangle LocalizationTriangle(75, 194, 200)
+224: MovementController Failed
+206 closest triangle has a high difference to actual triangle -> restart -0.43943858 -0.7431908
+LocalizationTriangle.locateNbr: No NeighborState of 206, returning null
+Unable to transform
+LocalizationTriangle.locateNbr: No NeighborState of 75, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(95, 210, 103)
+194: loop_prologue - Removing Localization Triangle LocalizationTriangle(95, 210, 103)
+194: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(152, 192, 155)
+194: loop_prologue - Removing Localization Triangle LocalizationTriangle(152, 192, 155)
+194: MovementController Failed
+204 closest triangle has a high difference to actual triangle -> restart -0.31456432 -0.6152419
+Unable to transform
+262 deleted because: Partition
+293 deleted because: Partition
+268 deleted because: Partition
+300 deleted because: Partition
+303 deleted because: Partition
+296 deleted because: triangles.isEmpty()
+191 closest triangle has a high difference to actual triangle -> restart -0.18582739 0.18299644
+291 deleted because: Partition
+296 closest triangle has a high difference to actual triangle -> restart -1.0217506 -0.52369034
+Failed to update localization triangle LocalizationTriangle(268, 293, 296)
+293: loop_prologue - Removing Localization Triangle LocalizationTriangle(268, 293, 296)
+ROBOT-293 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(268, 293, 296)
+268: loop_prologue - Removing Localization Triangle LocalizationTriangle(268, 293, 296)
+ROBOT-268 called evasion without a valid triangle
+189 deleted because: Partition
+342 closest triangle has a high difference to actual triangle -> restart -0.25027058 0.21972464
+293 closest triangle has a high difference to actual triangle -> restart -0.6449928 -0.9477886
+LocalizationTriangle.locateNbr: No NeighborState of 282, returning null
+Unable to transform
+275 deleted because: Partition
+269 deleted because: Partition
+268 closest triangle has a high difference to actual triangle -> restart -0.27281478 0.24304071
+250 deleted because: Partition
+345 closest triangle has a high difference to actual triangle -> restart -0.23681577 0.082433805
+307 deleted because: Partition
+312 deleted because: Partition
+274 deleted because: triangles.isEmpty()
+343 closest triangle has a high difference to actual triangle -> restart -0.20062648 0.19706145
+344 closest triangle has a high difference to actual triangle -> restart -0.57551134 0.061717153
+#Steps
+355300
+#Robots
+318
+#Triangles
+((-0.5,0.0), (0.0,-0.86), (0.5,0.0)), 0.42999998347703766
+((0.015017521,0.7176295), (-0.5,0.0), (0.5,0.0)), 0.3588147772481018
+((0.015017521,0.7176295), (0.37481773,1.5272529), (-0.35944083,1.5654093)), 0.3041008044596628
+((-0.8430083,0.8055322), (-0.5,0.0), (0.015017521,0.7176295)), 0.3305080142492272
+((0.855785,0.80864894), (0.015017521,0.7176295), (0.5,0.0)), 0.32375119288235804
+((0.855785,0.80864894), (1.7468177,0.9078988), (1.226014,1.5798365)), 0.32520407587564043
+((1.3626666,0.095485166), (0.855785,0.80864894), (0.5,0.0)), 0.331811136325916
+((0.37481773,1.5272529), (0.015017521,0.7176295), (0.855785,0.80864894)), 0.32397812796135866
+((0.37481773,1.5272529), (0.80223215,2.3142176), (0.03991427,2.3307724)), 0.3034965518962933
+((-0.35944083,1.5654093), (-0.8430083,0.8055322), (0.015017521,0.7176295)), 0.34725050877217317
+((-1.3563339,0.10498081), (-0.5,0.0), (-0.8430083,0.8055322)), 0.3268975847622104
+((3.4435837,7.393508), (2.8025541,6.8304057), (3.3586428,6.518722)), 0.25646663266276254
+((3.4435837,7.393508), (2.7978678,7.756046), (2.8025541,6.8304057)), 0.2980007735928793
+((3.4435837,7.393508), (3.3586428,6.518722), (4.0557942,7.0393763)), 0.28281670878108023
+((-1.7182252,0.9100241), (-1.3563339,0.10498081), (-0.8430083,0.8055322)), 0.3333863598647758
+((0.03991427,2.3307724), (-0.35944083,1.5654093), (0.37481773,1.5272529)), 0.2886062062151333
+((0.03991427,2.3307724), (0.44126192,3.0929904), (-0.3942186,3.089395)), 0.31768764235654495
+((1.226014,1.5798365), (0.37481773,1.5272529), (0.855785,0.80864894)), 0.3184820184669586
+((1.7468177,0.9078988), (0.855785,0.80864894), (1.3626666,0.095485166)), 0.3428800911457608
+((-2.2410207,0.21655262), (-1.3563339,0.10498081), (-1.7182252,0.9100241)), 0.3359171506351747
+((0.80223215,2.3142176), (0.37481773,1.5272529), (1.226014,1.5798365)), 0.32369325173602903
+((0.80223215,2.3142176), (1.2469951,3.1155565), (0.44126192,3.0929904)), 0.31781435458637103
+((2.1545322,7.4125137), (1.4456196,6.927988), (2.01548,6.545406)), 0.2736646934523131
+((2.1545322,7.4125137), (2.01548,6.545406), (2.8025541,6.8304057)), 0.32142411382172786
+((2.1545322,7.4125137), (1.1318743,7.630045), (1.4456196,6.927988)), 0.3248572668847766
+((2.1545322,7.4125137), (2.4494643,8.220833), (1.7770559,8.243908)), 0.2751630965923929
+((-2.5959475,1.000069), (-2.2410207,0.21655262), (-1.7182252,0.9100241)), 0.32787517846612
+((-2.5959475,1.000069), (-2.944292,1.8113542), (-3.4678962,1.0777744)), 0.34016536972023564
+((4.284202,6.18356), (3.4833639,5.897593), (3.9510334,5.3518424)), 0.28539794973042637
+((4.284202,6.18356), (3.3586428,6.518722), (3.4833639,5.897593)), 0.2665449927820537
+((4.284202,6.18356), (3.9510334,5.3518424), (4.7007546,5.5551825)), 0.27790486968184647
+((2.2250159,0.15399492), (1.7468177,0.9078988), (1.3626666,0.095485166)), 0.33905384738271044
+((2.6110394,0.9419019), (1.7468177,0.9078988), (2.2250159,0.15399492)), 0.33390019566175194
+((-5.16031,7.1795397), (-5.571192,6.782177), (-4.726427,6.5335665)), 0.2189138003564499
+((-5.16031,7.1795397), (-4.726427,6.5335665), (-4.7159514,7.399389)), 0.19121614084771907
+((-5.16031,7.1795397), (-5.189985,7.8311524), (-5.7209888,7.3751884)), 0.17976987028849462
+((0.44126192,3.0929904), (0.03991427,2.3307724), (0.80223215,2.3142176)), 0.2938483068649782
+((-5.571192,6.782177), (-5.4930916,5.8981524), (-4.726427,6.5335665)), 0.36368812827924474
+((-3.118735,0.3035045), (-2.2410207,0.21655262), (-2.5959475,1.000069)), 0.3284210504392381
+((-0.3942186,3.089395), (0.0303782,3.855896), (-0.6987324,3.7952967)), 0.26656683671202996
+((1.5889504,2.2958288), (0.80223215,2.3142176), (1.226014,1.5798365)), 0.28497908588685944
+((1.5889504,2.2958288), (2.4378068,2.5222564), (1.9980227,3.1247048)), 0.30548576785633386
+((2.4378068,2.5222564), (3.3112564,2.5541527), (2.851864,3.2809699)), 0.324745520124745
+((5.9373593,4.385452), (5.4904294,4.558538), (5.827322,3.8520703)), 0.1287150409837403
+((5.9373593,4.385452), (5.7195516,5.1832757), (5.4904294,4.558538)), 0.1594359260396903
+((3.0886993,0.22640353), (2.6110394,0.9419019), (2.2250159,0.15399492)), 0.32627539219825746
+((-5.94088,5.849193), (-5.4930916,5.8981524), (-5.936749,6.327095)), 0.10689830633265666
+((-5.94088,5.849193), (-5.9404674,5.1064577), (-5.4930916,5.8981524)), 0.166304158069282
+((-2.944292,1.8113542), (-3.3125303,2.6065686), (-3.8054237,1.8933809)), 0.3272894711889249
+((1.2469951,3.1155565), (0.80223215,2.3142176), (1.5889504,2.2958288)), 0.31930328342175424
+((1.9980227,3.1247048), (1.2469951,3.1155565), (1.5889504,2.2958288)), 0.3093831672939032
+((1.9980227,3.1247048), (2.2731624,3.942218), (1.6427561,3.697029)), 0.2239521278955854
+((0.0303782,3.855896), (-0.3942186,3.089395), (0.44126192,3.0929904)), 0.3194349876100503
+((0.0303782,3.855896), (0.4520334,4.6329), (-0.3878291,4.610936)), 0.3216576939877199
+((-4.7159514,7.399389), (-4.726427,6.5335665), (-3.8989358,7.089134)), 0.35532026019047447
+((-4.7159514,7.399389), (-3.8989358,7.089134), (-4.0004926,7.9530764)), 0.33717287599317874
+((-4.7159514,7.399389), (-4.4886255,8.244812), (-5.189985,7.8311524)), 0.24945491733976383
+((-3.8989358,7.089134), (-3.1764846,6.7186904), (-3.2023525,7.58212)), 0.3071015410975572
+((-1.5253502,3.909456), (-1.1077683,4.6433706), (-1.825052,4.483144)), 0.22975860714693114
+((-0.6987324,3.7952967), (-0.3878291,4.610936), (-1.1077683,4.6433706)), 0.2986474207616493
+((-3.4678962,1.0777744), (-3.118735,0.3035045), (-2.5959475,1.000069)), 0.32399600776888393
+((-3.4678962,1.0777744), (-3.8054237,1.8933809), (-4.342031,1.1572604)), 0.3430606041256639
+((-3.9833133,0.3723859), (-3.118735,0.3035045), (-3.4678962,1.0777744)), 0.3226830986250322
+((-3.8054237,1.8933809), (-3.4678962,1.0777744), (-2.944292,1.8113542)), 0.33732914441123546
+((-3.8054237,1.8933809), (-4.1701694,2.67871), (-4.678836,1.9707445)), 0.328848948436794
+((-3.3125303,2.6065686), (-3.6559052,3.40864), (-4.1701694,2.67871)), 0.3315581373022978
+((3.4815524,0.98631036), (2.6110394,0.9419019), (3.0886993,0.22640353)), 0.32203134054583404
+((3.4815524,0.98631036), (4.3529887,1.0108815), (3.830587,1.7838818)), 0.34322824762633275
+((3.830587,1.7838818), (4.7051682,1.8013984), (4.1882005,2.5789745)), 0.3445545015685103
+((3.939217,0.24098672), (3.4815524,0.98631036), (3.0886993,0.22640353)), 0.32029258852222614
+((-1.0780998,8.246907), (-1.4083034,7.513432), (-0.49450603,7.5331287)), 0.3318718695986826
+((-1.0780998,8.246907), (-1.6056868,8.166368), (-1.4083034,7.513432)), 0.18018871354003066
+((-1.0780998,8.246907), (-0.8646577,9.081886), (-1.4626688,8.862731)), 0.22627491621475937
+((0.4520334,4.6329), (0.5044009,5.467294), (0.014207599,5.4369183)), 0.20371179918818308
+((3.3112564,2.5541527), (4.1882005,2.5789745), (3.7223985,3.3342493)), 0.3369478623394704
+((2.851864,3.2809699), (1.9980227,3.1247048), (2.4378068,2.5222564)), 0.2915591470335467
+((2.851864,3.2809699), (3.7223985,3.3342493), (3.0739388,4.0746794)), 0.3395597323405453
+((2.2731624,3.942218), (1.9980227,3.1247048), (2.851864,3.2809699)), 0.32751600199109393
+((2.2731624,3.942218), (1.4218014,4.435802), (1.6427561,3.697029)), 0.2599513744999918
+((4.1882005,2.5789745), (3.3112564,2.5541527), (3.830587,1.7838818)), 0.3441876205068682
+((4.1882005,2.5789745), (5.057811,2.5993052), (4.61712,3.3796253)), 0.3437670139957253
+((1.6427561,3.697029), (1.2469951,3.1155565), (1.9980227,3.1247048)), 0.21654070935843
+((1.4218014,4.435802), (1.6783276,5.295514), (1.0729883,5.245042)), 0.2537350150555461
+((-0.3878291,4.610936), (-0.6987324,3.7952967), (0.0303782,3.855896)), 0.2879254039321044
+((-0.3878291,4.610936), (0.014207599,5.4369183), (-0.7195504,5.408893)), 0.29740191429499496
+((2.2112164,4.834255), (1.4218014,4.435802), (2.2731624,3.942218)), 0.36443506586566754
+((3.7223985,3.3342493), (2.851864,3.2809699), (3.3112564,2.5541527)), 0.3285977726942698
+((3.7223985,3.3342493), (4.61712,3.3796253), (3.9553523,4.1676917)), 0.3675640894027306
+((-4.342031,1.1572604), (-3.9833133,0.3723859), (-3.4678962,1.0777744)), 0.32878654639455274
+((-4.342031,1.1572604), (-5.1990414,1.2963126), (-4.858402,0.45396596)), 0.33726658829583933
+((-2.779617,3.3344128), (-3.0734577,4.147678), (-3.6559052,3.40864)), 0.3454218113178276
+((-1.1077683,4.6433706), (-1.5253502,3.909456), (-0.6987324,3.7952967)), 0.3271688768065552
+((-1.1077683,4.6433706), (-1.8432925,5.251985), (-1.825052,4.483144)), 0.2771999631142007
+((-1.1077683,4.6433706), (-0.7195504,5.408893), (-1.3065444,5.4652104)), 0.23561028944331738
+((4.3529887,1.0108815), (3.4815524,0.98631036), (3.939217,0.24098672)), 0.330373767071811
+((4.3529887,1.0108815), (5.226206,1.0446001), (4.7051682,1.8013984)), 0.33920888685228057
+((4.7987604,0.2787955), (4.3529887,1.0108815), (3.939217,0.24098672)), 0.3230568853116587
+((5.226206,1.0446001), (4.3529887,1.0108815), (4.7987604,0.2787955)), 0.32715044163332024
+((5.226206,1.0446001), (5.940422,0.959325), (5.598666,1.8410273)), 0.30029138083929763
+((4.7051682,1.8013984), (3.830587,1.7838818), (4.3529887,1.0108815)), 0.3426011568198017
+((4.7051682,1.8013984), (5.598666,1.8410273), (5.057811,2.5993052)), 0.349476623904912
+((5.057811,2.5993052), (4.1882005,2.5789745), (4.7051682,1.8013984)), 0.34334924485470897
+((5.057811,2.5993052), (5.9370003,2.67322), (5.4773507,3.3493156)), 0.314195610419776
+((-2.2581146,3.8565252), (-1.825052,4.483144), (-2.4302986,4.703665)), 0.23737903890141665
+((-3.6559052,3.40864), (-3.3125303,2.6065686), (-2.779617,3.3344128)), 0.3386789508155209
+((-3.0734577,4.147678), (-2.779617,3.3344128), (-2.2581146,3.8565252)), 0.2887687995289887
+((-2.4302986,4.703665), (-3.0734577,4.147678), (-2.2581146,3.8565252)), 0.3202888200892355
+((-2.4302986,4.703665), (-2.5709538,5.3661733), (-3.2546506,4.9852247)), 0.2532686444063185
+((-4.1701694,2.67871), (-3.8054237,1.8933809), (-3.3125303,2.6065686)), 0.3236078228508296
+((-3.2546506,4.9852247), (-3.0734577,4.147678), (-2.4302986,4.703665)), 0.3197083707468293
+((-3.2546506,4.9852247), (-3.2348294,5.7938185), (-3.8147128,5.588168)), 0.2324069202644764
+((-4.678836,1.9707445), (-4.342031,1.1572604), (-3.8054237,1.8933809)), 0.3422252259730721
+((-4.678836,1.9707445), (-5.0394864,2.7605999), (-5.519648,2.111498)), 0.3066785873920056
+((-4.858402,0.45396596), (-3.9833133,0.3723859), (-4.342031,1.1572604)), 0.3287852207325134
+((-4.858402,0.45396596), (-5.302387,0.05945189), (-4.4392695,0.05694235)), 0.1708131468338763
+((-5.1990414,1.2963126), (-4.342031,1.1572604), (-4.678836,1.9707445)), 0.3251654579732249
+((-5.1990414,1.2963126), (-5.519648,2.111498), (-5.8939805,1.2846966)), 0.28511425911031524
+((-4.746942,14.7416315), (-5.0650806,14.309497), (-4.5130634,14.259391)), 0.1272432240581937
+((-4.746942,14.7416315), (-5.6332984,14.572756), (-5.0650806,14.309497)), 0.16464974118912365
+((-4.746942,14.7416315), (-4.5130634,14.259391), (-3.9534109,14.750662)), 0.19239250391062257
+((-1.825052,4.483144), (-2.2581146,3.8565252), (-1.5253502,3.909456)), 0.21812071715415848
+((-1.8432925,5.251985), (-2.4302986,4.703665), (-1.825052,4.483144)), 0.23065805742294448
+((-1.8432925,5.251985), (-1.8457645,5.9953837), (-2.5709538,5.3661733)), 0.2703301297210432
+((-1.3065444,5.4652104), (-1.8432925,5.251985), (-1.1077683,4.6433706)), 0.24175252615566423
+((-1.3065444,5.4652104), (-1.2857453,6.2280145), (-1.8457645,5.9953837)), 0.2111732084321809
+((-0.7195504,5.408893), (-1.1077683,4.6433706), (-0.3878291,4.610936)), 0.28186065554860584
+((0.014207599,5.4369183), (-0.3878291,4.610936), (0.4520334,4.6329)), 0.34244050596894815
+((5.598666,1.8410273), (4.7051682,1.8013984), (5.226206,1.0446001)), 0.34842289821324485
+((3.0739388,4.0746794), (2.2731624,3.942218), (2.851864,3.2809699)), 0.3030837965028161
+((3.0739388,4.0746794), (3.9553523,4.1676917), (3.7141182,4.755048)), 0.2700706281827047
+((3.9553523,4.1676917), (3.0739388,4.0746794), (3.7223985,3.3342493)), 0.3564699138355828
+((3.9553523,4.1676917), (4.8319383,4.2510085), (4.358256,4.696013)), 0.2147752132336119
+((4.61712,3.3796253), (3.7223985,3.3342493), (4.1882005,2.5789745)), 0.3484483011564491
+((4.61712,3.3796253), (5.4773507,3.3493156), (5.2511563,3.8606834)), 0.21651929835905895
+((1.0729883,5.245042), (0.4520334,4.6329), (1.4218014,4.435802)), 0.35801229021484393
+((1.0729883,5.245042), (1.3141222,6.0793347), (0.5044009,5.467294)), 0.2639805011854523
+((0.5044009,5.467294), (0.4520334,4.6329), (1.0729883,5.245042)), 0.24303234316852365
+((2.0386713,9.64218), (1.4658916,9.22716), (2.1079528,8.799777)), 0.2556324163307736
+((2.0386713,9.64218), (2.1079528,8.799777), (2.6465938,9.443764)), 0.24918469462407405
+((2.0386713,9.64218), (1.1981317,9.87869), (1.4658916,9.22716)), 0.24215422678619272
+((2.0386713,9.64218), (2.522853,10.198434), (1.8457083,10.50756)), 0.2631685610071444
+((-5.519648,2.111498), (-5.1990414,1.2963126), (-4.678836,1.9707445)), 0.3201457147647488
+((-4.4392695,0.05694235), (-3.9833133,0.3723859), (-4.858402,0.45396596)), 0.15661897010186454
+((-5.553246,0.6186676), (-4.858402,0.45396596), (-5.1990414,1.2963126)), 0.2645978844138174
+((-5.8939805,1.2846966), (-5.553246,0.6186676), (-5.1990414,1.2963126)), 0.23340380036006692
+((-5.302387,0.05945189), (-4.858402,0.45396596), (-5.553246,0.6186676)), 0.1736254850371186
+((-5.0394864,2.7605999), (-4.678836,1.9707445), (-4.1701694,2.67871)), 0.3285505736604488
+((-5.0394864,2.7605999), (-5.3953524,3.5771284), (-5.891061,2.9125502)), 0.32063043911356337
+((5.6783786,8.968184), (5.178326,8.79647), (5.7243166,8.139168)), 0.21122003107124063
+((5.6783786,8.968184), (4.828142,9.290025), (5.178326,8.79647)), 0.15346759355358283
+((-4.619417,9.061621), (-5.103168,8.509479), (-4.4886255,8.244812)), 0.2336737632866478
+((-4.619417,9.061621), (-4.610431,9.954896), (-5.2942305,9.84087)), 0.304898176960767
+((-4.619417,9.061621), (-5.2942305,9.84087), (-5.193446,9.2178135)), 0.17095535420445385
+((5.6695075,0.3069094), (5.226206,1.0446001), (4.7987604,0.2787955)), 0.3274025115483926
+((5.940422,0.959325), (5.226206,1.0446001), (5.6695075,0.3069094)), 0.24453403056943435
+((-0.9780968,10.113529), (-1.2556169,9.469335), (-0.6562161,9.61531)), 0.17280987058953493
+((-0.9780968,10.113529), (-0.6562161,9.61531), (-0.04343019,9.875094)), 0.1944607951796021
+((-0.9780968,10.113529), (-1.7357571,9.9816265), (-1.2556169,9.469335)), 0.22573751666215092
+((-0.9780968,10.113529), (-0.40190443,10.502324), (-1.4416306,10.555604)), 0.21746988908842405
+((1.6783276,5.295514), (1.4218014,4.435802), (2.2112164,4.834255)), 0.2882279902522531
+((1.3141222,6.0793347), (1.0729883,5.245042), (1.6783276,5.295514)), 0.24642981939611885
+((1.3141222,6.0793347), (1.4456196,6.927988), (0.7807165,6.2120566)), 0.23506455709058852
+((3.5752141,14.942387), (3.0843134,14.612994), (3.8328571,14.416239)), 0.17157599601922016
+((3.5752141,14.942387), (3.8328571,14.416239), (4.3133974,14.868027)), 0.1846176167576292
+((3.7141182,4.755048), (4.358256,4.696013), (3.9510334,5.3518424)), 0.19920204129927774
+((-4.4886255,8.244812), (-4.7159514,7.399389), (-4.0004926,7.9530764)), 0.23949901334025758
+((-1.2857453,6.2280145), (-0.8686881,6.899921), (-1.8804152,6.849219)), 0.32932015016596267
+((-2.5709538,5.3661733), (-2.4302986,4.703665), (-1.8432925,5.251985)), 0.23301032449498574
+((-2.5709538,5.3661733), (-2.6222568,6.1087847), (-3.2348294,5.7938185)), 0.2355310380966855
+((5.4773507,3.3493156), (4.61712,3.3796253), (5.057811,2.5993052)), 0.32894916571577865
+((5.4773507,3.3493156), (5.9416456,3.218075), (5.827322,3.8520703)), 0.13967845167386447
+((0.7807165,6.2120566), (0.5044009,5.467294), (1.3141222,6.0793347)), 0.21696684592366292
+((0.7807165,6.2120566), (1.4456196,6.927988), (0.7118677,6.975555)), 0.2784716947346546
+((-1.8457645,5.9953837), (-1.8432925,5.251985), (-1.3065444,5.4652104)), 0.19977244865629543
+((-1.8457645,5.9953837), (-1.8804152,6.849219), (-2.6222568,6.1087847)), 0.3295334831368326
+((-4.797075,4.297832), (-4.1283855,5.0973296), (-5.1572037,5.0992074)), 0.411896637158652
+((0.7118677,6.975555), (1.1318743,7.630045), (0.10084157,7.625262)), 0.3363958381427136
+((-5.3953524,3.5771284), (-5.6731215,4.4111443), (-5.940571,3.4309793)), 0.24765826744918523
+((-5.6731215,4.4111443), (-5.3953524,3.5771284), (-4.797075,4.297832)), 0.34958105132381534
+((4.8319383,4.2510085), (3.9553523,4.1676917), (4.61712,3.3796253)), 0.3729721314013666
+((4.8319383,4.2510085), (5.4904294,4.558538), (5.1496916,5.050775)), 0.21446034292501553
+((4.358256,4.696013), (3.7141182,4.755048), (3.9553523,4.1676917)), 0.18204849349770813
+((4.358256,4.696013), (5.1496916,5.050775), (4.7007546,5.5551825)), 0.27923593990136525
+((5.1496916,5.050775), (4.358256,4.696013), (4.8319383,4.2510085)), 0.26011848862988973
+((5.1496916,5.050775), (5.7195516,5.1832757), (5.4652085,5.7583327)), 0.18070127774031194
+((5.7243166,8.139168), (5.214173,8.24991), (5.507982,7.6966524)), 0.12485195497589935
+((5.7243166,8.139168), (5.178326,8.79647), (5.214173,8.24991)), 0.13742707551156041
+((-3.2348294,5.7938185), (-3.2546506,4.9852247), (-2.5709538,5.3661733)), 0.2726410301354585
+((-3.2348294,5.7938185), (-2.6222568,6.1087847), (-3.1764846,6.7186904)), 0.2740872700979619
+((-4.1283855,5.0973296), (-3.8147128,5.588168), (-4.6254354,5.798328)), 0.2319276347147717
+((-5.9409046,0.07407073), (-5.302387,0.05945189), (-5.553246,0.6186676)), 0.17670084103669914
+((-5.891061,2.9125502), (-5.519648,2.111498), (-5.0394864,2.7605999)), 0.3128595786818677
+((-5.940571,3.4309793), (-5.891061,2.9125502), (-5.3953524,3.5771284)), 0.14494646845660772
+((5.9370003,2.67322), (5.057811,2.5993052), (5.598666,1.8410273)), 0.35332360505973337
+((-1.8804152,6.849219), (-1.8457645,5.9953837), (-1.2857453,6.2280145)), 0.24311247435422573
+((-1.8804152,6.849219), (-1.4083034,7.513432), (-2.0371912,7.6991754)), 0.25270360614907944
+((-5.1572037,5.0992074), (-5.6731215,4.4111443), (-4.797075,4.297832)), 0.33061761050989474
+((-5.1572037,5.0992074), (-5.4930916,5.8981524), (-5.9404674,5.1064577)), 0.31167463740995305
+((5.9416456,3.218075), (5.4773507,3.3493156), (5.9370003,2.67322)), 0.12679156513812817
+((-4.6254354,5.798328), (-5.1572037,5.0992074), (-4.1283855,5.0973296)), 0.3601332626123146
+((-4.6254354,5.798328), (-4.726427,6.5335665), (-5.4930916,5.8981524)), 0.3139264333909613
+((-5.9404674,5.1064577), (-5.6731215,4.4111443), (-5.1572037,5.0992074)), 0.2713377028075566
+((-2.6222568,6.1087847), (-2.5709538,5.3661733), (-1.8457645,5.9953837)), 0.285407112766851
+((-2.6222568,6.1087847), (-2.569935,6.9920077), (-3.1764846,6.7186904)), 0.2607090246706464
+((4.7007546,5.5551825), (3.9510334,5.3518424), (4.358256,4.696013)), 0.28724695659084293
+((4.7007546,5.5551825), (5.4652085,5.7583327), (5.1482143,6.3243885)), 0.24856050133519064
+((5.2511563,3.8606834), (4.8319383,4.2510085), (4.61712,3.3796253)), 0.22457431021937643
+((5.2511563,3.8606834), (5.827322,3.8520703), (5.4904294,4.558538)), 0.20207035012339772
+((4.828142,9.290025), (4.19005,8.734865), (5.178326,8.79647)), 0.2546707674392441
+((4.828142,9.290025), (4.9217453,9.978306), (4.116237,9.490163)), 0.25436213720919004
+((1.4456196,6.927988), (1.3141222,6.0793347), (2.01548,6.545406)), 0.26696127075592474
+((1.1318743,7.630045), (0.7118677,6.975555), (1.4456196,6.927988)), 0.25010582055198144
+((1.1318743,7.630045), (1.7770559,8.243908), (1.1993266,8.486954)), 0.25572760297267416
+((5.827322,3.8520703), (5.2511563,3.8606834), (5.4773507,3.3493156)), 0.14634218308291946
+((-3.8147128,5.588168), (-4.1283855,5.0973296), (-3.2546506,4.9852247)), 0.2320135360275377
+((5.4904294,4.558538), (4.8319383,4.2510085), (5.2511563,3.8606834)), 0.19297374456328129
+((-0.28344688,6.8395104), (0.10084157,7.625262), (-0.49450603,7.5331287)), 0.21619476009727448
+((-5.2942305,9.84087), (-5.8081093,9.469455), (-5.193446,9.2178135)), 0.17880413356116337
+((-5.2942305,9.84087), (-5.093887,10.675679), (-5.852662,10.13467)), 0.2625224739626681
+((-0.8686881,6.899921), (-0.49450603,7.5331287), (-1.4083034,7.513432)), 0.28562672877466744
+((0.10084157,7.625262), (-0.28344688,6.8395104), (0.7118677,6.975555)), 0.3648947498364615
+((5.4652085,5.7583327), (4.7007546,5.5551825), (5.1496916,5.050775)), 0.23839893717918928
+((5.4652085,5.7583327), (5.885324,6.542352), (5.1482143,6.3243885)), 0.24316920998881514
+((-1.4083034,7.513432), (-1.8804152,6.849219), (-0.8686881,6.899921)), 0.32403275313733715
+((-2.569935,6.9920077), (-2.6222568,6.1087847), (-1.8804152,6.849219)), 0.3082354070584584
+((-2.569935,6.9920077), (-2.6439083,7.875039), (-3.2023525,7.58212)), 0.25739595690829375
+((-0.49450603,7.5331287), (-0.8686881,6.899921), (-0.28344688,6.8395104)), 0.1965919075241183
+((0.7370074,11.898644), (0.2660337,11.510557), (0.8752138,11.2791)), 0.17271253954187124
+((0.7370074,11.898644), (0.8752138,11.2791), (1.4452733,11.946751)), 0.22272523012257484
+((0.7370074,11.898644), (1.0303558,12.56003), (0.20189951,12.350961)), 0.24329939297429068
+((-2.0371912,7.6991754), (-2.569935,6.9920077), (-1.8804152,6.849219)), 0.2818380407306446
+((-2.0371912,7.6991754), (-1.6056868,8.166368), (-2.2620504,8.562646)), 0.23882189373488835
+((-2.0371912,7.6991754), (-2.2620504,8.562646), (-2.6439083,7.875039)), 0.242168887253767
+((-3.2023525,7.58212), (-3.1764846,6.7186904), (-2.569935,6.9920077)), 0.2653914434573647
+((-3.2023525,7.58212), (-3.4821088,8.088379), (-4.0004926,7.9530764)), 0.15014404667061718
+((-5.4930916,5.8981524), (-5.1572037,5.0992074), (-4.6254354,5.798328)), 0.3298399026087058
+((-4.0004926,7.9530764), (-3.8989358,7.089134), (-3.2023525,7.58212)), 0.3259368323724333
+((-5.7209888,7.3751884), (-5.571192,6.782177), (-5.16031,7.1795397)), 0.15159071138663344
+((-5.936749,6.327095), (-5.4930916,5.8981524), (-5.571192,6.782177)), 0.1793517936588404
+((4.0557942,7.0393763), (3.3586428,6.518722), (4.284202,6.18356)), 0.3577775696608397
+((2.7978678,7.756046), (2.1545322,7.4125137), (2.8025541,6.8304057)), 0.29855357753732503
+((2.7978678,7.756046), (3.511448,8.25743), (2.85378,8.624222)), 0.2957398395598803
+((5.1482143,6.3243885), (4.284202,6.18356), (4.7007546,5.5551825)), 0.30079414290501716
+((5.7195516,5.1832757), (5.1496916,5.050775), (5.4904294,4.558538)), 0.16282710934219624
+((-1.6056868,8.166368), (-2.0371912,7.6991754), (-1.4083034,7.513432)), 0.18698026228205628
+((5.885324,6.542352), (5.4652085,5.7583327), (5.941005,5.6726384)), 0.2045176977442654
+((5.941005,5.6726384), (5.4652085,5.7583327), (5.7195516,5.1832757)), 0.12590724309461912
+((5.936757,7.09441), (5.3599,7.099744), (5.885324,6.542352)), 0.15936638701296912
+((5.936757,7.09441), (5.507982,7.6966524), (5.3599,7.099744)), 0.17256040890596583
+((5.936757,7.09441), (5.9430666,7.779654), (5.507982,7.6966524)), 0.14880778531637115
+((5.3599,7.099744), (5.1482143,6.3243885), (5.885324,6.542352)), 0.2626910581563323
+((4.8932676,7.6894903), (5.507982,7.6966524), (5.214173,8.24991)), 0.17109988737202944
+((5.5918217,12.223156), (5.2087,11.454983), (5.9418387,11.4377)), 0.28489936074415817
+((5.5918217,12.223156), (5.0268035,12.142781), (5.2087,11.454983)), 0.20161929882772708
+((5.5918217,12.223156), (5.2190776,12.846086), (5.0268035,12.142781)), 0.19096286177573768
+((1.7770559,8.243908), (1.1318743,7.630045), (2.1545322,7.4125137)), 0.3840594904124427
+((1.7770559,8.243908), (2.1079528,8.799777), (1.1993266,8.486954)), 0.20078247307430858
+((3.511448,8.25743), (2.7978678,7.756046), (3.4435837,7.393508)), 0.2912257926933404
+((3.511448,8.25743), (4.19005,8.734865), (3.4687543,8.930862)), 0.2386880747390384
+((2.0220582,12.556239), (1.4452733,11.946751), (2.2580183,11.749783)), 0.30448344317806664
+((2.0220582,12.556239), (1.0303558,12.56003), (1.4452733,11.946751)), 0.30330887703546605
+((2.0220582,12.556239), (2.061943,13.396146), (1.5198007,13.283375)), 0.22542560543951182
+((2.4494643,8.220833), (2.1545322,7.4125137), (2.7978678,7.756046)), 0.2093509062383665
+((2.4494643,8.220833), (2.85378,8.624222), (2.1079528,8.799777)), 0.18591911721919274
+((0.2205511,9.10532), (0.4867246,9.773849), (-0.36322168,9.204097)), 0.20828027745024832
+((-0.8646577,9.081886), (-0.6562161,9.61531), (-1.2556169,9.469335)), 0.1446535778445756
+((1.1993266,8.486954), (1.4658916,9.22716), (0.82832414,9.15648)), 0.2265453907656011
+((-1.4626688,8.862731), (-1.6056868,8.166368), (-1.0780998,8.246907)), 0.17793683687789297
+((-1.4626688,8.862731), (-1.2556169,9.469335), (-2.1014986,9.362115)), 0.24545742449502875
+((-2.2620504,8.562646), (-1.6056868,8.166368), (-1.4626688,8.862731)), 0.2568713116671066
+((5.9412675,10.74369), (5.354541,10.657141), (5.6997876,10.230093)), 0.1402205107059545
+((5.9412675,10.74369), (5.2087,11.454983), (5.354541,10.657141)), 0.24036874347336523
+((5.9418387,11.4377), (5.2087,11.454983), (5.9412675,10.74369)), 0.25440794457275506
+((4.19005,8.734865), (4.7234054,8.391401), (5.178326,8.79647)), 0.18614709044830546
+((4.19005,8.734865), (4.116237,9.490163), (3.4687543,8.930862)), 0.265162977741336
+((2.1079528,8.799777), (1.7770559,8.243908), (2.4494643,8.220833)), 0.1907032884021201
+((5.507982,7.6966524), (4.8932676,7.6894903), (5.3599,7.099744)), 0.1829337981057704
+((1.4658916,9.22716), (1.1993266,8.486954), (2.1079528,8.799777)), 0.29459174417784245
+((2.85378,8.624222), (2.4494643,8.220833), (2.7978678,7.756046)), 0.1642314064128497
+((2.85378,8.624222), (3.4687543,8.930862), (2.6465938,9.443764)), 0.283764460443065
+((2.6465938,9.443764), (2.1079528,8.799777), (2.85378,8.624222)), 0.28743205459705407
+((3.4687543,8.930862), (2.85378,8.624222), (3.511448,8.25743)), 0.21361757979890444
+((-2.6439083,7.875039), (-2.569935,6.9920077), (-2.0371912,7.6991754)), 0.2613705268524531
+((-3.4821088,8.088379), (-3.2023525,7.58212), (-2.6439083,7.875039)), 0.1823316984271873
+((-2.1014986,9.362115), (-2.2620504,8.562646), (-1.4626688,8.862731)), 0.29545083514631515
+((-2.1014986,9.362115), (-1.7357571,9.9816265), (-2.486851,9.888197)), 0.2155701581347284
+((0.82832414,9.15648), (1.1981317,9.87869), (0.4867246,9.773849)), 0.23750709410161283
+((0.4867246,9.773849), (0.2205511,9.10532), (0.82832414,9.15648)), 0.1963481244861708
+((1.1981317,9.87869), (0.82832414,9.15648), (1.4658916,9.22716)), 0.21715964646427366
+((-0.36322168,9.204097), (-0.04343019,9.875094), (-0.6562161,9.61531)), 0.16405046509697443
+((-1.2556169,9.469335), (-1.4626688,8.862731), (-0.8646577,9.081886)), 0.15868956931591574
+((-3.3736498,14.941633), (-3.7086775,14.331709), (-2.9579432,14.368645)), 0.22275829486462234
+((-3.3736498,14.941633), (-3.9534109,14.750662), (-3.7086775,14.331709)), 0.144814825235648
+((-3.3736498,14.941633), (-2.9579432,14.368645), (-2.3878226,14.676659)), 0.2273579969890655
+((-0.6562161,9.61531), (-0.8646577,9.081886), (-0.36322168,9.204097)), 0.12100198175668467
+((-0.04343019,9.875094), (-0.36322168,9.204097), (0.4867246,9.773849)), 0.19405504754479708
+((-1.7357571,9.9816265), (-2.1014986,9.362115), (-1.2556169,9.469335)), 0.24240941217555004
+((-1.7357571,9.9816265), (-1.4416306,10.555604), (-2.1505969,10.505713)), 0.19612825743569756
+((-5.189985,7.8311524), (-5.16031,7.1795397), (-4.7159514,7.399389)), 0.14803679238159698
+((-5.189985,7.8311524), (-5.103168,8.509479), (-5.815286,8.040076)), 0.22114818563361724
+((-4.5130634,14.259391), (-5.0650806,14.309497), (-4.81288,13.821963)), 0.12824507413480138
+((2.522853,10.198434), (2.0386713,9.64218), (2.6465938,9.443764)), 0.2171143449761488
+((2.522853,10.198434), (3.271194,10.637112), (2.5076482,11.071791)), 0.33011935049984
+((1.8457083,10.50756), (1.1981317,9.87869), (2.0386713,9.64218)), 0.3408740091515784
+((1.8457083,10.50756), (2.5076482,11.071791), (1.7551273,11.149308)), 0.2379537661463197
+((-5.815286,8.040076), (-5.7209888,7.3751884), (-5.189985,7.8311524)), 0.19802718882936082
+((-5.103168,8.509479), (-5.189985,7.8311524), (-4.4886255,8.244812)), 0.2199188747167471
+((-5.103168,8.509479), (-5.193446,9.2178135), (-5.7647996,8.792471)), 0.22155435522951697
+((5.214173,8.24991), (4.7234054,8.391401), (4.8932676,7.6894903)), 0.16022054614426903
+((5.178326,8.79647), (4.7234054,8.391401), (5.214173,8.24991)), 0.13158076988545384
+((4.116237,9.490163), (4.19005,8.734865), (4.828142,9.290025)), 0.26146371001278973
+((4.116237,9.490163), (4.9217453,9.978306), (4.0737953,10.361698)), 0.36137321809390716
+((5.9430666,7.779654), (5.7243166,8.139168), (5.507982,7.6966524)), 0.08728779046826882
+((-5.7647996,8.792471), (-5.815286,8.040076), (-5.103168,8.509479)), 0.25604771096089657
+((5.4465513,9.577753), (4.828142,9.290025), (5.6783786,8.968184)), 0.22183299540110166
+((5.4465513,9.577753), (5.9408665,9.404494), (5.6997876,10.230093)), 0.18316846653904678
+((4.9217453,9.978306), (4.828142,9.290025), (5.4465513,9.577753)), 0.19935351843490504
+((4.9217453,9.978306), (5.354541,10.657141), (4.7818685,10.8023405)), 0.22579590409978006
+((5.9408665,9.404494), (5.4465513,9.577753), (5.6783786,8.968184)), 0.13057643991633547
+((5.6997876,10.230093), (4.9217453,9.978306), (5.4465513,9.577753)), 0.22189321611066898
+((-0.40190443,10.502324), (-0.9780968,10.113529), (-0.04343019,9.875094)), 0.25038899020942323
+((-0.40190443,10.502324), (-0.37829337,11.069568), (-1.029049,10.984176)), 0.18356040895340628
+((4.0737953,10.361698), (4.7818685,10.8023405), (3.9062266,11.228098)), 0.34365612612239294
+((-2.1505969,10.505713), (-2.486851,9.888197), (-1.7357571,9.9816265)), 0.21619840446061186
+((-2.1505969,10.505713), (-1.8319483,11.108639), (-2.7122395,10.961356)), 0.24190922100754453
+((-3.9534109,14.750662), (-4.5130634,14.259391), (-3.7086775,14.331709)), 0.17734923921399856
+((-5.193446,9.2178135), (-5.103168,8.509479), (-4.619417,9.061621)), 0.19625197482482187
+((-5.8081093,9.469455), (-5.7647996,8.792471), (-5.193446,9.2178135)), 0.20260923268147038
+((-3.404297,10.73426), (-3.1441708,11.348464), (-3.7901757,11.462086)), 0.21316751794319488
+((-0.23771651,14.935893), (-0.6020454,14.44265), (0.25620273,14.576324)), 0.18731180322712881
+((-1.4416306,10.555604), (-1.7357571,9.9816265), (-0.9780968,10.113529)), 0.19804191808873878
+((-1.4416306,10.555604), (-1.029049,10.984176), (-1.8319483,11.108639)), 0.19772552474949845
+((0.22970746,10.876187), (0.2660337,11.510557), (-0.37829337,11.069568)), 0.1963611015103682
+((-1.8319483,11.108639), (-2.1505969,10.505713), (-1.4416306,10.555604)), 0.20577808092380973
+((-1.8319483,11.108639), (-1.3965344,11.842209), (-2.3609872,11.68652)), 0.3198521958555884
+((-2.7122395,10.961356), (-2.3609872,11.68652), (-3.1441708,11.348464)), 0.22459662028047436
+((-2.3609872,11.68652), (-2.7122395,10.961356), (-1.8319483,11.108639)), 0.2933108430584371
+((-2.3609872,11.68652), (-3.372598,11.958737), (-3.1441708,11.348464)), 0.27758858847551354
+((-2.3609872,11.68652), (-1.9135695,12.378167), (-2.7112439,12.46483)), 0.2952421104465574
+((2.5076482,11.071791), (1.8457083,10.50756), (2.522853,10.198434)), 0.2933444094237502
+((2.5076482,11.071791), (3.2071066,11.518136), (2.2580183,11.749783)), 0.29282413728238915
+((1.2769234,10.736158), (1.1981317,9.87869), (1.8457083,10.50756)), 0.25286338555746046
+((1.2769234,10.736158), (1.7551273,11.149308), (0.8752138,11.2791)), 0.2128015996995426
+((3.271194,10.637112), (3.9062266,11.228098), (3.2071066,11.518136)), 0.29867699485260146
+((1.7551273,11.149308), (1.2769234,10.736158), (1.8457083,10.50756)), 0.17215504914275379
+((1.7551273,11.149308), (2.2580183,11.749783), (1.4452733,11.946751)), 0.2935429604345923
+((0.2660337,11.510557), (0.22970746,10.876187), (0.8752138,11.2791)), 0.19742671130362394
+((-0.37829337,11.069568), (-0.40190443,10.502324), (0.22970746,10.876187)), 0.17472524809177714
+((-1.029049,10.984176), (-1.4416306,10.555604), (-0.40190443,10.502324)), 0.23378975437096988
+((-1.029049,10.984176), (-0.73958755,11.888359), (-1.3965344,11.842209)), 0.29032086640570975
+((2.2580183,11.749783), (1.7551273,11.149308), (2.5076482,11.071791)), 0.2454261807949062
+((1.4452733,11.946751), (0.8752138,11.2791), (1.7551273,11.149308)), 0.33073184495377106
+((3.9062266,11.228098), (3.271194,10.637112), (4.0737953,10.361698)), 0.32461146045294936
+((4.7818685,10.8023405), (4.0737953,10.361698), (4.9217453,9.978306)), 0.32255626634895135
+((4.7818685,10.8023405), (5.2087,11.454983), (4.680026,11.6716795)), 0.21876406624391734
+((4.680026,11.6716795), (3.9062266,11.228098), (4.7818685,10.8023405)), 0.3589347132555192
+((4.680026,11.6716795), (5.0268035,12.142781), (4.645379,12.527331)), 0.15652152549388865
+((-4.610431,9.954896), (-4.356132,10.856558), (-5.093887,10.675679)), 0.3096040171858234
+((5.354541,10.657141), (4.9217453,9.978306), (5.6997876,10.230093)), 0.20959496650837586
+((3.2071066,11.518136), (2.5076482,11.071791), (3.271194,10.637112)), 0.3224224864786615
+((-4.356132,10.856558), (-4.3274984,11.71345), (-4.924654,11.528871)), 0.253206491892274
+((-4.924654,11.528871), (-5.093887,10.675679), (-4.356132,10.856558)), 0.29941774927147585
+((-4.924654,11.528871), (-4.8735147,12.418201), (-5.6423798,11.963015)), 0.33024876038205336
+((-5.093887,10.675679), (-5.2942305,9.84087), (-4.610431,9.954896)), 0.27399881514672453
+((-5.093887,10.675679), (-5.523055,11.420246), (-5.833876,10.885185)), 0.23052908220858126
+((-5.852662,10.13467), (-5.8081093,9.469455), (-5.2942305,9.84087)), 0.17919384483158468
+((-3.7901757,11.462086), (-4.356132,10.856558), (-3.404297,10.73426)), 0.32278906187808165
+((-3.7901757,11.462086), (-3.372598,11.958737), (-4.3274984,11.71345)), 0.18591328631544932
+((-3.1441708,11.348464), (-3.404297,10.73426), (-2.7122395,10.961356)), 0.18299551141815487
+((-3.372598,11.958737), (-3.7901757,11.462086), (-3.1441708,11.348464)), 0.18414267191277245
+((-4.3274984,11.71345), (-4.356132,10.856558), (-3.7901757,11.462086)), 0.23381271465743386
+((-1.3965344,11.842209), (-1.8319483,11.108639), (-1.029049,10.984176)), 0.32158790766041123
+((-1.3965344,11.842209), (-1.1123862,12.674859), (-1.9135695,12.378167)), 0.29140046295474187
+((-0.73958755,11.888359), (-1.029049,10.984176), (-0.37829337,11.069568)), 0.2818423761490175
+((-0.73958755,11.888359), (-0.40835944,12.452819), (-1.1123862,12.674859)), 0.23547038960534658
+((-2.7112439,12.46483), (-3.372598,11.958737), (-2.3609872,11.68652)), 0.3460007372487212
+((-2.7112439,12.46483), (-2.227296,13.192262), (-2.9017582,13.337894)), 0.28055173236038083
+((-1.9135695,12.378167), (-2.3609872,11.68652), (-1.3965344,11.842209)), 0.2987016397702571
+((-1.9135695,12.378167), (-1.5501775,13.177726), (-2.227296,13.192262)), 0.27333917212258946
+((-1.1123862,12.674859), (-1.3965344,11.842209), (-0.73958755,11.888359)), 0.26694672985192414
+((-1.1123862,12.674859), (-0.6824947,13.187686), (-1.5501775,13.177726)), 0.22034464899154824
+((-5.833876,10.885185), (-5.852662,10.13467), (-5.093887,10.675679)), 0.2796544140687161
+((-5.9410505,11.375831), (-5.833876,10.885185), (-5.523055,11.420246)), 0.10492387621285494
+((-5.9410505,11.375831), (-5.523055,11.420246), (-5.6423798,11.963015)), 0.11608731482397479
+((-5.523055,11.420246), (-5.093887,10.675679), (-4.924654,11.528871)), 0.24608391030637192
+((5.2087,11.454983), (4.7818685,10.8023405), (5.354541,10.657141)), 0.21786303024382864
+((1.0303558,12.56003), (0.7370074,11.898644), (1.4452733,11.946751)), 0.22716247108516804
+((1.0303558,12.56003), (1.5198007,13.283375), (0.50147825,13.113692)), 0.3267739957186834
+((-4.8735147,12.418201), (-4.924654,11.528871), (-4.3274984,11.71345)), 0.26081479951003417
+((-4.8735147,12.418201), (-5.1588626,13.208388), (-5.5247974,12.684487)), 0.21932548368955695
+((1.5198007,13.283375), (1.0303558,12.56003), (2.0220582,12.556239)), 0.35959906434620587
+((1.5198007,13.283375), (1.622396,14.144108), (0.8935857,13.901711)), 0.30122117901877477
+((0.20189951,12.350961), (0.50147825,13.113692), (-0.17311677,12.95598)), 0.23364387758983837
+((0.50147825,13.113692), (0.20189951,12.350961), (1.0303558,12.56003)), 0.2846285234868984
+((0.50147825,13.113692), (-0.06013848,13.802845), (-0.17311677,12.95598)), 0.27673637344787194
+((0.50147825,13.113692), (0.8935857,13.901711), (-0.06013848,13.802845)), 0.35639334521914795
+((-0.40835944,12.452819), (-0.17311677,12.95598), (-0.6824947,13.187686)), 0.15540320893508444
+((-0.6824947,13.187686), (-1.1123862,12.674859), (-0.40835944,12.452819)), 0.2282485705620252
+((-0.6824947,13.187686), (-0.06013848,13.802845), (-1.1083982,13.75245)), 0.3067414063467847
+((-0.17311677,12.95598), (-0.40835944,12.452819), (0.20189951,12.350961)), 0.1655100698094304
+((-2.227296,13.192262), (-2.7112439,12.46483), (-1.9135695,12.378167)), 0.3110969278507598
+((-2.227296,13.192262), (-1.8761901,13.97798), (-2.4214003,13.8067)), 0.1841220356909137
+((-1.5501775,13.177726), (-1.9135695,12.378167), (-1.1123862,12.674859)), 0.26638876278667317
+((-1.5501775,13.177726), (-1.1083982,13.75245), (-1.8761901,13.97798)), 0.27045142622395496
+((-1.1083982,13.75245), (-1.5501775,13.177726), (-0.6824947,13.187686)), 0.2471390428802965
+((-1.1083982,13.75245), (-0.6020454,14.44265), (-1.310699,14.597196)), 0.2836836716981274
+((-5.6423798,11.963015), (-5.523055,11.420246), (-4.924654,11.528871)), 0.16887742812065004
+((5.0268035,12.142781), (4.680026,11.6716795), (5.2087,11.454983)), 0.16210244060530213
+((-5.5247974,12.684487), (-5.6423798,11.963015), (-4.8735147,12.418201)), 0.2505966457775712
+((-5.5247974,12.684487), (-5.7781935,13.253033), (-5.942861,12.345085)), 0.1618456533794802
+((5.2190776,12.846086), (4.645379,12.527331), (5.0268035,12.142781)), 0.17109822175962408
+((5.2190776,12.846086), (5.9402156,12.82589), (5.5411825,13.3407755)), 0.18162245300617913
+((-5.942861,12.345085), (-5.6423798,11.963015), (-5.5247974,12.684487)), 0.1308569125043419
+((5.9402156,12.82589), (5.2190776,12.846086), (5.5918217,12.223156)), 0.22084514302189132
+((2.061943,13.396146), (2.6098573,13.900231), (1.622396,14.144108)), 0.31569419612213706
+((3.2896144,13.751786), (3.8328571,14.416239), (3.0843134,14.612994)), 0.3021288692201353
+((-1.8761901,13.97798), (-2.227296,13.192262), (-1.5501775,13.177726)), 0.2685639674577399
+((-1.8761901,13.97798), (-1.8415816,14.837972), (-2.3878226,14.676659)), 0.23209008809851825
+((-5.1588626,13.208388), (-5.345402,13.833649), (-5.7781935,13.253033)), 0.1894575590420985
+((-5.7781935,13.253033), (-5.5247974,12.684487), (-5.1588626,13.208388)), 0.17040249389210885
+((-2.4214003,13.8067), (-2.9017582,13.337894), (-2.227296,13.192262)), 0.19307362027310623
+((-2.4214003,13.8067), (-2.3878226,14.676659), (-2.9579432,14.368645)), 0.24281952283220337
+((-2.3878226,14.676659), (-2.4214003,13.8067), (-1.8761901,13.97798)), 0.23427965291051195
+((4.683894,13.383831), (5.5411825,13.3407755), (5.265739,13.99842)), 0.2759657326508404
+((-0.06013848,13.802845), (-0.6824947,13.187686), (-0.17311677,12.95598)), 0.22877598463798482
+((-0.06013848,13.802845), (0.25620273,14.576324), (-0.6020454,14.44265)), 0.31077530095240263
+((-0.6020454,14.44265), (-1.1083982,13.75245), (-0.06013848,13.802845)), 0.348995564974994
+((-0.6020454,14.44265), (-0.7498889,14.940056), (-1.310699,14.597196)), 0.16481997264207363
+((-1.310699,14.597196), (-1.8761901,13.97798), (-1.1083982,13.75245)), 0.30148200359138394
+((1.622396,14.144108), (1.5198007,13.283375), (2.061943,13.396146)), 0.22753504311609313
+((1.622396,14.144108), (1.5360615,14.942343), (1.0053215,14.74567)), 0.2203174106916359
+((0.8935857,13.901711), (0.50147825,13.113692), (1.5198007,13.283375)), 0.3679618988695174
+((0.8935857,13.901711), (1.0053215,14.74567), (0.25620273,14.576324)), 0.3066517287266716
+((0.25620273,14.576324), (-0.06013848,13.802845), (0.8935857,13.901711)), 0.3532052653584708
+((1.0053215,14.74567), (0.8935857,13.901711), (1.622396,14.144108)), 0.2940008041369217
+((2.6098573,13.900231), (3.0843134,14.612994), (2.300032,14.711446)), 0.30285880700220347
+((2.300032,14.711446), (1.622396,14.144108), (2.6098573,13.900231)), 0.36274191085082874
+((1.5360615,14.942343), (1.622396,14.144108), (2.300032,14.711446)), 0.29494674527227954
+((3.0843134,14.612994), (2.6098573,13.900231), (3.2896144,13.751786)), 0.2774681295960875
+((4.508807,14.278062), (5.1691685,14.857686), (4.3133974,14.868027)), 0.25142710874810525
+((4.3133974,14.868027), (3.8328571,14.416239), (4.508807,14.278062)), 0.18589285667204017
+((5.265739,13.99842), (4.508807,14.278062), (4.683894,13.383831)), 0.3139549953879799
+((5.265739,13.99842), (5.7685056,14.641077), (5.1691685,14.857686)), 0.24703603815870842
+((-0.7498889,14.940056), (-0.6020454,14.44265), (-0.23771651,14.935893)), 0.1270711130444756
+((-5.345402,13.833649), (-5.1588626,13.208388), (-4.81288,13.821963)), 0.16539248033437037
+((-5.345402,13.833649), (-5.0650806,14.309497), (-5.830965,13.986192)), 0.1369077398061943
+((-5.830965,13.986192), (-5.7781935,13.253033), (-5.345402,13.833649)), 0.17397261090325894
+((-5.6332984,14.572756), (-5.830965,13.986192), (-5.0650806,14.309497)), 0.19266681717961062
+((-5.0650806,14.309497), (-5.345402,13.833649), (-4.81288,13.821963)), 0.1283375738602386
+((-1.8415816,14.837972), (-1.8761901,13.97798), (-1.310699,14.597196)), 0.2324438645675437
+((5.5411825,13.3407755), (4.683894,13.383831), (5.2190776,12.846086)), 0.21898014870198007
+((5.904018,13.924525), (5.265739,13.99842), (5.5411825,13.3407755)), 0.1997033844034241
+((5.1691685,14.857686), (4.508807,14.278062), (5.265739,13.99842)), 0.3117003820261237
+((5.7685056,14.641077), (5.265739,13.99842), (5.904018,13.924525)), 0.223673154698694
+#Area Sum
+116.49477
+#Wall Edges
+((-0.5,0.0), (0.0,-0.86))
+((-0.5,0.0), (-1.3563339,0.10498081))
+((0.0,-0.86), (0.5,0.0))
+((0.0,-0.86), (-0.5,0.0))
+((0.5,0.0), (0.0,-0.86))
+((0.5,0.0), (1.3626666,0.095485166))
+((1.3626666,0.095485166), (1.3626666,0.095485166))
+((1.3626666,0.095485166), (2.2250159,0.15399492))
+((-1.3563339,0.10498081), (-1.3563339,0.10498081))
+((-1.3563339,0.10498081), (-2.2410207,0.21655262))
+((-2.2410207,0.21655262), (-2.2410207,0.21655262))
+((-2.2410207,0.21655262), (-3.118735,0.3035045))
+((2.2250159,0.15399492), (2.2250159,0.15399492))
+((2.2250159,0.15399492), (3.0886993,0.22640353))
+((-5.571192,6.782177), (-5.936749,6.327095))
+((-5.571192,6.782177), (-5.7209888,7.3751884))
+((-3.118735,0.3035045), (-3.118735,0.3035045))
+((-3.118735,0.3035045), (-3.9833133,0.3723859))
+((5.9373593,4.385452), (5.7195516,5.1832757))
+((5.9373593,4.385452), (5.827322,3.8520703))
+((3.0886993,0.22640353), (3.0886993,0.22640353))
+((3.0886993,0.22640353), (3.939217,0.24098672))
+((-5.94088,5.849193), (-5.9404674,5.1064577))
+((-5.94088,5.849193), (-5.936749,6.327095))
+((-3.9833133,0.3723859), (-3.9833133,0.3723859))
+((-3.9833133,0.3723859), (-4.4392695,0.05694235))
+((3.939217,0.24098672), (3.939217,0.24098672))
+((3.939217,0.24098672), (4.7987604,0.2787955))
+((4.7987604,0.2787955), (4.7987604,0.2787955))
+((4.7987604,0.2787955), (5.6695075,0.3069094))
+((-4.746942,14.7416315), (-5.6332984,14.572756))
+((-4.746942,14.7416315), (-3.9534109,14.750662))
+((5.598666,1.8410273), (5.940422,0.959325))
+((5.598666,1.8410273), (5.9370003,2.67322))
+((-5.519648,2.111498), (-5.8939805,1.2846966))
+((-5.519648,2.111498), (-5.891061,2.9125502))
+((-4.4392695,0.05694235), (-4.4392695,0.05694235))
+((-4.4392695,0.05694235), (-4.4392695,0.05694235))
+((-4.4392695,0.05694235), (-5.302387,0.05945189))
+((-5.553246,0.6186676), (-5.8939805,1.2846966))
+((-5.553246,0.6186676), (-5.9409046,0.07407073))
+((-5.8939805,1.2846966), (-5.8939805,1.2846966))
+((-5.8939805,1.2846966), (-5.8939805,1.2846966))
+((-5.302387,0.05945189), (-5.302387,0.05945189))
+((-5.302387,0.05945189), (-5.9409046,0.07407073))
+((5.6783786,8.968184), (5.7243166,8.139168))
+((5.6783786,8.968184), (5.9408665,9.404494))
+((5.6695075,0.3069094), (5.6695075,0.3069094))
+((5.6695075,0.3069094), (5.940422,0.959325))
+((5.940422,0.959325), (5.940422,0.959325))
+((5.940422,0.959325), (5.940422,0.959325))
+((3.5752141,14.942387), (4.3133974,14.868027))
+((3.5752141,14.942387), (3.0843134,14.612994))
+((-5.6731215,4.4111443), (-5.940571,3.4309793))
+((-5.6731215,4.4111443), (-5.9404674,5.1064577))
+((5.7243166,8.139168), (5.9430666,7.779654))
+((5.7243166,8.139168), (5.7243166,8.139168))
+((-5.9409046,0.07407073), (-5.9409046,0.07407073))
+((-5.9409046,0.07407073), (-5.9409046,0.07407073))
+((-5.891061,2.9125502), (-5.891061,2.9125502))
+((-5.891061,2.9125502), (-5.940571,3.4309793))
+((-5.940571,3.4309793), (-5.940571,3.4309793))
+((-5.940571,3.4309793), (-5.940571,3.4309793))
+((5.9370003,2.67322), (5.9370003,2.67322))
+((5.9370003,2.67322), (5.9416456,3.218075))
+((5.9416456,3.218075), (5.827322,3.8520703))
+((5.9416456,3.218075), (5.9416456,3.218075))
+((-5.9404674,5.1064577), (-5.9404674,5.1064577))
+((-5.9404674,5.1064577), (-5.9404674,5.1064577))
+((5.827322,3.8520703), (5.827322,3.8520703))
+((5.827322,3.8520703), (5.827322,3.8520703))
+((-5.4930916,5.8981524), (-5.4930916,5.8981524))
+((-5.7209888,7.3751884), (-5.7209888,7.3751884))
+((-5.7209888,7.3751884), (-5.815286,8.040076))
+((-5.936749,6.327095), (-5.936749,6.327095))
+((-5.936749,6.327095), (-5.936749,6.327095))
+((5.7195516,5.1832757), (5.7195516,5.1832757))
+((5.7195516,5.1832757), (5.941005,5.6726384))
+((5.885324,6.542352), (5.941005,5.6726384))
+((5.885324,6.542352), (5.936757,7.09441))
+((5.941005,5.6726384), (5.941005,5.6726384))
+((5.941005,5.6726384), (5.941005,5.6726384))
+((5.936757,7.09441), (5.936757,7.09441))
+((5.936757,7.09441), (5.9430666,7.779654))
+((5.5918217,12.223156), (5.9418387,11.4377))
+((5.5918217,12.223156), (5.9402156,12.82589))
+((5.9412675,10.74369), (5.6997876,10.230093))
+((5.9412675,10.74369), (5.9418387,11.4377))
+((5.9418387,11.4377), (5.9418387,11.4377))
+((5.9418387,11.4377), (5.9418387,11.4377))
+((5.507982,7.6966524), (5.507982,7.6966524))
+((-3.3736498,14.941633), (-3.9534109,14.750662))
+((-3.3736498,14.941633), (-2.3878226,14.676659))
+((-5.815286,8.040076), (-5.815286,8.040076))
+((-5.815286,8.040076), (-5.7647996,8.792471))
+((5.9430666,7.779654), (5.9430666,7.779654))
+((5.9430666,7.779654), (5.9430666,7.779654))
+((-5.7647996,8.792471), (-5.7647996,8.792471))
+((-5.7647996,8.792471), (-5.8081093,9.469455))
+((5.9408665,9.404494), (5.9408665,9.404494))
+((5.9408665,9.404494), (5.6997876,10.230093))
+((5.6997876,10.230093), (5.6997876,10.230093))
+((5.6997876,10.230093), (5.6997876,10.230093))
+((-3.9534109,14.750662), (-3.9534109,14.750662))
+((-3.9534109,14.750662), (-3.9534109,14.750662))
+((-5.8081093,9.469455), (-5.8081093,9.469455))
+((-5.8081093,9.469455), (-5.852662,10.13467))
+((-0.23771651,14.935893), (-0.7498889,14.940056))
+((-0.23771651,14.935893), (0.25620273,14.576324))
+((-5.852662,10.13467), (-5.852662,10.13467))
+((-5.852662,10.13467), (-5.833876,10.885185))
+((-5.833876,10.885185), (-5.833876,10.885185))
+((-5.833876,10.885185), (-5.9410505,11.375831))
+((-5.9410505,11.375831), (-5.6423798,11.963015))
+((-5.9410505,11.375831), (-5.9410505,11.375831))
+((-5.6423798,11.963015), (-5.6423798,11.963015))
+((-5.6423798,11.963015), (-5.942861,12.345085))
+((-5.942861,12.345085), (-5.942861,12.345085))
+((-5.942861,12.345085), (-5.7781935,13.253033))
+((5.9402156,12.82589), (5.5411825,13.3407755))
+((5.9402156,12.82589), (5.9402156,12.82589))
+((-5.7781935,13.253033), (-5.7781935,13.253033))
+((-5.7781935,13.253033), (-5.830965,13.986192))
+((-2.3878226,14.676659), (-1.8415816,14.837972))
+((-2.3878226,14.676659), (-2.3878226,14.676659))
+((-1.310699,14.597196), (-0.7498889,14.940056))
+((-1.310699,14.597196), (-1.8415816,14.837972))
+((0.25620273,14.576324), (1.0053215,14.74567))
+((0.25620273,14.576324), (0.25620273,14.576324))
+((1.0053215,14.74567), (1.0053215,14.74567))
+((1.0053215,14.74567), (1.5360615,14.942343))
+((2.300032,14.711446), (3.0843134,14.612994))
+((2.300032,14.711446), (1.5360615,14.942343))
+((1.5360615,14.942343), (1.5360615,14.942343))
+((1.5360615,14.942343), (1.5360615,14.942343))
+((3.0843134,14.612994), (3.0843134,14.612994))
+((3.0843134,14.612994), (3.0843134,14.612994))
+((4.3133974,14.868027), (4.3133974,14.868027))
+((4.3133974,14.868027), (5.1691685,14.857686))
+((-0.7498889,14.940056), (-0.7498889,14.940056))
+((-0.7498889,14.940056), (-0.7498889,14.940056))
+((-5.830965,13.986192), (-5.830965,13.986192))
+((-5.830965,13.986192), (-5.6332984,14.572756))
+((-5.6332984,14.572756), (-5.6332984,14.572756))
+((-5.6332984,14.572756), (-5.6332984,14.572756))
+((-1.8415816,14.837972), (-1.8415816,14.837972))
+((-1.8415816,14.837972), (-1.8415816,14.837972))
+((5.5411825,13.3407755), (5.5411825,13.3407755))
+((5.5411825,13.3407755), (5.904018,13.924525))
+((5.904018,13.924525), (5.904018,13.924525))
+((5.904018,13.924525), (5.7685056,14.641077))
+((5.1691685,14.857686), (5.1691685,14.857686))
+((5.1691685,14.857686), (5.7685056,14.641077))
+((5.7685056,14.641077), (5.7685056,14.641077))
+((5.7685056,14.641077), (5.7685056,14.641077))
+#Blacklist Edges
+

@@ -1,0 +1,3585 @@
+/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java -Didea.launcher.port=7532 -Didea.launcher.bin.path=/usr/bin/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/compilefontconfig.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/javazic.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar:/home/doms/Research/SwarmRoboticResearch/platypus3000/target/classes:/home/doms/.m2/repository/org/processing/core/core/2.2/core-2.2.jar:/home/doms/.m2/repository/org/processing/pdf/pdf/2.2/pdf-2.2.jar:/home/doms/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/home/doms/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar:/home/doms/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar:/home/doms/.m2/repository/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar:/home/doms/.m2/repository/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar:/home/doms/.m2/repository/org/jbox2d/jbox2d-library/2.2.1.1/jbox2d-library-2.2.1.1.jar:/home/doms/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all-main/2.1.5-01/jogl-all-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/jogl/jogl-all/2.1.5-01/jogl-all-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt-main/2.1.5-01/gluegen-rt-main-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-android-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-armv6hf.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-linux-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-macosx-universal.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-solaris-i586.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-amd64.jar:/home/doms/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.1.5-01/gluegen-rt-2.1.5-01-natives-windows-i586.jar:/home/doms/.m2/repository/org/javabits/jgrapht/jgrapht-core/0.9.1/jgrapht-core-0.9.1.jar:/usr/bin/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain projects.triangulation.Environment.HeadlessRunner
+Loading configuration from /home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1.properties
+Radius = 0.05 meter
+Range = 1.2 meter
+MessageBufferSize = 5000
+MaximalAcceleration = 0.1
+MaximalVelocity = 1.0
+MaximalBrakePower = 0.3
+MaximalRotationAcceleration = 1.0
+MaximalRotationVelocity = 10.0
+MaximalRotationBreak = 1.0
+ConnectivityProbability = 1.0
+NeighborPositionAngleNoise = 0.0
+NeighborPositionDistanceNoise = 0.01
+SpeedDeviationChange = 0.2 (Noisy)
+RotationSpeedDeviationChange = 0.2 (Noisy)
+CleanOldMessages = False
+#Environment:
+/home/doms/Research/SwarmRoboticResearch/platypus3000/src/main/java/projects/triangulation/Environment/Environment1-lineenvdata
+#Neighborhood Update Probability
+1/2
+35 deleted because: Partition
+27 deleted because: Partition
+28 deleted because: Partition
+17 deleted because: Partition
+15 deleted because: Partition
+18 deleted because: Partition
+22 deleted because: Partition
+24 deleted because: Partition
+19 deleted because: Partition
+7 deleted because: Partition
+14 deleted because: Partition
+21 deleted because: Partition
+185 closest triangle has a high difference to actual triangle -> restart -0.4020774 0.20758212
+23 deleted because: Partition
+6 deleted because: Partition
+Unable to transform
+14: No closest triangle -> restart
+11 deleted because: Partition
+17: No closest triangle -> restart
+184 closest triangle has a high difference to actual triangle -> restart -0.26893395 0.24582139
+18: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(18, 19, 28)
+24: loop_prologue - Removing Localization Triangle LocalizationTriangle(18, 19, 28)
+24: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(6, 14, 7)
+185: loop_prologue - Removing Localization Triangle LocalizationTriangle(6, 14, 7)
+ROBOT-185 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(17, 27, 35)
+22: loop_prologue - Removing Localization Triangle LocalizationTriangle(17, 27, 35)
+22: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(15, 27, 17)
+35: loop_prologue - Removing Localization Triangle LocalizationTriangle(15, 27, 17)
+35: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(15, 27, 17)
+15: loop_prologue - Removing Localization Triangle LocalizationTriangle(15, 27, 17)
+15: MovementController Failed
+Could not determine adjacent triangle
+186 evasion -> no adjacent triangle
+21 closest triangle has a high difference to actual triangle -> restart -0.60734457 -0.90859276
+LocalizationTriangle.locateNbr: No NeighborState of 16, returning null
+Unable to transform
+28 closest triangle has a high difference to actual triangle -> restart -0.44833708 -0.14478604
+LocalizationTriangle.locateNbr: No NeighborState of 28, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(11, 18, 24)
+23: loop_prologue - Removing Localization Triangle LocalizationTriangle(11, 18, 24)
+23: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(3, 5, 6)
+7: loop_prologue - Removing Localization Triangle LocalizationTriangle(3, 5, 6)
+7: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(46, 52, 54)
+35: loop_prologue - Removing Localization Triangle LocalizationTriangle(46, 52, 54)
+35: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(27, 36, 35)
+27: loop_prologue - Removing Localization Triangle LocalizationTriangle(27, 36, 35)
+27: MovementController Failed
+165 deleted because: Blacklist
+180 deleted because: DeletionDemand
+209 deleted because: triangles.isEmpty()
+165 closest triangle has a high difference to actual triangle -> restart -0.16354868 -0.6155927
+180 closest triangle has a high difference to actual triangle -> restart -0.21298166 -0.62939423
+LocalizationTriangle.locateNbr: No NeighborState of 184, returning null
+Unable to transform
+LocalizationTriangle.locateNbr: No NeighborState of 184, returning null
+Unable to transform
+212 closest triangle has a high difference to actual triangle -> restart -0.24630038 0.24520533
+209 closest triangle has a high difference to actual triangle -> restart -0.5213089 -0.21525894
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(165, 210, 180)
+180: loop_prologue - Removing Localization Triangle LocalizationTriangle(165, 210, 180)
+ROBOT-180 called evasion without a valid triangle
+165 closest triangle has a high difference to actual triangle -> restart -0.076115206 -0.390186
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:80)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.Tasks.FindFrontier.serial_run(FindFrontier.java:125)
+	at projects.triangulation.Tasks.SerialTask.run(SerialTask.java:68)
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:201)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 180! Restarting...
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.TriangleMovementController.loop_epilogue(TriangleMovementController.java:187)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:226)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error 180
+Failed to update localization triangle LocalizationTriangle(165, 210, 180)
+180: loop_prologue - Removing Localization Triangle LocalizationTriangle(165, 210, 180)
+Failed to update localization triangle LocalizationTriangle(165, 210, 180)
+212: loop_prologue - Removing Localization Triangle LocalizationTriangle(165, 210, 180)
+ROBOT-212 called evasion without a valid triangle
+67 deleted because: Partition
+83 deleted because: Partition
+65 deleted because: Partition
+71 deleted because: Partition
+90 deleted because: Partition
+62 deleted because: Partition
+88 deleted because: Partition
+Failed to update localization triangle LocalizationTriangle(62, 83, 90)
+83: loop_prologue - Removing Localization Triangle LocalizationTriangle(62, 83, 90)
+83: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(56, 62, 88)
+62: loop_prologue - Removing Localization Triangle LocalizationTriangle(56, 62, 88)
+62: MovementController Failed
+65 closest triangle has a high difference to actual triangle -> restart -0.5201417 -0.21056879
+Failed to update localization triangle LocalizationTriangle(65, 92, 72)
+71: loop_prologue - Removing Localization Triangle LocalizationTriangle(65, 92, 72)
+71: MovementController Failed
+LocalizationTriangle.locateNbr: No NeighborState of 65, returning null
+Unable to transform
+90 closest triangle has a high difference to actual triangle -> restart 0.1545972 -0.14877233
+LocalizationTriangle.locateNbr: No NeighborState of 90, returning null
+Unable to transform
+67 closest triangle has a high difference to actual triangle -> restart -0.67289466 -0.97554094
+LocalizationTriangle.locateNbr: No NeighborState of 67, returning null
+Unable to transform
+217 deleted because: Blacklist
+218 deleted because: DeletionDemand
+223 closest triangle has a high difference to actual triangle -> restart -0.18631868 0.18602203
+229 closest triangle has a high difference to actual triangle -> restart -0.15583378 0.15089373
+Could not determine adjacent triangle
+Robot-224 failed to get adjacent triangle, restart
+88 closest triangle has a high difference to actual triangle -> restart -0.3487567 -0.65879565
+LocalizationTriangle.locateNbr: No NeighborState of 88, returning null
+Unable to transform
+217 deleted because: Blacklist
+218 deleted because: triangles.isEmpty()
+223 deleted because: DeletionDemand
+217 closest triangle has a high difference to actual triangle -> restart -0.22670007 -0.52931523
+223 closest triangle has a high difference to actual triangle -> restart -0.17515893 -0.5424827
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.locate(LocalizationTriangle.java:304)
+	at projects.triangulation.TriangleMovementController.locate(TriangleMovementController.java:61)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:80)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 217! Restarting...
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+218 closest triangle has a high difference to actual triangle -> restart -0.10716918 -0.6186413
+java.lang.NullPointerException
+LocalizationTriangle.locateNbr: No NeighborState of 65, returning null
+java.lang.NullPointerException
+Unable to transform
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+Failed to update localization triangle LocalizationTriangle(217, 238, 223)
+217: loop_prologue - Removing Localization Triangle LocalizationTriangle(217, 238, 223)
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+java.lang.NullPointerException
+218 closest triangle has a high difference to actual triangle -> restart -0.14176862 -0.85123664
+238: An edge 217 is in more than 2 triangles -> inconsistent
+238 deleted because: Has an edge in more than 2 triangles
+223 closest triangle has a high difference to actual triangle -> restart -0.23371682 0.13132459
+218 closest triangle has a high difference to actual triangle -> restart -0.33129224 -0.022216965
+Unable to transform
+217 deleted because: DeletionDemand
+Tried to delete a non-static robot
+251 deleted because: DeletionDemand
+218 deleted because: triangles.isEmpty()
+250 deleted because: triangles.isEmpty()
+Tried to delete a non-static robot
+Tried to delete a non-static robot
+251 closest triangle has a high difference to actual triangle -> restart -0.5442372 -0.24278119
+222 deleted because: DeletionDemand
+249 closest triangle has a high difference to actual triangle -> restart -0.20165746 0.1919186
+238 closest triangle has a high difference to actual triangle -> restart -0.22833367 0.13759078
+Unable to transform
+223 closest triangle has a high difference to actual triangle -> restart -0.22083311 0.14799061
+217 closest triangle has a high difference to actual triangle -> restart -0.70416284 -0.40318272
+LocalizationTriangle.locateNbr: No NeighborState of 217, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(221, 222, 251)
+248: loop_prologue - Removing Localization Triangle LocalizationTriangle(221, 222, 251)
+ROBOT-248 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(71, 218, 217)
+218: loop_prologue - Removing Localization Triangle LocalizationTriangle(71, 218, 217)
+ROBOT-218 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(71, 218, 217)
+250: loop_prologue - Removing Localization Triangle LocalizationTriangle(71, 218, 217)
+ROBOT-250 called evasion without a valid triangle
+158 deleted because: Partition
+130 deleted because: Partition
+133 deleted because: Partition
+144 deleted because: Partition
+166 deleted because: Partition
+189 deleted because: Partition
+148 deleted because: Partition
+27 deleted because: Partition
+151 deleted because: triangles.isEmpty()
+162 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(144, 148, 151)
+130: loop_prologue - Removing Localization Triangle LocalizationTriangle(144, 148, 151)
+130: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(148, 162, 151)
+144: loop_prologue - Removing Localization Triangle LocalizationTriangle(148, 162, 151)
+144: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(27, 189, 162)
+166: loop_prologue - Removing Localization Triangle LocalizationTriangle(27, 189, 162)
+166: MovementController Failed
+161 deleted because: Partition
+162: No closest triangle -> restart
+151: No closest triangle -> restart
+Could not determine adjacent triangle
+295 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(158, 161, 159)
+158: loop_prologue - Removing Localization Triangle LocalizationTriangle(158, 161, 159)
+ROBOT-158 called evasion without a valid triangle
+LocalizationTriangle.locateNbr: No NeighborState of 161, returning null
+Unable to transform
+LocalizationTriangle.locateNbr: No NeighborState of 133, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(86, 129, 117)
+130: loop_prologue - Removing Localization Triangle LocalizationTriangle(86, 129, 117)
+130: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(6, 15, 190)
+151: loop_prologue - Removing Localization Triangle LocalizationTriangle(6, 15, 190)
+ROBOT-151 called evasion without a valid triangle
+152 deleted because: Partition
+153 deleted because: Partition
+176 deleted because: Partition
+111 deleted because: Partition
+139 deleted because: Partition
+179 deleted because: Partition
+76 deleted because: Partition
+142 deleted because: Partition
+134 deleted because: Partition
+150 deleted because: Partition
+155 deleted because: Partition
+81 deleted because: Partition
+307 closest triangle has a high difference to actual triangle -> restart -0.18985362 0.19069083
+136 deleted because: Partition
+138 deleted because: Partition
+122 deleted because: Partition
+127 deleted because: Partition
+173 deleted because: Partition
+181 deleted because: Partition
+97 deleted because: triangles.isEmpty()
+99 deleted because: Partition
+178 deleted because: Partition
+309 closest triangle has a high difference to actual triangle -> restart -0.27701274 0.1616559
+110 deleted because: Partition
+140 deleted because: triangles.isEmpty()
+154 deleted because: triangles.isEmpty()
+28 deleted because: Partition
+63 deleted because: Partition
+Failed to update localization triangle LocalizationTriangle(140, 178, 154)
+138: loop_prologue - Removing Localization Triangle LocalizationTriangle(140, 178, 154)
+138: MovementController Failed
+Could not determine adjacent triangle
+308 evasion -> no adjacent triangle
+77 deleted because: Partition
+106 deleted because: Partition
+109 deleted because: Partition
+107 deleted because: Partition
+155: No closest triangle -> restart
+154: No closest triangle -> restart
+94 deleted because: triangles.isEmpty()
+124 deleted because: triangles.isEmpty()
+306 closest triangle has a high difference to actual triangle -> restart -0.5120509 0.24598595
+Failed to update localization triangle LocalizationTriangle(94, 106, 124)
+Failed to update localization triangle LocalizationTriangle(81, 94, 110)
+77: loop_prologue - Removing Localization Triangle LocalizationTriangle(94, 106, 124)
+81: loop_prologue - Removing Localization Triangle LocalizationTriangle(81, 94, 110)
+77: MovementController Failed
+81: MovementController Failed
+109: No closest triangle -> restart
+134: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(94, 124, 110)
+309: loop_prologue - Removing Localization Triangle LocalizationTriangle(94, 124, 110)
+309: MovementController Failed
+110: No closest triangle -> restart
+Unable to transform
+306: No closest triangle -> restart
+179 closest triangle has a high difference to actual triangle -> restart -0.7517182 -0.4491131
+LocalizationTriangle.locateNbr: No NeighborState of 179, returning null
+Unable to transform
+Could not determine adjacent triangle
+181 evasion -> no adjacent triangle
+Failed to update localization triangle LocalizationTriangle(106, 138, 124)
+138: loop_prologue - Removing Localization Triangle LocalizationTriangle(106, 138, 124)
+ROBOT-138 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(106, 138, 124)
+106: loop_prologue - Removing Localization Triangle LocalizationTriangle(106, 138, 124)
+ROBOT-106 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(152, 155, 176)
+142: loop_prologue - Removing Localization Triangle LocalizationTriangle(152, 155, 176)
+142: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(179, 224, 181)
+139: loop_prologue - Removing Localization Triangle LocalizationTriangle(179, 224, 181)
+139: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(97, 110, 127)
+127: loop_prologue - Removing Localization Triangle LocalizationTriangle(97, 110, 127)
+ROBOT-127 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(97, 127, 122)
+97: loop_prologue - Removing Localization Triangle LocalizationTriangle(97, 127, 122)
+ROBOT-97 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(97, 127, 122)
+308: loop_prologue - Removing Localization Triangle LocalizationTriangle(97, 127, 122)
+ROBOT-308 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(127, 136, 142)
+153: loop_prologue - Removing Localization Triangle LocalizationTriangle(127, 136, 142)
+ROBOT-153 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(59, 61, 81)
+76: loop_prologue - Removing Localization Triangle LocalizationTriangle(59, 61, 81)
+76: MovementController Failed
+122 closest triangle has a high difference to actual triangle -> restart 0.1545648 -0.1510375
+LocalizationTriangle.locateNbr: No NeighborState of 122, returning null
+Unable to transform
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:85)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 107! Restarting...
+Failed to update localization triangle LocalizationTriangle(136, 150, 152)
+150: loop_prologue - Removing Localization Triangle LocalizationTriangle(136, 150, 152)
+ROBOT-150 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(136, 150, 152)
+307: loop_prologue - Removing Localization Triangle LocalizationTriangle(136, 150, 152)
+ROBOT-307 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(44, 61, 59)
+94: loop_prologue - Removing Localization Triangle LocalizationTriangle(44, 61, 59)
+ROBOT-94 called evasion without a valid triangle
+LocalizationTriangle.locateNbr: No NeighborState of 173, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(182, 210, 224)
+106: loop_prologue - Removing Localization Triangle LocalizationTriangle(182, 210, 224)
+ROBOT-106 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(45, 49, 66)
+76: loop_prologue - Removing Localization Triangle LocalizationTriangle(45, 49, 66)
+76: MovementController Failed
+213 deleted because: Partition
+312 closest triangle has a high difference to actual triangle -> restart -0.20432648 0.18695317
+226 deleted because: Partition
+258 deleted because: Partition
+257 deleted because: Partition
+285 deleted because: Partition
+289 deleted because: Partition
+196 deleted because: Partition
+218 deleted because: Partition
+223 deleted because: Partition
+255 deleted because: Partition
+200 deleted because: Partition
+234 deleted because: Partition
+291 deleted because: Partition
+165 deleted because: Partition
+238 deleted because: Partition
+250 deleted because: Partition
+252 deleted because: Partition
+253 deleted because: triangles.isEmpty()
+244 deleted because: Partition
+288 deleted because: Partition
+133 deleted because: Partition
+203 deleted because: Partition
+227 deleted because: Partition
+272 deleted because: Partition
+209 deleted because: Partition
+222 deleted because: Partition
+248 deleted because: Partition
+262 deleted because: Partition
+290 deleted because: Partition
+65 deleted because: Partition
+67 deleted because: Partition
+217 deleted because: triangles.isEmpty()
+225 deleted because: Partition
+229 deleted because: Partition
+230 deleted because: triangles.isEmpty()
+253: No closest triangle -> restart
+255: No closest triangle -> restart
+258: No closest triangle -> restart
+71 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(217, 230, 222)
+226: loop_prologue - Removing Localization Triangle LocalizationTriangle(217, 230, 222)
+226: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(71, 238, 217)
+238: loop_prologue - Removing Localization Triangle LocalizationTriangle(71, 238, 217)
+238: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(217, 248, 230)
+248: loop_prologue - Removing Localization Triangle LocalizationTriangle(217, 248, 230)
+248: MovementController Failed
+231 deleted because: triangles.isEmpty()
+256 deleted because: triangles.isEmpty()
+Failed to update localization triangle LocalizationTriangle(65, 231, 71)
+65: loop_prologue - Removing Localization Triangle LocalizationTriangle(65, 231, 71)
+65: MovementController Failed
+218: No closest triangle -> restart
+Failed to update localization triangle LocalizationTriangle(218, 231, 285)
+285: loop_prologue - Removing Localization Triangle LocalizationTriangle(218, 231, 285)
+285: MovementController Failed
+Could not determine adjacent triangle
+312 evasion -> no adjacent triangle
+165: No closest triangle -> restart
+226: No closest triangle -> restart
+203: No closest triangle -> restart
+67: No closest triangle -> restart
+231: No closest triangle -> restart
+285: No closest triangle -> restart
+262: No closest triangle -> restart
+234: No closest triangle -> restart
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:85)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 248! Restarting...
+Failed to update localization triangle LocalizationTriangle(217, 248, 230)
+217: loop_prologue - Removing Localization Triangle LocalizationTriangle(217, 248, 230)
+ROBOT-217 called evasion without a valid triangle
+Could not determine adjacent triangle
+Robot-323 failed to get adjacent triangle, restart
+227 closest triangle has a high difference to actual triangle -> restart -0.73629177 -0.43346745
+Unable to transform
+250 closest triangle has a high difference to actual triangle -> restart -0.71922004 -0.41615266
+LocalizationTriangle.locateNbr: No NeighborState of 229, returning null
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(196, 200, 203)
+196: loop_prologue - Removing Localization Triangle LocalizationTriangle(196, 200, 203)
+196: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(200, 225, 203)
+200: loop_prologue - Removing Localization Triangle LocalizationTriangle(200, 225, 203)
+200: MovementController Failed
+257 closest triangle has a high difference to actual triangle -> restart -0.42836708 -0.12375979
+Unable to transform
+java.lang.NullPointerException
+	at projects.triangulation.LocalizationTriangle.getAdjacentTriangle(LocalizationTriangle.java:85)
+	at projects.triangulation.Tasks.Evasion.loop(Evasion.java:101)
+	at projects.triangulation.DOTRobotController.loop(DOTRobotController.java:168)
+	at platypus3000.simulation.Robot.runController(Robot.java:82)
+	at platypus3000.simulation.Simulator$3.run(Simulator.java:219)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Error in robot 291! Restarting...
+Failed to update localization triangle LocalizationTriangle(253, 290, 291)
+133: loop_prologue - Removing Localization Triangle LocalizationTriangle(253, 290, 291)
+ROBOT-133 called evasion without a valid triangle
+Unable to transform
+Failed to update localization triangle LocalizationTriangle(207, 209, 208)
+252: loop_prologue - Removing Localization Triangle LocalizationTriangle(207, 209, 208)
+252: MovementController Failed
+Failed to update localization triangle LocalizationTriangle(62, 228, 219)
+67: loop_prologue - Removing Localization Triangle LocalizationTriangle(62, 228, 219)
+ROBOT-67 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(253, 290, 291)
+289: loop_prologue - Removing Localization Triangle LocalizationTriangle(253, 290, 291)
+ROBOT-289 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(286, 294, 287)
+285: loop_prologue - Removing Localization Triangle LocalizationTriangle(286, 294, 287)
+ROBOT-285 called evasion without a valid triangle
+Failed to update localization triangle LocalizationTriangle(133, 134, 140)
+223: loop_prologue - Removing Localization Triangle LocalizationTriangle(133, 134, 140)
+246 deleted because: Partition
+83 deleted because: Partition
+267 deleted because: Partition
+88 deleted because: Partition
+90 deleted because: Partition
+#Steps
+328750
+#Robots
+252
+#Triangles
+((-0.5,0.0), (0.0,-0.86), (0.5,0.0)), 0.42999998347703766
+((-0.009020318,0.73375386), (-0.5,0.0), (0.5,0.0)), 0.3668769578377832
+((-0.88033056,0.7884601), (-0.5,0.0), (-0.009020318,0.73375386)), 0.33309344759554366
+((0.8740067,0.7946018), (-0.009020318,0.73375386), (0.5,0.0)), 0.33944867727089656
+((4.7236767,8.851224), (5.0144477,8.315255), (5.467354,8.750259)), 0.18461508434957835
+((4.7236767,8.851224), (5.360898,9.238027), (4.6656322,9.487916)), 0.21408275731153892
+((-5.940488,8.929668), (-5.7021294,8.534734), (-5.5213447,9.383905)), 0.1369027194277764
+((-5.940488,8.929668), (-5.5213447,9.383905), (-5.942572,10.033377)), 0.23177929212728968
+((1.356694,0.07123355), (0.8740067,0.7946018), (0.5,0.0)), 0.3270443765053564
+((-1.3730162,0.0816551), (-0.5,0.0), (-0.88033056,0.7884601)), 0.3286412696199085
+((1.7357898,0.86277443), (0.8740067,0.7946018), (1.356694,0.07123355)), 0.32814627533013174
+((-5.7021294,8.534734), (-5.889766,7.7634754), (-5.158036,7.7785606)), 0.28076116147193336
+((-5.7021294,8.534734), (-5.158036,7.7785606), (-5.0701013,8.657385)), 0.2723281153766933
+((-1.7542101,0.87179416), (-1.3730162,0.0816551), (-0.88033056,0.7884601)), 0.3293599775315968
+((-2.2424033,0.14040539), (-1.3730162,0.0816551), (-1.7542101,0.87179416)), 0.3322707378389626
+((1.097474,8.356304), (0.5664009,8.06991), (1.2321273,7.5042663)), 0.24552914019242972
+((1.097474,8.356304), (1.2321273,7.5042663), (1.7056438,8.241411)), 0.25135646817960744
+((1.097474,8.356304), (0.3738227,9.052101), (0.5664009,8.06991)), 0.288384221716186
+((1.097474,8.356304), (1.5455528,9.086893), (0.9595554,9.197501)), 0.23884220226554498
+((5.0144477,8.315255), (5.302362,7.8526487), (5.787816,8.288496)), 0.17503041339457068
+((2.2257242,0.13904446), (1.7357898,0.86277443), (1.356694,0.07123355)), 0.3310830545790701
+((5.787816,8.288496), (5.302362,7.8526487), (5.9343033,7.786083)), 0.1538722073234171
+((-5.0701013,8.657385), (-4.817392,9.494736), (-5.5213447,9.383905)), 0.28072379478075615
+((1.5455528,9.086893), (1.097474,8.356304), (1.7056438,8.241411)), 0.24790158860385056
+((1.5455528,9.086893), (1.7056438,8.241411), (2.269129,8.898423)), 0.29079911799726704
+((1.5455528,9.086893), (1.8834915,9.754997), (1.270953,9.669593)), 0.1901890236533086
+((-2.6237268,0.91455644), (-2.2424033,0.14040539), (-1.7542101,0.87179416)), 0.32841551499324945
+((-2.6237268,0.91455644), (-2.9926534,1.7031806), (-3.5065525,0.99934787)), 0.33246783556284887
+((5.302362,7.8526487), (4.8347154,7.197296), (5.7257013,7.172817)), 0.29767872532773465
+((-2.7729075,9.17072), (-2.3336158,9.910434), (-2.9013174,9.95309)), 0.21933750889148151
+((-3.7221196,8.942774), (-3.4339228,9.742322), (-4.1252427,9.685059)), 0.268120223516321
+((-1.9757806,9.135816), (-1.7346748,9.863646), (-2.3336158,9.910434)), 0.2236040338381197
+((2.6115289,0.9325054), (1.7357898,0.86277443), (2.2257242,0.13904446)), 0.33398111799113184
+((2.6115289,0.9325054), (3.4647117,1.0505056), (3.0219302,1.6848176)), 0.29671617073918727
+((3.1103773,0.24540477), (2.6115289,0.9325054), (2.2257242,0.13904446)), 0.33045169750253234
+((4.4114857,14.086067), (3.8036373,13.58606), (4.4760337,13.267698)), 0.26485937235619944
+((4.4114857,14.086067), (3.737669,14.448995), (3.8036373,13.58606)), 0.2787591786862006
+((4.4114857,14.086067), (4.4760337,13.267698), (5.1681585,13.818477)), 0.30098255654022193
+((4.4114857,14.086067), (5.0196023,14.509939), (4.430883,14.9404745)), 0.2556786663410238
+((-2.9926534,1.7031806), (-3.3849046,2.4534118), (-3.859406,1.7950621)), 0.3071121429574811
+((-2.5141625,2.4924283), (-2.9538167,3.260602), (-3.3849046,2.4534118)), 0.3430174478007982
+((3.0219302,1.6848176), (3.87446,1.815166), (3.3485284,2.3982606)), 0.28282994643294446
+((2.5567355,2.40712), (3.3485284,2.3982606), (2.9518142,3.2122953)), 0.3205161145313039
+((-3.1156104,0.20451713), (-2.2424033,0.14040539), (-2.6237268,0.91455644)), 0.325773452647181
+((-3.5065525,0.99934787), (-3.1156104,0.20451713), (-2.6237268,0.91455644)), 0.3342741662692705
+((-3.5065525,0.99934787), (-3.859406,1.7950621), (-4.3630204,1.0567491)), 0.330624742868392
+((2.269129,8.898423), (2.538999,9.791144), (1.8834915,9.754997)), 0.2877152466455562
+((2.0463734,3.1267297), (2.9518142,3.2122953), (2.451864,3.9042087)), 0.334632590265868
+((0.014252205,3.7683613), (0.47932208,4.498748), (-0.41423282,4.5228043)), 0.331914151804399
+((-2.0797298,3.1500738), (-2.476483,3.9437444), (-2.9538167,3.260602)), 0.3249423328920003
+((-0.8761844,3.7857678), (-0.41423282,4.5228043), (-1.1585752,4.6486874)), 0.30337967546567246
+((3.4647117,1.0505056), (2.6115289,0.9325054), (3.1103773,0.24540477)), 0.3225433078046201
+((3.4647117,1.0505056), (4.338486,1.1335273), (3.87446,1.815166)), 0.31706137005051743
+((3.976886,0.34030038), (3.4647117,1.0505056), (3.1103773,0.24540477)), 0.33200106764098936
+((-3.859406,1.7950621), (-3.5065525,0.99934787), (-2.9926534,1.7031806)), 0.32863332338700374
+((-3.859406,1.7950621), (-4.2855515,2.581173), (-4.7424235,1.8424476)), 0.3369782980898355
+((3.87446,1.815166), (3.0219302,1.6848176), (3.4647117,1.0505056)), 0.2992428289341394
+((-1.598779,3.8641455), (-1.1585752,4.6486874), (-1.9728464,4.6465826)), 0.3189516233904929
+((-3.3849046,2.4534118), (-2.9926534,1.7031806), (-2.5141625,2.4924283)), 0.33428113145657645
+((-3.3849046,2.4534118), (-3.8347273,3.2231028), (-4.2855515,2.581173)), 0.3178749611614892
+((0.9248494,3.7306154), (1.3157059,4.5066013), (0.47932208,4.498748)), 0.32297624786930773
+((3.3485284,2.3982606), (2.5567355,2.40712), (3.0219302,1.6848176)), 0.2838963016536847
+((2.9518142,3.2122953), (2.0463734,3.1267297), (2.5567355,2.40712)), 0.3476166756211762
+((-2.9538167,3.260602), (-2.5141625,2.4924283), (-2.0797298,3.1500738)), 0.3114281631239881
+((4.338486,1.1335273), (3.4647117,1.0505056), (3.976886,0.34030038)), 0.33154041811786383
+((4.338486,1.1335273), (5.1479955,0.9094426), (5.0645623,1.4400721)), 0.20542670098886814
+((0.47932208,4.498748), (0.014252205,3.7683613), (0.9248494,3.7306154)), 0.3413211454558434
+((0.47932208,4.498748), (0.9005541,5.2816267), (0.098474234,5.136941)), 0.28349257837232267
+((1.6183531,3.6998014), (2.0433953,4.445911), (1.3157059,4.5066013)), 0.2843659960191164
+((-3.983919,0.2697918), (-3.1156104,0.20451713), (-3.5065525,0.99934787)), 0.33231981864749194
+((1.3157059,4.5066013), (0.9248494,3.7306154), (1.6183531,3.6998014)), 0.27509649274456094
+((1.3157059,4.5066013), (1.7558389,5.262927), (0.9005541,5.2816267)), 0.3275521250186084
+((-4.3630204,1.0567491), (-3.983919,0.2697918), (-3.5065525,0.99934787)), 0.3261213891709301
+((-4.3630204,1.0567491), (-4.7424235,1.8424476), (-5.242052,1.1262689)), 0.3321389304187517
+((2.451864,3.9042087), (1.6183531,3.6998014), (2.0463734,3.1267297)), 0.2825759388335743
+((-4.7424235,1.8424476), (-4.3630204,1.0567491), (-3.859406,1.7950621)), 0.3379037115837279
+((-4.7424235,1.8424476), (-5.1644435,2.6326923), (-5.609042,1.9068131)), 0.328838639547791
+((-0.41423282,4.5228043), (-0.8761844,3.7857678), (0.014252205,3.7683613)), 0.33216259546308324
+((-2.476483,3.9437444), (-2.0797298,3.1500738), (-1.598779,3.8641455)), 0.3325134702513821
+((-1.1585752,4.6486874), (-1.598779,3.8641455), (-0.8761844,3.7857678)), 0.3007039676812035
+((-1.9728464,4.6465826), (-2.476483,3.9437444), (-1.598779,3.8641455)), 0.32848644784729614
+((2.2391138,11.235149), (1.7935363,10.497489), (2.8270304,10.60231)), 0.35783085588572716
+((4.836554,0.40270254), (4.338486,1.1335273), (3.976886,0.34030038)), 0.32967355300908024
+((4.836554,0.40270254), (4.4195504,0.05934981), (5.1633925,0.057975862)), 0.1279865749925907
+((-3.8347273,3.2231028), (-3.3849046,2.4534118), (-2.9538167,3.260602)), 0.34744845834830024
+((2.0433953,4.445911), (1.6183531,3.6998014), (2.451864,3.9042087)), 0.26750435473560635
+((-4.2855515,2.581173), (-3.859406,1.7950621), (-3.3849046,2.4534118)), 0.3267817591655639
+((-4.2855515,2.581173), (-4.684941,3.3504834), (-5.1644435,2.6326923)), 0.327782258910773
+((-4.684941,3.3504834), (-4.2855515,2.581173), (-3.8347273,3.2231028)), 0.30160183872328333
+((-4.684941,3.3504834), (-5.0388646,4.165173), (-5.5387836,3.423608)), 0.3348681151674455
+((4.6249466,3.358837), (5.47403,3.4379728), (5.095803,4.1212797)), 0.305057985078163
+((-4.858204,0.34135112), (-3.983919,0.2697918), (-4.3630204,1.0567491)), 0.33044831548689435
+((-5.242052,1.1262689), (-4.858204,0.34135112), (-4.3630204,1.0567491)), 0.33164122618496056
+((-5.242052,1.1262689), (-5.609042,1.9068131), (-5.932886,1.0790188)), 0.27828346142326593
+((-5.7281694,0.39450237), (-4.858204,0.34135112), (-5.242052,1.1262689)), 0.33122470732160664
+((3.4595034,14.94036), (2.9253721,14.700569), (3.737669,14.448995)), 0.16457758382420162
+((3.4595034,14.94036), (3.737669,14.448995), (4.430883,14.9404745)), 0.2386670663102585
+((1.7558389,5.262927), (1.3157059,4.5066013), (2.0433953,4.445911)), 0.2885410399493264
+((1.7558389,5.262927), (2.137066,6.075494), (1.3452554,6.0304027)), 0.31310449784367306
+((4.4195504,0.05934981), (4.836554,0.40270254), (3.976886,0.34030038)), 0.1345737238148466
+((5.1479955,0.9094426), (4.338486,1.1335273), (4.836554,0.40270254)), 0.24000002122173614
+((5.1479955,0.9094426), (5.431892,0.39486864), (5.780383,1.3313705)), 0.22259700555815906
+((5.0645623,1.4400721), (5.780383,1.3313705), (5.4758773,2.0460644)), 0.23924625913790634
+((0.098474234,5.136941), (-0.41423282,4.5228043), (0.47932208,4.498748)), 0.280549395344609
+((0.9005541,5.2816267), (0.47932208,4.498748), (1.3157059,4.5066013)), 0.3257395454626214
+((0.9005541,5.2816267), (1.3452554,6.0304027), (0.3638626,5.963295)), 0.35250023709958805
+((2.4889548,5.269036), (1.7558389,5.262927), (2.0433953,4.445911)), 0.3003620471431648
+((2.4889548,5.269036), (2.8547664,5.926083), (2.137066,6.075494)), 0.2631096532564081
+((0.3638626,5.963295), (0.098474234,5.136941), (0.9005541,5.2816267)), 0.3122020493134657
+((0.3638626,5.963295), (0.9613013,6.6303744), (0.20653725,6.496096)), 0.21163227314063368
+((3.3485987,5.3848534), (4.211368,5.5447383), (3.6762516,6.1724305)), 0.31355534214261765
+((4.6637096,4.768886), (5.4829607,4.825292), (5.1132045,5.5326285)), 0.30017129557530153
+((5.044589,2.6934967), (5.9273825,2.7908661), (5.47403,3.4379728)), 0.3077020558345589
+((5.780383,1.3313705), (5.0645623,1.4400721), (5.1479955,0.9094426)), 0.18538313215942678
+((-5.1644435,2.6326923), (-4.7424235,1.8424476), (-4.2855515,2.581173)), 0.33639872847749375
+((-5.1644435,2.6326923), (-5.5387836,3.423608), (-5.9401474,2.5619106)), 0.3200064336606821
+((5.431892,0.39486864), (5.1479955,0.9094426), (4.836554,0.40270254)), 0.15206068591012956
+((5.940438,0.75462574), (5.780383,1.3313705), (5.431892,0.39486864)), 0.17544099407331512
+((-5.0388646,4.165173), (-5.423081,4.9494), (-5.9090095,4.210856)), 0.3324193929720783
+((5.4758773,2.0460644), (5.94046,1.8103476), (5.9273825,2.7908661)), 0.22622477912483135
+((-5.609042,1.9068131), (-5.242052,1.1262689), (-4.7424235,1.8424476)), 0.32640636033220194
+((1.3452554,6.0304027), (0.9005541,5.2816267), (1.7558389,5.262927)), 0.32436617980754934
+((-5.2941613,0.058457274), (-4.858204,0.34135112), (-5.7281694,0.39450237)), 0.13463979181477007
+((-5.932886,1.0790188), (-5.7281694,0.39450237), (-5.242052,1.1262689)), 0.24128006319145193
+((0.7062523,14.940891), (0.24093951,14.940923), (0.6780494,14.512572)), 0.09965158951760153
+((0.7062523,14.940891), (0.6780494,14.512572), (1.6090004,14.941286)), 0.19332653306197567
+((0.24093951,14.940923), (-0.0745305,14.441299), (0.6780494,14.512572)), 0.1767610054359999
+((0.24093951,14.940923), (-0.486753,14.940557), (-0.0745305,14.441299)), 0.18172828035955899
+((5.1633925,0.057975862), (5.431892,0.39486864), (4.836554,0.40270254)), 0.10133420062030563
+((-5.9415083,14.068134), (-5.605317,13.65469), (-5.5617623,14.248732)), 0.10885955916589407
+((-5.9415083,14.068134), (-5.9404907,13.243695), (-5.605317,13.65469)), 0.13837420388942956
+((0.6780494,14.512572), (1.4430561,14.35081), (1.6090004,14.941286)), 0.23928084749155815
+((0.20653725,6.496096), (0.5104044,7.1969757), (-0.106214486,7.119498)), 0.20431629548116761
+((4.211368,5.5447383), (5.1132045,5.5326285), (4.513231,6.3853498)), 0.3808747312922292
+((-5.9090095,4.210856), (-5.5387836,3.423608), (-5.0388646,4.165173)), 0.33405334474384774
+((5.47403,3.4379728), (4.6249466,3.358837), (5.044589,2.6934967)), 0.29906905191991456
+((-5.9401474,2.5619106), (-5.609042,1.9068131), (-5.1644435,2.6326923)), 0.2657989465337777
+((2.137066,6.075494), (1.7558389,5.262927), (2.4889548,5.269036)), 0.2966884101956575
+((-5.5387836,3.423608), (-5.1644435,2.6326923), (-4.684941,3.3504834)), 0.32397210264637555
+((5.9273825,2.7908661), (5.044589,2.6934967), (5.4758773,2.0460644)), 0.306771669510812
+((5.095803,4.1212797), (5.9416428,4.137283), (5.4829607,4.825292)), 0.29464304292350957
+((5.9416428,4.137283), (5.095803,4.1212797), (5.47403,3.4379728)), 0.2920105714656155
+((5.94046,1.8103476), (5.4758773,2.0460644), (5.780383,1.3313705)), 0.13012872805646322
+((5.4829607,4.825292), (4.6637096,4.768886), (5.095803,4.1212797)), 0.27746243690881495
+((-5.423081,4.9494), (-5.808455,5.7259674), (-5.933599,4.784009)), 0.23009454930850656
+((5.9425473,5.5031624), (5.1132045,5.5326285), (5.4829607,4.825292)), 0.2878645353257979
+((5.9425473,5.5031624), (5.3933315,6.3676186), (5.1132045,5.5326285)), 0.35037357837458
+((2.8547664,5.926083), (2.4889548,5.269036), (3.3485987,5.3848534)), 0.26122965589735536
+((1.6090004,14.941286), (1.4430561,14.35081), (2.273877,14.941093)), 0.19631281277274276
+((5.90778,0.2194672), (5.940438,0.75462574), (5.431892,0.39486864)), 0.13020191574176027
+((0.9613013,6.6303744), (0.3638626,5.963295), (1.3452554,6.0304027)), 0.3072871178220287
+((0.9613013,6.6303744), (1.2321273,7.5042663), (0.5104044,7.1969757)), 0.27374277784670964
+((0.5104044,7.1969757), (0.20653725,6.496096), (0.9613013,6.6303744)), 0.24409798058958318
+((0.5104044,7.1969757), (0.5664009,8.06991), (0.06710016,7.7353063)), 0.20856004935640424
+((5.7411337,14.937777), (5.297386,14.943499), (5.5946894,14.576728)), 0.08052621185576796
+((-5.9334106,14.529278), (-5.9415083,14.068134), (-5.5617623,14.248732)), 0.08682748414926005
+((-5.9334106,14.529278), (-5.5617623,14.248732), (-5.3171005,14.915446)), 0.15821117804482013
+((-1.981956,14.940554), (-2.4663928,14.719594), (-1.7717507,14.244447)), 0.19183335044823754
+((-1.981956,14.940554), (-1.7717507,14.244447), (-1.385593,14.942503)), 0.20777108597218116
+((-0.82411855,14.399972), (-0.486753,14.940557), (-1.385593,14.942503)), 0.24327790226773688
+((-4.93668,5.644745), (-5.3661942,6.2358356), (-5.808455,5.7259674)), 0.24020593366281748
+((3.6762516,6.1724305), (2.8547664,5.926083), (3.3485987,5.3848534)), 0.2831333074340385
+((5.0196023,14.509939), (4.4114857,14.086067), (5.1681585,13.818477)), 0.2417293183051368
+((5.0196023,14.509939), (5.297386,14.943499), (4.430883,14.9404745)), 0.18742030158581016
+((5.1132045,5.5326285), (4.211368,5.5447383), (4.6637096,4.768886)), 0.34710701408673733
+((5.3933315,6.3676186), (4.513231,6.3853498), (5.1132045,5.5326285)), 0.36992112656127885
+((5.3933315,6.3676186), (4.8347154,7.197296), (4.513231,6.3853498)), 0.36014745457433034
+((5.3933315,6.3676186), (5.9414854,6.5105314), (5.7257013,7.172817)), 0.1969364365585607
+((4.513231,6.3853498), (3.6762516,6.1724305), (4.211368,5.5447383)), 0.31965094378776737
+((5.9426894,12.962897), (5.798001,13.415232), (5.4981904,12.745241)), 0.11627726305042106
+((5.9426894,12.962897), (5.4981904,12.745241), (5.942934,12.29927)), 0.14751753447252114
+((5.9416885,6.120317), (5.3933315,6.3676186), (5.9425473,5.5031624)), 0.16910435792124107
+((4.430883,14.9404745), (3.737669,14.448995), (4.4114857,14.086067)), 0.2913768497802723
+((-3.0507424,14.764548), (-3.5869532,14.5955305), (-2.7918496,14.023154)), 0.22065048096293405
+((-3.0507424,14.764548), (-2.7918496,14.023154), (-2.4663928,14.719594)), 0.2107974753274782
+((-4.1579466,14.787218), (-4.255827,13.922458), (-3.5869532,14.5955305)), 0.2562674551345417
+((-4.1579466,14.787218), (-4.7836823,14.528833), (-4.255827,13.922458)), 0.257910363089996
+((-5.933599,4.784009), (-5.9090095,4.210856), (-5.423081,4.9494)), 0.14833592402771098
+((2.273877,14.941093), (2.1631734,14.288801), (2.9253721,14.700569)), 0.22579606083533155
+((2.273877,14.941093), (1.4430561,14.35081), (2.1631734,14.288801)), 0.2382957969977816
+((0.5664009,8.06991), (0.5104044,7.1969757), (1.2321273,7.5042663)), 0.306404764131934
+((0.5664009,8.06991), (0.3738227,9.052101), (-0.023371082,8.398162)), 0.2580272906890022
+((3.8036373,13.58606), (3.1733165,13.003255), (3.7928336,12.72445)), 0.2683969346460876
+((3.8036373,13.58606), (3.1130676,13.853333), (3.1733165,13.003255)), 0.2854677223684004
+((3.8036373,13.58606), (3.7928336,12.72445), (4.4760337,13.267698)), 0.2913912838321855
+((5.798001,13.415232), (5.0718513,13.167155), (5.4981904,12.745241)), 0.20606871643038366
+((0.06710016,7.7353063), (-0.106214486,7.119498), (0.5104044,7.1969757)), 0.18314552377645643
+((0.06710016,7.7353063), (-0.023371082,8.398162), (-0.7081612,8.065135)), 0.24202318924298505
+((5.1681585,13.818477), (5.0718513,13.167155), (5.798001,13.415232)), 0.22453258694520817
+((5.1681585,13.818477), (4.4760337,13.267698), (5.0718513,13.167155)), 0.19887587080824198
+((5.1681585,13.818477), (5.907927,13.892299), (5.5946894,14.576728)), 0.2647214837985188
+((5.7257013,7.172817), (4.8347154,7.197296), (5.3933315,6.3676186)), 0.36277838737994145
+((5.9414854,6.5105314), (5.3933315,6.3676186), (5.9416885,6.120317)), 0.10696330158618254
+((-5.808455,5.7259674), (-5.423081,4.9494), (-4.93668,5.644745)), 0.32284558447018563
+((-5.3661942,6.2358356), (-5.5464325,7.080344), (-5.941989,6.2831945)), 0.23886387371219392
+((-5.5464325,7.080344), (-5.3661942,6.2358356), (-4.9507165,6.944469)), 0.23929871190107413
+((-5.5464325,7.080344), (-4.9507165,6.944469), (-5.158036,7.7785606)), 0.23435604495646825
+((-5.941989,6.2831945), (-5.808455,5.7259674), (-5.3661942,6.2358356)), 0.15726221166166915
+((-5.889766,7.7634754), (-5.5464325,7.080344), (-5.158036,7.7785606)), 0.25252344211497757
+((-5.3171005,14.915446), (-5.5617623,14.248732), (-4.7836823,14.528833)), 0.225113551639848
+((-1.385593,14.942503), (-1.7717507,14.244447), (-0.82411855,14.399972)), 0.30072163325432627
+((-0.486753,14.940557), (-0.82411855,14.399972), (-0.0745305,14.441299)), 0.19563661385451825
+((-0.8244704,9.807623), (-1.3096253,9.306145), (-0.37074012,8.992646)), 0.31146285086750297
+((-0.8244704,9.807623), (-1.7346748,9.863646), (-1.3096253,9.306145)), 0.24181368650745266
+((-0.023371082,8.398162), (0.06710016,7.7353063), (0.5664009,8.06991)), 0.18061815658065816
+((-0.023371082,8.398162), (-0.37074012,8.992646), (-0.8378379,8.6865)), 0.1920140697314756
+((-0.37074012,8.992646), (-1.3096253,9.306145), (-0.8378379,8.6865)), 0.2169354657358303
+((0.3738227,9.052101), (-0.37074012,8.992646), (-0.023371082,8.398162)), 0.23164186300426134
+((-4.3463244,9.142059), (-4.1252427,9.685059), (-4.817392,9.494736)), 0.1668797889925967
+((5.9343033,7.786083), (5.302362,7.8526487), (5.7257013,7.172817)), 0.20071691157594698
+((-5.5213447,9.383905), (-5.7021294,8.534734), (-5.0701013,8.657385)), 0.25726345148219665
+((5.940041,8.680918), (5.467354,8.750259), (5.787816,8.288496)), 0.09802414262025007
+((5.940041,8.680918), (5.360898,9.238027), (5.467354,8.750259)), 0.11158973924297642
+((5.0718513,13.167155), (4.4760337,13.267698), (4.6714664,12.406095)), 0.24685460501337958
+((5.0718513,13.167155), (4.6714664,12.406095), (5.4981904,12.745241)), 0.24669899007946558
+((5.467354,8.750259), (5.0144477,8.315255), (5.787816,8.288496)), 0.174268940465748
+((3.6739016,9.119688), (3.9276898,9.7708645), (3.1570098,9.819572)), 0.25710510248038054
+((2.9368284,8.981007), (3.1570098,9.819572), (2.538999,9.791144)), 0.25599170495076057
+((2.538999,9.791144), (2.269129,8.898423), (2.9368284,8.981007)), 0.28689127053139923
+((2.538999,9.791144), (1.7935363,10.497489), (1.8834915,9.754997)), 0.2449802456891026
+((2.538999,9.791144), (2.8270304,10.60231), (1.7935363,10.497489)), 0.40407165298657016
+((3.1570098,9.819572), (2.9368284,8.981007), (3.6739016,9.119688)), 0.2937746407948553
+((4.2009535,9.138421), (4.6656322,9.487916), (3.9276898,9.7708645)), 0.19469363394269637
+((0.9595554,9.197501), (0.3738227,9.052101), (1.097474,8.356304)), 0.2563850012325258
+((1.8834915,9.754997), (1.5455528,9.086893), (2.269129,8.898423)), 0.273557799987648
+((1.270953,9.669593), (0.9595554,9.197501), (1.5455528,9.086893)), 0.1555438116874608
+((5.360898,9.238027), (4.7236767,8.851224), (5.467354,8.750259)), 0.17599654788084731
+((5.360898,9.238027), (5.8854165,9.398288), (5.325619,9.712588)), 0.12728510512590516
+((-4.817392,9.494736), (-5.0701013,8.657385), (-4.3463244,9.142059)), 0.24178668664719422
+((-3.4339228,9.742322), (-3.7221196,8.942774), (-2.7729075,9.17072)), 0.3466236445300359
+((-3.4339228,9.742322), (-2.9013174,9.95309), (-3.7757707,10.329561)), 0.1924086713113454
+((-4.1252427,9.685059), (-4.3463244,9.142059), (-3.7221196,8.942774)), 0.19150059185048668
+((-3.7757707,10.329561), (-4.1252427,9.685059), (-3.4339228,9.742322)), 0.21277279173877503
+((-3.7757707,10.329561), (-3.3213186,10.73913), (-4.32861,10.908164)), 0.24468643212603036
+((-2.3336158,9.910434), (-2.7729075,9.17072), (-1.9757806,9.135816)), 0.302489446187936
+((-2.9013174,9.95309), (-3.4339228,9.742322), (-2.7729075,9.17072)), 0.2218794741649562
+((-5.244355,10.010271), (-5.5213447,9.383905), (-4.817392,9.494736)), 0.20511653177203396
+((-5.244355,10.010271), (-5.0395966,10.680445), (-5.8646474,10.643563)), 0.27268776971024217
+((-5.942572,10.033377), (-5.5213447,9.383905), (-5.244355,10.010271)), 0.22186956801951294
+((4.6656322,9.487916), (4.2009535,9.138421), (4.7236767,8.851224)), 0.1580717518547249
+((3.9276898,9.7708645), (3.6739016,9.119688), (4.2009535,9.138421)), 0.1692247945581255
+((2.8270304,10.60231), (2.538999,9.791144), (3.1570098,9.819572)), 0.24656050182059852
+((5.8854165,9.398288), (5.360898,9.238027), (5.940041,8.680918)), 0.19251403593316696
+((-1.7346748,9.863646), (-1.9757806,9.135816), (-1.3096253,9.306145)), 0.2218902361030789
+((-0.7081612,8.065135), (-0.023371082,8.398162), (-0.8378379,8.6865)), 0.2343450686098088
+((-3.718969,11.579415), (-4.32861,10.908164), (-3.3213186,10.73913)), 0.38959780103505476
+((-3.718969,11.579415), (-4.3565836,11.769324), (-4.32861,10.908164)), 0.27188795267140814
+((-3.718969,11.579415), (-3.1364036,12.182162), (-3.7874856,12.43319)), 0.2693389953262659
+((-3.3213186,10.73913), (-3.7757707,10.329561), (-2.9013174,9.95309)), 0.2646185094373452
+((-5.0395966,10.680445), (-4.9152164,11.541875), (-5.5795774,11.381163)), 0.2761555592682719
+((-5.8646474,10.643563), (-5.942572,10.033377), (-5.244355,10.010271)), 0.21392154438298905
+((-5.5795774,11.381163), (-5.8646474,10.643563), (-5.0395966,10.680445)), 0.2990215896957982
+((-4.9152164,11.541875), (-5.0395966,10.680445), (-4.32861,10.908164)), 0.29207076734502585
+((-4.9152164,11.541875), (-4.8030686,12.395255), (-5.4224987,12.232775)), 0.25519380560546384
+((-4.3565836,11.769324), (-4.9152164,11.541875), (-4.32861,10.908164)), 0.24371748303884902
+((-4.3565836,11.769324), (-3.7874856,12.43319), (-4.8030686,12.395255)), 0.3263110817442042
+((-5.4224987,12.232775), (-5.5795774,11.381163), (-4.9152164,11.541875)), 0.2702666905345688
+((-5.4224987,12.232775), (-5.257879,12.9746275), (-5.941774,12.495512)), 0.2142387628562926
+((-5.940905,11.901592), (-5.5795774,11.381163), (-5.4224987,12.232775)), 0.19472970797371456
+((-4.8030686,12.395255), (-4.9152164,11.541875), (-4.3565836,11.769324)), 0.2256091217413693
+((-4.8030686,12.395255), (-4.314921,13.060145), (-5.257879,12.9746275)), 0.29260913394248483
+((-3.7874856,12.43319), (-4.3565836,11.769324), (-3.718969,11.579415)), 0.265683714604338
+((-3.7874856,12.43319), (-3.1897297,13.061253), (-3.7896867,13.311959)), 0.263335868648706
+((-3.1897297,13.061253), (-3.7874856,12.43319), (-3.1364036,12.182162)), 0.2794867716970286
+((-3.1897297,13.061253), (-2.7484477,13.469631), (-3.3637464,13.654917)), 0.16651899096041947
+((5.325619,9.712588), (4.6656322,9.487916), (5.360898,9.238027)), 0.16056534227028674
+((5.325619,9.712588), (5.8313212,9.921559), (5.11904,10.361977)), 0.18578302514116063
+((2.7529588,11.3994465), (2.2391138,11.235149), (2.8270304,10.60231)), 0.21088716118234596
+((2.7529588,11.3994465), (3.136954,12.136781), (2.3211596,11.903583)), 0.25598308979282963
+((5.11904,10.361977), (5.7065735,10.2853565), (5.576802,10.991645)), 0.20251247779644044
+((-4.314921,13.060145), (-4.8030686,12.395255), (-3.7874856,12.43319)), 0.3283666447541067
+((-4.314921,13.060145), (-4.255827,13.922458), (-4.8695164,13.746731)), 0.25940380855652634
+((-5.257879,12.9746275), (-5.4224987,12.232775), (-4.8030686,12.395255)), 0.21638918681992048
+((-5.257879,12.9746275), (-4.8695164,13.746731), (-5.605317,13.65469)), 0.2661844700777218
+((-3.7896867,13.311959), (-4.314921,13.060145), (-3.7874856,12.43319)), 0.23105688537429397
+((-3.7896867,13.311959), (-3.3637464,13.654917), (-4.255827,13.922458)), 0.20995109889909583
+((-4.8695164,13.746731), (-5.257879,12.9746275), (-4.314921,13.060145)), 0.3474245156320112
+((-4.8695164,13.746731), (-4.7836823,14.528833), (-5.5617623,14.248732)), 0.29224803011991485
+((3.136954,12.136781), (3.1733165,13.003255), (2.5768828,12.607784)), 0.25120703064068295
+((2.3211596,11.903583), (2.2391138,11.235149), (2.7529588,11.3994465)), 0.164995594056143
+((2.5768828,12.607784), (2.3211596,11.903583), (3.136954,12.136781)), 0.25742482891327145
+((2.5768828,12.607784), (3.1733165,13.003255), (2.3474293,13.434582)), 0.29193596952572515
+((4.8120294,10.838977), (5.576802,10.991645), (4.7429023,11.559279)), 0.2807105108914352
+((5.576802,10.991645), (4.8120294,10.838977), (5.11904,10.361977)), 0.20583363287018464
+((5.8313212,9.921559), (5.325619,9.712588), (5.8854165,9.398288)), 0.13796190737370376
+((5.7065735,10.2853565), (5.11904,10.361977), (5.8313212,9.921559)), 0.10209242869830758
+((5.9420605,11.475468), (5.5363784,11.872089), (5.576802,10.991645)), 0.17057386912499778
+((5.9420605,11.475468), (5.942934,12.29927), (5.5363784,11.872089)), 0.1672740977162331
+((5.942934,12.29927), (5.4981904,12.745241), (5.5363784,11.872089)), 0.18564898040593214
+((5.5363784,11.872089), (4.7429023,11.559279), (5.576802,10.991645)), 0.3556282607802283
+((5.5363784,11.872089), (4.6714664,12.406095), (4.7429023,11.559279)), 0.34713672009066215
+((4.4760337,13.267698), (3.7928336,12.72445), (4.6714664,12.406095)), 0.3474080882372532
+((5.4981904,12.745241), (4.6714664,12.406095), (5.5363784,11.872089)), 0.3674034741527098
+((3.1733165,13.003255), (3.136954,12.136781), (3.7928336,12.72445)), 0.273466776234249
+((2.3474293,13.434582), (3.1130676,13.853333), (2.1631734,14.288801)), 0.3655903147685967
+((1.7272158,13.506508), (2.1631734,14.288801), (1.4430561,14.35081)), 0.2951881141688516
+((3.1130676,13.853333), (2.3474293,13.434582), (3.1733165,13.003255)), 0.3380410295143707
+((3.1130676,13.853333), (3.737669,14.448995), (2.9253721,14.700569)), 0.3204937631339431
+((2.1631734,14.288801), (1.7272158,13.506508), (2.3474293,13.434582)), 0.2582728004804267
+((3.737669,14.448995), (3.1130676,13.853333), (3.8036373,13.58606)), 0.2891425588935304
+((2.9253721,14.700569), (2.1631734,14.288801), (3.1130676,13.853333)), 0.36152447700866264
+((-5.941774,12.495512), (-5.940905,11.901592), (-5.4224987,12.232775)), 0.15408977057301254
+((-4.7836823,14.528833), (-4.8695164,13.746731), (-4.255827,13.922458)), 0.23244237408678112
+((-5.9404907,13.243695), (-5.941774,12.495512), (-5.257879,12.9746275)), 0.25553204805096275
+((-5.5617623,14.248732), (-5.605317,13.65469), (-4.8695164,13.746731)), 0.21654382319646087
+((-5.605317,13.65469), (-5.9404907,13.243695), (-5.257879,12.9746275)), 0.18536708553740833
+((-4.255827,13.922458), (-4.314921,13.060145), (-3.7896867,13.311959)), 0.21901763994066079
+((-3.3637464,13.654917), (-3.7896867,13.311959), (-3.1897297,13.061253)), 0.1562729043862323
+((-3.3637464,13.654917), (-2.7918496,14.023154), (-3.5869532,14.5955305)), 0.3100635558204383
+((-3.5869532,14.5955305), (-4.255827,13.922458), (-3.3637464,13.654917)), 0.3896931596297577
+((-2.7918496,14.023154), (-3.3637464,13.654917), (-2.7484477,13.469631)), 0.16627012268161967
+((-2.4663928,14.719594), (-2.7918496,14.023154), (-1.7717507,14.244447)), 0.3192081253964961
+((5.907927,13.892299), (5.1681585,13.818477), (5.798001,13.415232)), 0.17240207224809706
+((5.907927,13.892299), (5.9412866,14.636802), (5.5946894,14.576728)), 0.12801933059814008
+((5.9412866,14.636802), (5.7411337,14.937777), (5.5946894,14.576728)), 0.058170494591151985
+((5.5946894,14.576728), (5.0196023,14.509939), (5.1681585,13.818477)), 0.20378650642475243
+((5.297386,14.943499), (5.0196023,14.509939), (5.5946894,14.576728)), 0.11539080476456304
+#Area Sum
+81.8396
+#Wall Edges
+((-0.5,0.0), (0.0,-0.86))
+((-0.5,0.0), (-1.3730162,0.0816551))
+((0.0,-0.86), (0.5,0.0))
+((0.0,-0.86), (-0.5,0.0))
+((0.5,0.0), (0.0,-0.86))
+((0.5,0.0), (1.356694,0.07123355))
+((-5.940488,8.929668), (-5.7021294,8.534734))
+((-5.940488,8.929668), (-5.942572,10.033377))
+((1.356694,0.07123355), (1.356694,0.07123355))
+((1.356694,0.07123355), (2.2257242,0.13904446))
+((-1.3730162,0.0816551), (-1.3730162,0.0816551))
+((-1.3730162,0.0816551), (-2.2424033,0.14040539))
+((-5.7021294,8.534734), (-5.889766,7.7634754))
+((-5.7021294,8.534734), (-5.7021294,8.534734))
+((-2.2424033,0.14040539), (-2.2424033,0.14040539))
+((-2.2424033,0.14040539), (-3.1156104,0.20451713))
+((2.2257242,0.13904446), (2.2257242,0.13904446))
+((2.2257242,0.13904446), (3.1103773,0.24540477))
+((5.787816,8.288496), (5.9343033,7.786083))
+((5.787816,8.288496), (5.940041,8.680918))
+((3.1103773,0.24540477), (3.1103773,0.24540477))
+((3.1103773,0.24540477), (3.976886,0.34030038))
+((-3.1156104,0.20451713), (-3.1156104,0.20451713))
+((-3.1156104,0.20451713), (-3.983919,0.2697918))
+((3.976886,0.34030038), (3.976886,0.34030038))
+((3.976886,0.34030038), (4.4195504,0.05934981))
+((-3.983919,0.2697918), (-3.983919,0.2697918))
+((-3.983919,0.2697918), (-4.858204,0.34135112))
+((-4.858204,0.34135112), (-4.858204,0.34135112))
+((-4.858204,0.34135112), (-5.2941613,0.058457274))
+((-5.7281694,0.39450237), (-5.2941613,0.058457274))
+((-5.7281694,0.39450237), (-5.932886,1.0790188))
+((3.4595034,14.94036), (2.9253721,14.700569))
+((3.4595034,14.94036), (4.430883,14.9404745))
+((4.4195504,0.05934981), (4.4195504,0.05934981))
+((4.4195504,0.05934981), (4.4195504,0.05934981))
+((4.4195504,0.05934981), (5.1633925,0.057975862))
+((5.780383,1.3313705), (5.940438,0.75462574))
+((5.780383,1.3313705), (5.94046,1.8103476))
+((5.431892,0.39486864), (5.1633925,0.057975862))
+((5.431892,0.39486864), (5.90778,0.2194672))
+((5.940438,0.75462574), (5.940438,0.75462574))
+((5.940438,0.75462574), (5.90778,0.2194672))
+((-5.609042,1.9068131), (-5.932886,1.0790188))
+((-5.609042,1.9068131), (-5.9401474,2.5619106))
+((-5.2941613,0.058457274), (-5.2941613,0.058457274))
+((-5.2941613,0.058457274), (-5.2941613,0.058457274))
+((-5.932886,1.0790188), (-5.932886,1.0790188))
+((-5.932886,1.0790188), (-5.932886,1.0790188))
+((0.7062523,14.940891), (1.6090004,14.941286))
+((0.7062523,14.940891), (0.24093951,14.940923))
+((0.24093951,14.940923), (-0.486753,14.940557))
+((0.24093951,14.940923), (0.24093951,14.940923))
+((5.1633925,0.057975862), (5.1633925,0.057975862))
+((5.1633925,0.057975862), (5.1633925,0.057975862))
+((-5.9415083,14.068134), (-5.9404907,13.243695))
+((-5.9415083,14.068134), (-5.9334106,14.529278))
+((-5.9090095,4.210856), (-5.5387836,3.423608))
+((-5.9090095,4.210856), (-5.933599,4.784009))
+((5.47403,3.4379728), (5.9273825,2.7908661))
+((5.47403,3.4379728), (5.9416428,4.137283))
+((-5.9401474,2.5619106), (-5.9401474,2.5619106))
+((-5.9401474,2.5619106), (-5.5387836,3.423608))
+((-5.5387836,3.423608), (-5.5387836,3.423608))
+((-5.5387836,3.423608), (-5.5387836,3.423608))
+((5.9273825,2.7908661), (5.94046,1.8103476))
+((5.9273825,2.7908661), (5.9273825,2.7908661))
+((5.9416428,4.137283), (5.9416428,4.137283))
+((5.9416428,4.137283), (5.4829607,4.825292))
+((5.94046,1.8103476), (5.94046,1.8103476))
+((5.94046,1.8103476), (5.94046,1.8103476))
+((5.4829607,4.825292), (5.4829607,4.825292))
+((5.4829607,4.825292), (5.9425473,5.5031624))
+((5.9425473,5.5031624), (5.9425473,5.5031624))
+((5.9425473,5.5031624), (5.9416885,6.120317))
+((1.6090004,14.941286), (1.6090004,14.941286))
+((1.6090004,14.941286), (2.273877,14.941093))
+((1.6090004,14.941286), (1.6090004,14.941286))
+((5.90778,0.2194672), (5.90778,0.2194672))
+((5.90778,0.2194672), (5.90778,0.2194672))
+((5.7411337,14.937777), (5.297386,14.943499))
+((5.7411337,14.937777), (5.9412866,14.636802))
+((-5.9334106,14.529278), (-5.9334106,14.529278))
+((-5.9334106,14.529278), (-5.3171005,14.915446))
+((-1.981956,14.940554), (-1.385593,14.942503))
+((-1.981956,14.940554), (-2.4663928,14.719594))
+((5.9426894,12.962897), (5.798001,13.415232))
+((5.9426894,12.962897), (5.942934,12.29927))
+((5.9416885,6.120317), (5.9416885,6.120317))
+((5.9416885,6.120317), (5.9414854,6.5105314))
+((4.430883,14.9404745), (4.430883,14.9404745))
+((4.430883,14.9404745), (4.430883,14.9404745))
+((4.430883,14.9404745), (5.297386,14.943499))
+((-3.0507424,14.764548), (-2.4663928,14.719594))
+((-3.0507424,14.764548), (-3.5869532,14.5955305))
+((-4.1579466,14.787218), (-3.5869532,14.5955305))
+((-4.1579466,14.787218), (-4.7836823,14.528833))
+((-5.933599,4.784009), (-5.933599,4.784009))
+((-5.933599,4.784009), (-5.808455,5.7259674))
+((2.273877,14.941093), (2.273877,14.941093))
+((2.273877,14.941093), (2.9253721,14.700569))
+((5.798001,13.415232), (5.798001,13.415232))
+((5.798001,13.415232), (5.907927,13.892299))
+((5.7257013,7.172817), (5.9414854,6.5105314))
+((5.7257013,7.172817), (5.9343033,7.786083))
+((5.9414854,6.5105314), (5.9414854,6.5105314))
+((5.9414854,6.5105314), (5.9414854,6.5105314))
+((-5.808455,5.7259674), (-5.808455,5.7259674))
+((-5.808455,5.7259674), (-5.941989,6.2831945))
+((-5.5464325,7.080344), (-5.941989,6.2831945))
+((-5.5464325,7.080344), (-5.889766,7.7634754))
+((-5.941989,6.2831945), (-5.941989,6.2831945))
+((-5.941989,6.2831945), (-5.941989,6.2831945))
+((-5.889766,7.7634754), (-5.889766,7.7634754))
+((-5.889766,7.7634754), (-5.889766,7.7634754))
+((-5.3171005,14.915446), (-4.7836823,14.528833))
+((-5.3171005,14.915446), (-5.3171005,14.915446))
+((-1.385593,14.942503), (-1.385593,14.942503))
+((-1.385593,14.942503), (-0.486753,14.940557))
+((-0.486753,14.940557), (-0.486753,14.940557))
+((-0.486753,14.940557), (-0.486753,14.940557))
+((5.9343033,7.786083), (5.9343033,7.786083))
+((5.9343033,7.786083), (5.9343033,7.786083))
+((-5.5213447,9.383905), (-5.5213447,9.383905))
+((5.940041,8.680918), (5.940041,8.680918))
+((5.940041,8.680918), (5.8854165,9.398288))
+((-5.942572,10.033377), (-5.942572,10.033377))
+((-5.942572,10.033377), (-5.8646474,10.643563))
+((5.8854165,9.398288), (5.8854165,9.398288))
+((5.8854165,9.398288), (5.8313212,9.921559))
+((-5.8646474,10.643563), (-5.8646474,10.643563))
+((-5.8646474,10.643563), (-5.5795774,11.381163))
+((-5.5795774,11.381163), (-5.5795774,11.381163))
+((-5.5795774,11.381163), (-5.940905,11.901592))
+((-5.940905,11.901592), (-5.940905,11.901592))
+((-5.940905,11.901592), (-5.941774,12.495512))
+((5.576802,10.991645), (5.7065735,10.2853565))
+((5.576802,10.991645), (5.9420605,11.475468))
+((5.8313212,9.921559), (5.8313212,9.921559))
+((5.8313212,9.921559), (5.7065735,10.2853565))
+((5.7065735,10.2853565), (5.7065735,10.2853565))
+((5.7065735,10.2853565), (5.7065735,10.2853565))
+((5.9420605,11.475468), (5.9420605,11.475468))
+((5.9420605,11.475468), (5.942934,12.29927))
+((5.942934,12.29927), (5.942934,12.29927))
+((5.942934,12.29927), (5.942934,12.29927))
+((5.5363784,11.872089), (5.5363784,11.872089))
+((5.4981904,12.745241), (5.4981904,12.745241))
+((2.9253721,14.700569), (2.9253721,14.700569))
+((2.9253721,14.700569), (2.9253721,14.700569))
+((-5.941774,12.495512), (-5.941774,12.495512))
+((-5.941774,12.495512), (-5.9404907,13.243695))
+((-4.7836823,14.528833), (-4.7836823,14.528833))
+((-4.7836823,14.528833), (-4.7836823,14.528833))
+((-5.9404907,13.243695), (-5.9404907,13.243695))
+((-5.9404907,13.243695), (-5.9404907,13.243695))
+((-5.605317,13.65469), (-5.605317,13.65469))
+((-3.5869532,14.5955305), (-3.5869532,14.5955305))
+((-3.5869532,14.5955305), (-3.5869532,14.5955305))
+((-2.4663928,14.719594), (-2.4663928,14.719594))
+((-2.4663928,14.719594), (-2.4663928,14.719594))
+((5.907927,13.892299), (5.907927,13.892299))
+((5.907927,13.892299), (5.9412866,14.636802))
+((5.9412866,14.636802), (5.9412866,14.636802))
+((5.9412866,14.636802), (5.9412866,14.636802))
+((5.5946894,14.576728), (5.5946894,14.576728))
+((5.297386,14.943499), (5.297386,14.943499))
+((5.297386,14.943499), (5.297386,14.943499))
+#Blacklist Edges
