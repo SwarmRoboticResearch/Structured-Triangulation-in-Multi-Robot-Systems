@@ -1,3 +1,3 @@
 # Structured-Triangulation-in-Multi-Robot-Systems
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/64eW_ExBQ2g" frameborder="0" allowfullscreen></iframe>
+[![Youtube Video Triangulation](http://img.youtube.com/vi/64eW_ExBQ2g/0.jpg)](http://www.youtube.com/watch?v=64eW_ExBQ2g)
