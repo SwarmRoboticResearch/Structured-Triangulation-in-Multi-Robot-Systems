@@ -1,5 +1,7 @@
 # Structured-Triangulation-in-Multi-Robot-Systems
 
+![Partition Gif](./.figures/partition.gif)
+
 ## Videos
 
 The following video shows the triangulation process.
