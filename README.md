@@ -1,6 +1,9 @@
 # Structured-Triangulation-in-Multi-Robot-Systems
 
-![Partition Gif](./.figures/partition.gif)
+The following animation shows a rectangular area being triangulated by a swarm of robots.
+Of this triangulation, clusters of limited radius are removed such that a street network remains.
+Below you can find videos of the two processes.
+![Animation of triangulation with partition process loading... (1.4MB)](./.figures/partition.gif)
 
 ## Videos
 
